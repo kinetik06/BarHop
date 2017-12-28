@@ -25,4 +25,6 @@
     <color name="barhop_light_blue">#5E46B1</color>
     <color name="barhop_lighter_blue">#806BC7</color>
     <color name="main_top_grey">#a9a9a9</color>
+    <color name="black">#000000</color>
+    <color name="second_menu_bg">#323232</color>
 </resources>

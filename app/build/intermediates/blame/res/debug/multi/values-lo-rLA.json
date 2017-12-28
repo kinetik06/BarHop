@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo-rLA\\values-lo-rLA.xml",
+        "outputFile": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo-rLA/values-lo-rLA.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 151
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 253
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 338
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 435
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 538
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 632
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 727
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 826
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 918
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1023
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1141
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1230
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1312
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1403
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1488
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -296,7 +296,316 @@
                     "endOffset": 1582
                 },
                 "from": {
-                    "file": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "file": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/values-lo-rLA/values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1493,
+                        "endColumn": 93,
+                        "endOffset": 1582
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lo-rLA\\values-lo-rLA.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 100,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 156,
+                    "endColumn": 101,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 101,
+                        "endOffset": 253
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 84,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 258,
+                        "endColumn": 84,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 343,
+                    "endColumn": 96,
+                    "endOffset": 435
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 96,
+                        "endOffset": 435
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 440,
+                    "endColumn": 102,
+                    "endOffset": 538
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 440,
+                        "endColumn": 102,
+                        "endOffset": 538
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 543,
+                    "endColumn": 93,
+                    "endOffset": 632
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 543,
+                        "endColumn": 93,
+                        "endOffset": 632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 637,
+                    "endColumn": 94,
+                    "endOffset": 727
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 637,
+                        "endColumn": 94,
+                        "endOffset": 727
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 732,
+                    "endColumn": 98,
+                    "endOffset": 826
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 732,
+                        "endColumn": 98,
+                        "endOffset": 826
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 831,
+                    "endColumn": 91,
+                    "endOffset": 918
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 831,
+                        "endColumn": 91,
+                        "endOffset": 918
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 923,
+                    "endColumn": 104,
+                    "endOffset": 1023
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 923,
+                        "endColumn": 104,
+                        "endOffset": 1023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1028,
+                    "endColumn": 117,
+                    "endOffset": 1141
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1028,
+                        "endColumn": 117,
+                        "endOffset": 1141
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1146,
+                    "endColumn": 88,
+                    "endOffset": 1230
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1146,
+                        "endColumn": 88,
+                        "endOffset": 1230
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1235,
+                    "endColumn": 81,
+                    "endOffset": 1312
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1235,
+                        "endColumn": 81,
+                        "endOffset": 1312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1317,
+                    "endColumn": 90,
+                    "endOffset": 1403
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1317,
+                        "endColumn": 90,
+                        "endOffset": 1403
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1408,
+                    "endColumn": 84,
+                    "endOffset": 1488
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1408,
+                        "endColumn": 84,
+                        "endOffset": 1488
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1493,
+                    "endColumn": 93,
+                    "endOffset": 1582
+                },
+                "from": {
+                    "file": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\values-lo-rLA\\values-lo-rLA.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,

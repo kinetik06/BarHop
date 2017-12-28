@@ -1,562 +1,1126 @@
 [
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_disconnect.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_next.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\google_button.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\google_button.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_stop.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_stop.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_rewind10.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_rewind30.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_pause_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_on_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_toplogo.png",
-        "source": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\main_toplogo.png"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_bg_gradient_light.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_expanded_controller_bg_gradient_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_rewind30.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_play.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_play_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_close_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\dec46d28105e50187b5593dd42868cd6928125fa\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\1596c9ed9561a521ae76969e74d2f89c635f3dd2\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_button_like_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/uber_button_background_black_90.xml",
+        "source": "/home/marcus/.android/build-cache/3250d7c3f3ce2b3094747792a5b9aa16d62f1ad9/output/res/drawable/uber_button_background_black_90.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\1acb6ca403c7bd6dada1b1de6776833d31876522\\output\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_skip_ad_label_border.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_skip_ad_label_border.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_bar.xml",
-        "source": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\search_bar.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_dark.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_close_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\google_button.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\google_button.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\e08269b5205e2d9277b38fc3cfd957c2e7190100\\output\\res\\drawable\\com_facebook_button_send_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_selector_black.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_selector_black.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/uber_button_background_white_40.xml",
+        "source": "/home/marcus/.android/build-cache/3250d7c3f3ce2b3094747792a5b9aa16d62f1ad9/output/res/drawable/uber_button_background_white_40.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_closed_caption.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_closed_caption.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_play.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_play.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_selector_white.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_selector_white.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_white.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_white.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_black_90.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_black_90.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_play.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_pause_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_header_background.xml",
+        "source": "/home/marcus/.android/build-cache/a48c2c98950245716d293258473cf646cc853dd8/output/res/drawable/com_facebook_auth_dialog_header_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_rewind30.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\4dc3500dd960cc1bf44a5db465d25096f98ecd14\\output\\res\\drawable\\com_facebook_button_login_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_next.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_expanded_controller_skip_next.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_borders_bar.xml",
-        "source": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\custom_borders_bar.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_play.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_audiotrack_light.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_audiotrack_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\facebook_button.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\facebook_button.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_closed_caption.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_closed_caption.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_pause.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_pause.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_white.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_white.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_close_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_cast_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_dialog_material_background_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_closed_caption.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_favicon_blue.xml",
+        "source": "/home/marcus/.android/build-cache/a48c2c98950245716d293258473cf646cc853dd8/output/res/drawable/com_facebook_favicon_blue.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/uber_button_background_black.xml",
+        "source": "/home/marcus/.android/build-cache/3250d7c3f3ce2b3094747792a5b9aa16d62f1ad9/output/res/drawable/uber_button_background_black.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\tooltip_frame_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_pause_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\4dc3500dd960cc1bf44a5db465d25096f98ecd14\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\4dc3500dd960cc1bf44a5db465d25096f98ecd14\\output\\res\\drawable\\com_facebook_button_login_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_media_route_connecting_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/facebook_button.xml",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable/facebook_button.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_prev.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_skip_prev.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\idp_button_background_facebook.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\fb491e8226d6bee2caeca93f55f7f728938d0ad7\\output\\res\\drawable\\idp_button_background_facebook.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\facebook_button.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\facebook_button.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_black.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_black.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause_large.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_pause_large.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_rewind10.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_selector.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\dec46d28105e50187b5593dd42868cd6928125fa\\output\\res\\drawable\\messenger_button_white_bg_selector.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_pause.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_pause.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_dark.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/tooltip_frame_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_send_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\e08269b5205e2d9277b38fc3cfd957c2e7190100\\output\\res\\drawable\\com_facebook_button_send_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\1acb6ca403c7bd6dada1b1de6776833d31876522\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_send_button_icon.xml",
+        "source": "/home/marcus/.android/build-cache/ef36d33762279acddc63404c72513e25be70e353/output/res/drawable/com_facebook_send_button_icon.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password_button.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\password_button.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/password_button.xml",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable/password_button.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/tooltip_frame_light.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/tooltip_frame_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_play.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\4dc3500dd960cc1bf44a5db465d25096f98ecd14\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_cast_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_background.xml",
+        "source": "/home/marcus/.android/build-cache/a48c2c98950245716d293258473cf646cc853dd8/output/res/drawable/com_facebook_auth_dialog_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\1acb6ca403c7bd6dada1b1de6776833d31876522\\output\\res\\drawable\\design_ic_visibility.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\or_line.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\or_line.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\ic_collapse.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/home/marcus/.android/build-cache/4786727a33d0c0dd6e9c18d71bd02bdeb1f9ce08/output/res/drawable/messenger_button_white_bg_round.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_stop.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\twitter_button.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\twitter_button.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_connecting_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\1acb6ca403c7bd6dada1b1de6776833d31876522\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_play_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_play.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_play.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_cast_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_mute.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_expanded_controller_mute.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_like_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_button_like_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/idp_button_background_email.xml",
+        "source": "/home/marcus/.android/build-cache/7acc3393c0a002137ee454db6ff8ae10d6d06b0a/output/res/drawable/idp_button_background_email.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_dark.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_dialog_material_background_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\dec46d28105e50187b5593dd42868cd6928125fa\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\idp_button_background_google.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\fb491e8226d6bee2caeca93f55f7f728938d0ad7\\output\\res\\drawable\\idp_button_background_google.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\twitter_button.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\twitter_button.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\dec46d28105e50187b5593dd42868cd6928125fa\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/main_toplogo.png",
+        "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable/main_toplogo.png"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_white_40.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_white_40.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play_large.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_play_large.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_closed_caption.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/marcus/.android/build-cache/915604d7ecf6c3f02e5968a9e81e5482f8a7185a/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_connecting_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_forward.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_logo.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\4dc3500dd960cc1bf44a5db465d25096f98ecd14\\output\\res\\drawable\\com_facebook_button_login_logo.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\password_button.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\password_button.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_mini_controller_gradient_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_button_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_closed_caption.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/ic_expand.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/ic_expand.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_rewind.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_stop.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_black_90.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_black_90.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_expanded_controller_stop.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_dialog_material_background_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_rewind30.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\ic_expand.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\tooltip_frame_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\1acb6ca403c7bd6dada1b1de6776833d31876522\\output\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/uber_button_background_selector_black.xml",
+        "source": "/home/marcus/.android/build-cache/3250d7c3f3ce2b3094747792a5b9aa16d62f1ad9/output/res/drawable/uber_button_background_selector_black.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_mini_controller_gradient_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
+        "source": "/home/marcus/.android/build-cache/76b41c3d4ac283df20090ec432a076111e813870/output/res/drawable/cast_ic_notification_connecting.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\e08269b5205e2d9277b38fc3cfd957c2e7190100\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_dark.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_media_route_on_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_close_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\idp_button_background_email.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\fb491e8226d6bee2caeca93f55f7f728938d0ad7\\output\\res\\drawable\\idp_button_background_email.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_selector_white.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_selector_white.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_disconnect.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop_large.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_header_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_auth_dialog_header_background.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_forward30.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
-        "source": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\button_selector.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_cast_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_button_icon.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_rewind30.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward10.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_on_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\dec46d28105e50187b5593dd42868cd6928125fa\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/search_icon_th.png",
+        "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable/search_icon_th.png"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_borders.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\main_borders.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_selector.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\dec46d28105e50187b5593dd42868cd6928125fa\\output\\res\\drawable\\messenger_button_blue_bg_selector.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_auth_dialog_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_expanded_controller_pause.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_cast_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_small_icon.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_small_icon.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_logo.xml",
+        "source": "/home/marcus/.android/build-cache/f998eb78fbb84f692141b99a5e45e7c4204d1543/output/res/drawable/com_facebook_button_login_logo.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_mute.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_mute.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_rewind.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_dialog_material_background_dark.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_dark.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_close_dark.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_white_40.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_white_40.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_mute.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_mute.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_borders.xml",
-        "source": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\main_borders.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_borders_bar.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\custom_borders_bar.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/home/marcus/.android/build-cache/31119bc8b54fd404b8a53f33c0c25b3e6c6c8cd2/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_white_bg_round.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\dec46d28105e50187b5593dd42868cd6928125fa\\output\\res\\drawable\\messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/home/marcus/.android/build-cache/4786727a33d0c0dd6e9c18d71bd02bdeb1f9ce08/output/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_background.xml",
+        "source": "/home/marcus/.android/build-cache/a48c2c98950245716d293258473cf646cc853dd8/output/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/marcus/.android/build-cache/915604d7ecf6c3f02e5968a9e81e5482f8a7185a/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/home/marcus/.android/build-cache/31119bc8b54fd404b8a53f33c0c25b3e6c6c8cd2/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/custom_borders_bar.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable/custom_borders_bar.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/uber_button_background_white.xml",
+        "source": "/home/marcus/.android/build-cache/3250d7c3f3ce2b3094747792a5b9aa16d62f1ad9/output/res/drawable/uber_button_background_white.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\idp_button_background_facebook.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\fb491e8226d6bee2caeca93f55f7f728938d0ad7\\output\\res\\drawable\\idp_button_background_facebook.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_bar.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\search_bar.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\ic_expand.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\messenger_button_blue_bg_round.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\dec46d28105e50187b5593dd42868cd6928125fa\\output\\res\\drawable\\messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_connecting_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/google_button.xml",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable/google_button.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_icon.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_play_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop_large.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_mute.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_close_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_stop.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_stop.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_selector.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\button_selector.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\1596c9ed9561a521ae76969e74d2f89c635f3dd2\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/ic_collapse.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/ic_collapse.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\1acb6ca403c7bd6dada1b1de6776833d31876522\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_on_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/home/marcus/.android/build-cache/a48c2c98950245716d293258473cf646cc853dd8/output/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_skip_ad_label_border.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_skip_ad_label_border.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_rewind30.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward10.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/home/marcus/.android/build-cache/4786727a33d0c0dd6e9c18d71bd02bdeb1f9ce08/output/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\or_line.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable\\or_line.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_button_login_silver_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\4dc3500dd960cc1bf44a5db465d25096f98ecd14\\output\\res\\drawable\\com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/or_line.xml",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable/or_line.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_background.xml",
+        "source": "/home/marcus/.android/build-cache/f998eb78fbb84f692141b99a5e45e7c4204d1543/output/res/drawable/com_facebook_button_login_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/design_ic_visibility.xml",
+        "source": "/home/marcus/.android/build-cache/31119bc8b54fd404b8a53f33c0c25b3e6c6c8cd2/output/res/drawable/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/button_selector.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable/button_selector.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_black.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_black.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_mini_controller_gradient_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/search_bar.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable/search_bar.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_ic_visibility.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\1acb6ca403c7bd6dada1b1de6776833d31876522\\output\\res\\drawable\\design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/marcus/.android/build-cache/915604d7ecf6c3f02e5968a9e81e5482f8a7185a/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/twitter_button.xml",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable/twitter_button.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_next.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_auth_dialog_cancel_background.xml",
+        "source": "/home/marcus/.android/build-cache/a48c2c98950245716d293258473cf646cc853dd8/output/res/drawable/com_facebook_auth_dialog_cancel_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/home/marcus/.android/build-cache/f998eb78fbb84f692141b99a5e45e7c4204d1543/output/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/uber_button_background_selector_white.xml",
+        "source": "/home/marcus/.android/build-cache/3250d7c3f3ce2b3094747792a5b9aa16d62f1ad9/output/res/drawable/uber_button_background_selector_white.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/main_borders.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable/main_borders.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_next.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
+        "source": "/home/marcus/.android/build-cache/a48c2c98950245716d293258473cf646cc853dd8/output/res/drawable/com_facebook_button_icon.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop_large.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_connecting_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/home/marcus/.android/build-cache/ef36d33762279acddc63404c72513e25be70e353/output/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_toplogo.png",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable\\main_toplogo.png"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\idp_button_background_email.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\fb491e8226d6bee2caeca93f55f7f728938d0ad7\\output\\res\\drawable\\idp_button_background_email.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_favicon_blue.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\da1f40ada2c216cb7f96a938d8bc24b96317c74e\\output\\res\\drawable\\com_facebook_favicon_blue.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_rewind30.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_dark.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/marcus/.android/build-cache/915604d7ecf6c3f02e5968a9e81e5482f8a7185a/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/idp_button_background_google.xml",
+        "source": "/home/marcus/.android/build-cache/7acc3393c0a002137ee454db6ff8ae10d6d06b0a/output/res/drawable/idp_button_background_google.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/home/marcus/.android/build-cache/4786727a33d0c0dd6e9c18d71bd02bdeb1f9ce08/output/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\1acb6ca403c7bd6dada1b1de6776833d31876522\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward30.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_dark.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_media_route_on_dark.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\ic_collapse.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_play.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_light.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_media_route_on_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\uber_button_background_selector_black.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\\output\\res\\drawable\\uber_button_background_selector_black.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_facebook_send_button_icon.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\e08269b5205e2d9277b38fc3cfd957c2e7190100\\output\\res\\drawable\\com_facebook_send_button_icon.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/idp_button_background_facebook.xml",
+        "source": "/home/marcus/.android/build-cache/7acc3393c0a002137ee454db6ff8ae10d6d06b0a/output/res/drawable/idp_button_background_facebook.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_small_icon.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_skip_ad_label_border.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_skip_ad_label_border.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_pause.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_forward30.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\f621073516e4c1ed56ef1d8b3ad04283568a182e\\output\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
+        "source": "/home/marcus/.android/build-cache/e8034d8940094c270943d036b94c41cea25245cd/output/res/drawable/cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/home/marcus/.android/build-cache/31119bc8b54fd404b8a53f33c0c25b3e6c6c8cd2/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\idp_button_background_google.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\fb491e8226d6bee2caeca93f55f7f728938d0ad7\\output\\res\\drawable\\idp_button_background_google.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
+        "source": "/home/marcus/.android/build-cache/443cbf89772f004cd17b15b5a00a4688fa9f0e66/output/res/drawable/mr_dialog_material_background_light.xml"
     }
 ]

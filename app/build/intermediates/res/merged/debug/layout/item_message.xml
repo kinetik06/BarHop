@@ -4,7 +4,7 @@
               android:layout_height="125dp"
               android:orientation="vertical"
               android:background="@drawable/main_borders"
-    android:layout_margin="0dp"
+    android:layout_marginBottom="5dp"
               android:elevation="5dp"
               android:padding="5dp"
 

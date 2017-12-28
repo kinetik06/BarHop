@@ -1,18 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_google.png",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-ldpi-v4\\ic_google.png"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/common_ic_googleplayservices.png",
+        "source": "/home/marcus/.android/build-cache/915604d7ecf6c3f02e5968a9e81e5482f8a7185a/output/res/drawable-ldpi-v4/common_ic_googleplayservices.png"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_facebook.png",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-ldpi-v4\\ic_facebook.png"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
-        "source": "C:\\Users\\User\\.android\\build-cache\\7a86e3ef045b23f41d525c365f9442111b9ce4eb\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_google.png",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-ldpi-v4\\ic_google.png"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_twitter.png",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-ldpi-v4\\ic_twitter.png"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_facebook.png",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-ldpi-v4\\ic_facebook.png"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_google.png",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable-ldpi-v4/ic_google.png"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_twitter.png",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable-ldpi-v4/ic_twitter.png"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/ic_facebook.png",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable-ldpi-v4/ic_facebook.png"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_twitter.png",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-ldpi-v4\\ic_twitter.png"
     }
 ]

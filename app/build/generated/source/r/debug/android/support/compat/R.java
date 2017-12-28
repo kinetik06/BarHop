@@ -23,9 +23,9 @@ public final class R {
     }
     public static final class color {
         public static final int notification_action_color_filter = 0x7f0d0000;
-        public static final int notification_icon_bg_color = 0x7f0d0081;
-        public static final int ripple_material_light = 0x7f0d0094;
-        public static final int secondary_text_default_material_light = 0x7f0d0096;
+        public static final int notification_icon_bg_color = 0x7f0d0082;
+        public static final int ripple_material_light = 0x7f0d0095;
+        public static final int secondary_text_default_material_light = 0x7f0d0098;
     }
     public static final class dimen {
         public static final int compat_button_inset_horizontal_material = 0x7f09008c;
@@ -58,8 +58,8 @@ public final class R {
         public static final int notification_bg_normal = 0x7f020185;
         public static final int notification_bg_normal_pressed = 0x7f020186;
         public static final int notification_icon_background = 0x7f020187;
-        public static final int notification_template_icon_bg = 0x7f0201c7;
-        public static final int notification_template_icon_low_bg = 0x7f0201c8;
+        public static final int notification_template_icon_bg = 0x7f0201c8;
+        public static final int notification_template_icon_low_bg = 0x7f0201c9;
         public static final int notification_tile_bg = 0x7f020188;
         public static final int notify_panel_notification_icon_bg = 0x7f020189;
     }

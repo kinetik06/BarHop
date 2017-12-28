@@ -1,14 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_google.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-anydpi-v21\\ic_google.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_facebook.xml",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable-anydpi-v21/ic_facebook.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_facebook.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-anydpi-v21\\ic_facebook.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_twitter.xml",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable-anydpi-v21/ic_twitter.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_twitter.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-anydpi-v21\\ic_twitter.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_google.xml",
+        "source": "/home/marcus/.android/build-cache/544d74cd8c024c9719707035e7d09e46087cd976/output/res/drawable-anydpi-v21/ic_google.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_google.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-anydpi-v21\\ic_google.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_twitter.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-anydpi-v21\\ic_twitter.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_facebook.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\ec87a84111a94a0bb080b9af3b110493cea155e4\\output\\res\\drawable-anydpi-v21\\ic_facebook.xml"
     }
 ]

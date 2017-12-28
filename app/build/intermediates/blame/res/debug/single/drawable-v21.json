@@ -1,22 +1,42 @@
 [
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-v21/rounded_button.xml",
+        "source": "/home/marcus/.android/build-cache/7acc3393c0a002137ee454db6ff8ae10d6d06b0a/output/res/drawable-v21/rounded_button.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\rounded_button.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\fb491e8226d6bee2caeca93f55f7f728938d0ad7\\output\\res\\drawable-v21\\rounded_button.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\rounded_button.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\fb491e8226d6bee2caeca93f55f7f728938d0ad7\\output\\res\\drawable-v21\\rounded_button.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     }
 ]

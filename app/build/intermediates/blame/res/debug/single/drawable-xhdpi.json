@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_account_circle_black_36dp.png",
-        "source": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable-xhdpi\\ic_account_circle_black_36dp.png"
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_account_circle_black_36dp.png",
+        "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable-xhdpi/ic_account_circle_black_36dp.png"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_account_circle_black_36dp.png",
+        "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable-xhdpi\\ic_account_circle_black_36dp.png"
     }
 ]
