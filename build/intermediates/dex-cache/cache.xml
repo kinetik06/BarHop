@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-log4j12\1.7.5\6edffc576ce104ec769d954618764f39f0f0f10d\slf4j-log4j12-1.7.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6edffc576ce104ec769d954618764f39f0f0f10d">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\slf4j-log4j12-1.7.5_cb067a084e0e731155b0db71236cf55d9d099140.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\42317537d1781e0be4671b47350d1056cca3f3a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d587111ceaf3c993918d52d74766ec80973ea306\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4c0e2cbeb2bd97e333bc8c7f68b0bf86823d679a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ac5e6ae168ef77f0b0b1e3245d7afd7d32f710c3">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_d917d443e6b0c1213f9f0f7cdc7415096cde93b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.2.0\a56f28d5b7fab623c6c1d2afa08dd496d873ac21\logging-interceptor-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.2.0_0f852bb2ce09a48eb0d0e1fac04357ba6b97e644.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\4ce013d46d8d89dd584b24db55c1602492331dfe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d928394035bd4f7d2ee9e1c63d45f9ec088e21a4">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b598c1070a8ba84896c917f9d662d370e3af4da6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\6085feeba5b15356bb5fd54dce6f3bd71e332b8b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5d426747c2c9f153a30b6bd7776790d2c3e87e82">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_942e1441d92cf3b5383d3ebaa003688349df028f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\3f68e807f094209986b3c319a59251187d691d32\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_8c01ac987d67b1a692aa377bf80ad9d114ba3222.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\003095a8bda00834df107de838e5785e135a403a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a89b7665e1157428b2cb3772e81a77b2771a1dd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\f62f5a0873c323778e34e48c230d9a7b7e302bd8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="526f4b02f1771fa7607ff1b89fe2e9bd0344fee8">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_5aa78e2008185c7c90a7ed02a2b84b916a111c9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\34b8e5e12e25bda85a5dfdb7fc7b7769afd27be6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_42fa5ea0aef6a5f419dd5732b6d4bf5979902633.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2c312bb5e7f4654d557d6ec34079a1ce2cd73592\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8c6ef5bd4072f8cda2b89d8356ea7d8acd0683aa">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_2f2ae5bf9a4a55acfc58466e3efe194e3f5dc09d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\6a48de10a2e23894e76d6764aba0ac19c9c78663\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_58bfcabf77b7a7d28b47aa797035fad297a008ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\28e90ea84364ff48eca8b41b914c65b5751d7764\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_94add9a4ff0e9243d775afd8ae279cd24a505a8d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\7702260769b18dc66778942a3388287b90e3acba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_f760654805403912a84f24ec286f123d3c2d3d1a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\log4j\log4j\1.2.17\5af35056b4d257e4b64b9e8069c0746e8b08629f\log4j-1.2.17.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5af35056b4d257e4b64b9e8069c0746e8b08629f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\log4j-1.2.17_6f03b569ca2259010a5a7b5f3a9a2c72dd3b2de1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\89470b31da322ccfeb01348477ae4b04fc505cc9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0d63be561016a44520c611d92bf4433fae89b9f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\2954fde246c45ec4b707b7ed77a1f363528aa68f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_133db930197d1153d10fe383d371d3bfda2e4fe6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\dec46d28105e50187b5593dd42868cd6928125fa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_4d7fef69a3367c83dff488db913a756f58fe82b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.oauth-client\google-oauth-client\1.19.0\d473a8962e14a707a3716637e4898bb2dd9643f2\google-oauth-client-1.19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d473a8962e14a707a3716637e4898bb2dd9643f2">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\google-oauth-client-1.19.0_7f01c38725b44552af44a8b9d9dfc803ee6e46f7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.5\6b262da268f8ad9eff941b25503a9198f0a0ac93\slf4j-api-1.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-api-1.7.5_d91017a1b5e7e9f698e3d9a5686ebcec5194286c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\5c7197c2a0c60ca8ae30d73123e6c8ee74d4c8cf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="79f521967ad7f49b34748db89df02852c2b2f87b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_3f62739f152b045510790686ec579402a21646d9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\a4bb35fc6561c831f5bc0542e991d25cd6235a93\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_ae1d75918be001581de63237d1c4e62afc3c7474.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\1281502ef3b1a6e6c5f0ca21731677fd26f80d13\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9acbb315fa2a95e8748ab6f38a3f99dab1ae1db5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c75f84960ac4f336375d0c8b4e09333cf36157a9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1810ae0df0a1b9b539ce97df54e96f2bf8f5ff94">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_a1c4ea3a5a39211798d9501060ef58b52928a98c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\0a16ec2e375afe2537dcabffe793cf6bb8c2a423\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_9fe8aea0a2a99bedf6a1cf5129d1f5e40431760b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\037320177a2b7c2b6bca8e4075e36e899a8dd571\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_fd151d20a7f4c8218e61bca378b4d20a69ea05d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c37bbe13056772d241cbf1ef67bb780118514632\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a76a6983a23788b3689524d4bed763955afbd306">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_cc3f7cd2d7af6933251cebc95e792fa9103987bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\0c7230c02b1324dc654c4521d2650fbad63b746c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="159494eb362396d073d8c922b77e40c0da5fc5bc">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_f8a5f3b0c2cd883eca7ed38e8fabf83d604c6e10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\53dab16f00ad285b3573841fca52180a26e391a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="59cbbfb2937ebed98c8bb8882b7112d16358014e">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_ca2fcb3142a70e9cd4894e43c7f63d0ad5418d62.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\680e201f43da30f875135c62943b2780b7e0a6ac\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cbbd26dd2f6d46181b41a5f6f5e34889442a811b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_999439991fd5b40b1a8a232bd9584127a16c4c6e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\2f3de1cc6236cde6257316b180a97a9d83d3478c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3f1b6a6779e57d04020a15c423bbeafa31993476\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\4be65c5b03133ff6d0994421b5cb85e820541aa3\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="91dae39a5cc837ad2a829c0dc69c57ab8d69d22b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5f1d9a4c4aa978eb807bc81bcb0283f2385032b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\62cbc68fbff80f86a480c15caf1834f21fb2ed04\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dc98b63d89490102b0a38423e24dce190354795b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_311934aea83875e11f263b25592719a5d64f165d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1acb6ca403c7bd6dada1b1de6776833d31876522\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_ee99f659764e1fdc4d2b2679dd395e865910484f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\5b1e9d59efb6492b352f5b692a1e40c2ce54380d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_eff08229b46c75ac2be754dae73c0fb593bdedca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.uber.sdk\rides\0.5.2\7b982f0f54dc2daef68a6625bb5de88f4ad6ada8\rides-0.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7b982f0f54dc2daef68a6625bb5de88f4ad6ada8">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\rides-0.5.2_2e1705685c2b62d23366481a43a7438eb1859a22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4200356b72a971ed82859a659dc207beea712735\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_5dd60e6ee9f96a3ce7923605443309fd1953bb39.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\9c21cdad5276aa793d33a0d320c5dcc195c4f843\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="90be14317e3f26d18438e8dbf8544500d1dfe07f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_e5d7900f719e8d712332c42b9b7b269ce70294f4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\5bc0a268f0f807d375dd50ba56a181e9adac3ae4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_81888466643994aa87de564a2fb994befaea1ee1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2c01b9ddada1efca3aeae43e6be10d8330d67415\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_fe5d981fb91c99e94e939bdf25f98e64fdfd681a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\6a64078bcfa38baeb0c52e39b379e3f90a4df625\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_8af2ca3af725abb42132fab15266ce7d1ae9628b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\da1f40ada2c216cb7f96a938d8bc24b96317c74e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f95788f0e923006a2da51733d4cbd5c08aad299c">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_05c3b944c8518659e4c1f689f1c7282f328e2e5d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\2da154ec2e54a068cdfc43e08367f8f662601f21\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71fdd4af62d492c48de778a92d665fae44133ebc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\34b8e5e12e25bda85a5dfdb7fc7b7769afd27be6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a53ac0560ab915a02c50d2e5c7b003381e6fb5e3">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_42fa5ea0aef6a5f419dd5732b6d4bf5979902633\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\4c0e2cbeb2bd97e333bc8c7f68b0bf86823d679a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ac5e6ae168ef77f0b0b1e3245d7afd7d32f710c3">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d917d443e6b0c1213f9f0f7cdc7415096cde93b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.0.1\287742f1c6cea6d9126670e9f031890b0462362a\support-annotations-27.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="287742f1c6cea6d9126670e9f031890b0462362a">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\support-annotations-27.0.1_7390e9abac6f02624780b18c6a7164a6700b7c4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\3659b9433e410b2f2e119880be2119debc39a3f6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="db028a3b06fb6764c1947c419e003caf606e1476">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_36d56bc9c0ca709c6fd9f29a2caf498599de14cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2f8314cb5269603c83eb9817b3877bc0ace3d909\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="69f7591c9ff9238ff226e264c0260bb9f1ce0029">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_b8103fbc98f6285fb78c5465e40be0bebd2fad1e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-log4j12\1.7.5\6edffc576ce104ec769d954618764f39f0f0f10d\slf4j-log4j12-1.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6edffc576ce104ec769d954618764f39f0f0f10d">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\slf4j-log4j12-1.7.5_cb067a084e0e731155b0db71236cf55d9d099140\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\98f885caedbfe70696216d229785ce9a396def73\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ebf985be182798e6322fee8fe437b14ee6bb8609">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_361d922b8df3bf672b60b783300d588396586493.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\003095a8bda00834df107de838e5785e135a403a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_a89b7665e1157428b2cb3772e81a77b2771a1dd6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.2.0\a56f28d5b7fab623c6c1d2afa08dd496d873ac21\logging-interceptor-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\logging-interceptor-3.2.0_0f852bb2ce09a48eb0d0e1fac04357ba6b97e644\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\42317537d1781e0be4671b47350d1056cca3f3a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_d587111ceaf3c993918d52d74766ec80973ea306.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\3545bd4b60361d39a08932509aa939447a093937\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b289b98c00aeb339740dce838e92f9c7d905956f\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Program Files\Android\Android Studio\gradle\m2repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\jsr305-1.3.9_667fb1880246f96ff51fea00b160b243633dd117.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_8096ab279d08cdacf838ee24fc765760c0a3a4ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\6a48de10a2e23894e76d6764aba0ac19c9c78663\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="77558e74bb2056ef38516296f13a27c4c4fc3e5c">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58bfcabf77b7a7d28b47aa797035fad297a008ad\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1af04c7876e77170fc4f78431d573e953e510b54\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="babb25794a7599069d34705038744c5760a9a88c">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_879e43a8bde798182a5579206ee0ae8ea7888f7c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\63f4eb9b5b009e14c4246e28d46091df0f4b3cd6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6f6d308cdd201f52eb9c0ef78ff5123def1c554e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\f621073516e4c1ed56ef1d8b3ad04283568a182e\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_76b4c42d4b7921f8a9ad87d2d911585a643014cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\9c92ec7c745d7c4eef176c9b39bec1631e824f86\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae1eaeee69adeb50bb98f35b5665e2ed65338ddf\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\e08269b5205e2d9277b38fc3cfd957c2e7190100\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="07ca601b039863d2c018dc7f625e845084d6d18b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_89eec84ae0d8064ef6c5187cb91384df7adab25b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\b554a5cf2c9f61da03853f5567552ed1d004b3e7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5d54f857103520496d0bca74b3e237abe4df37ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\2b9245c1ec7601b30e2bcba49ec4a47a60ca2962\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7ca71e38c643e51083ab3a07f3a056bfb066caec">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_325e039d93ebd902a23a36e1c84634f10ba6efa5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6c3c6e6f308ba816d08f52bb0d4706af685d8edf">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e43ccd0e6155519d835631556cc35ed985f8ad65\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\log4j\log4j\1.2.17\5af35056b4d257e4b64b9e8069c0746e8b08629f\log4j-1.2.17.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5af35056b4d257e4b64b9e8069c0746e8b08629f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\log4j-1.2.17_6f03b569ca2259010a5a7b5f3a9a2c72dd3b2de1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-moshi\2.0.2\f956770d1309927879550cdfa0144b63ac891654\converter-moshi-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f956770d1309927879550cdfa0144b63ac891654">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\converter-moshi-2.0.2_a83d2f518a77f1fe95c2de7e5f0410cb4ba2578b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client-jackson2\1.19.0\81dbf9795d387d5e80e55346582d5f2fb81a42eb\google-http-client-jackson2-1.19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="81dbf9795d387d5e80e55346582d5f2fb81a42eb">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\google-http-client-jackson2-1.19.0_10564aa8d0c85bb8f4afac968505b68a114e2092.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_d943d39588748ee1117c83ea9058a2d6416cb70b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\604994e0e2b8f9480740db8b26a74b4a35df3bf5\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_26dd587f7ca4297cc4f1563b20bd5bfaaac651b9\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\e1afbc6f01187e651f0bdb890ddc19994bed5616\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="925879273e627f34059466359ba6789cf61889e2">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_53057a527239cefab9f078d5af8852704f4c1055.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\6f126348df656f55a8f1bf48d04018a219109516\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4394d46152165cd3256fb711ac94f66a28fbae1">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_ed2b6113a75e339b1ca24c236984a93eabb868e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.5\6b262da268f8ad9eff941b25503a9198f0a0ac93\slf4j-api-1.7.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6b262da268f8ad9eff941b25503a9198f0a0ac93">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\slf4j-api-1.7.5_d91017a1b5e7e9f698e3d9a5686ebcec5194286c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\0a16ec2e375afe2537dcabffe793cf6bb8c2a423\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="82ea5a937ab84229fbd2f3fc8cf2a72cbdf0ee0f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9fe8aea0a2a99bedf6a1cf5129d1f5e40431760b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\a4bb35fc6561c831f5bc0542e991d25cd6235a93\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ffe8b28ab61e5ee92ab9431a220379790c71ddf">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae1d75918be001581de63237d1c4e62afc3c7474\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\ae330159cba0f68efdcb7dcd262587abaf4c1297\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d4f9ace23785adf79a174d569bde261f032e1190">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_35f8e46c2352d24affc054de6dd08afbbad35621\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1281502ef3b1a6e6c5f0ca21731677fd26f80d13\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="53e8932b1ac8c7dfc35cfeda1f9efbc9822ceaf3">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_9acbb315fa2a95e8748ab6f38a3f99dab1ae1db5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\85081ccbf11ea0b186c833619e60841d1f44b3d5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f0e96478ca3147bc588aadb9ae467d85b42473cc">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_2a568637478f8f9ab6ad6fadc8bf66d9190e0ac2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.moshi\moshi\1.1.0\9c665b797ef9427f6d73572642dcb5f90270f7d3\moshi-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9c665b797ef9427f6d73572642dcb5f90270f7d3">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\moshi-1.1.0_d1391bf9f755861a8b02ad1004e3161ddb833c3b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\9a3dbd84d015c090069627be5bc9da1dcacf7d17\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a6dc4f6340955b321c083cdde1975a0931ed455\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\25ea42f67f1cbbae74c0515a096f950680829e95\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f10fed27d6d0b4aae675f17b33c639b4d5a0ed93">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_36afe8922bfc2aeb9b4e304fed66e13cd91850be.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.0.0_0bbc0d373166cdce4387429ed8f9f9297b70f24d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.http-client\google-http-client\1.19.0\cdca49ad0977c040f603478aa2e16b2775c8fec6\google-http-client-1.19.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cdca49ad0977c040f603478aa2e16b2775c8fec6">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\google-http-client-1.19.0_c5fe5373e12bcdb1ec5d74a902c98688ac64a225.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\6a64078bcfa38baeb0c52e39b379e3f90a4df625\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8af2ca3af725abb42132fab15266ce7d1ae9628b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\307a2e53610da211bceb6f48e6f628737407d277\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_3b6224f460f50d48bd05e1861a07823f44e3c20d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\cc9bac2c0aec43297223d1460b0ca83d01293e81\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47bbb3ec4b31ba71e125241c090dabe70cbb4de7">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_22e7e37e7f1a39ab26e2d3ca30f6216ba4a4dd0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\de8691545b23fd5df6a92e3a561232cb6de49b49\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="518adc52081d41724932b41bc132e4d50a352b86">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_5dbc562517cffb5dc8d2785ec0ad02dab6802d7a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\57329e9dc30ba99c28c2be631c2a49af752a1f96\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4df40545c9b875855f3dd9d4928e5d07f07c20ba">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_abafc9d536c81703b4b659c993e60a38d7fa0088.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\9c2db0a4f011d6bf7441b437c94b8d924698f8db\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_3e128f6ae43e6cdb3c25ba4c88d88dc1c6deba0c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.3.0_59e7345e23a354d9a108707a8daec7a410408eb8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\f2619b9bdf8b0fc0e1f01a29b1e417f0d0afff8a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="465f40f840e583f8b7421a3aacf3fbf08c28f00a">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_9caacd634b4cf683b7134f304487b95a8209ec8b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\da1f40ada2c216cb7f96a938d8bc24b96317c74e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f95788f0e923006a2da51733d4cbd5c08aad299c">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_05c3b944c8518659e4c1f689f1c7282f328e2e5d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\ff5ab07d95589a1326eb82d8aaa03ada80d01796\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71cf02dda6dfc86f9dabd649875d8aaf38a03d86\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\3659b9433e410b2f2e119880be2119debc39a3f6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="db028a3b06fb6764c1947c419e003caf606e1476">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_36d56bc9c0ca709c6fd9f29a2caf498599de14cd\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\okio-1.6.0_c6c36c9266a53bff725e5087f6a3090b1d0ab593.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\63f4eb9b5b009e14c4246e28d46091df0f4b3cd6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0efd1b44f47c134fb245914a1d54a55adbfc2f8d">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_6f6d308cdd201f52eb9c0ef78ff5123def1c554e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4a5f1aab46440b8e2af6838fe624daefb998fbab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_8c6db857dc7cc296c275739d7b2d7728148698c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\5bd1e3e9cd61dc121553c4fca7c4ba9b49359d1b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f6aa7c76cbaa867e05dbad0afab1ef0e65c4e55f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_8554be183e425ebfb5626d17b26fd553e23baf9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\f621073516e4c1ed56ef1d8b3ad04283568a182e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9c0cf3d4f9d7d076f301e110b92e18ae23da12c2">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_76b4c42d4b7921f8a9ad87d2d911585a643014cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2b9245c1ec7601b30e2bcba49ec4a47a60ca2962\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7ca71e38c643e51083ab3a07f3a056bfb066caec">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_325e039d93ebd902a23a36e1c84634f10ba6efa5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\16ce8cbc4f0810bb0990b95331b6f9d97a7a29bb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16414a95b2d8761b939b4f2d3a9d29e0c55820c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-moshi\2.0.2\f956770d1309927879550cdfa0144b63ac891654\converter-moshi-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f956770d1309927879550cdfa0144b63ac891654">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-moshi-2.0.2_a83d2f518a77f1fe95c2de7e5f0410cb4ba2578b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\72e47810fee9d5f7985a044d56d8745f992a9623\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4931bb76545385e977619cb86981a4cc2a7f4e2b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\a451e3d21a92d010399cf322037c5cbea04d16e8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_7aa4a0b7061b45b766e71cdb947f6b6aa94bf170.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\b554a5cf2c9f61da03853f5567552ed1d004b3e7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0d394688dd7030b83dea8eed3fa483410c24afe0">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_5d54f857103520496d0bca74b3e237abe4df37ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\c1bd8d3698973283e199a5836bf6e1d9e2e9c30b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_3d388a0409642a0499c8ab0842014444a574dcc6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3_34a52665e9ed9a81e7732ffe5080ffb034c71eea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\6e17d5acdea907d981bd99c35cc0aabfa22af40a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_f0d12e8060e2c12dac7f2eb84b53043701d4922b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\604994e0e2b8f9480740db8b26a74b4a35df3bf5\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_20f88107604ba48e4416459bb53fa06419933485\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\604994e0e2b8f9480740db8b26a74b4a35df3bf5\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_26dd587f7ca4297cc4f1563b20bd5bfaaac651b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\72e47810fee9d5f7985a044d56d8745f992a9623\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dfcba20b85ef3669a8ced0a8760a6df281cbd7c7">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_4931bb76545385e977619cb86981a4cc2a7f4e2b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\9c2db0a4f011d6bf7441b437c94b8d924698f8db\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ff9be0a1e75a21c372735930d8987a55b5e6065f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3e128f6ae43e6cdb3c25ba4c88d88dc1c6deba0c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\85b14f5d30fb5fde457883635cc6a8cf1692eaf7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="40d9be371bbc37ed64c423b31ac34f6ec9c71dd6">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_0b3c41178920b7cf10a5ba5b19315288f2e42b28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\7f99560d71c08e33714feaf1b96dc1a5da3c463f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0cae6511c5705869cacf199f8abb0ea84cd10157">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_146a87eb43f161911b71fea5aead86b276b9cee9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\9a3dbd84d015c090069627be5bc9da1dcacf7d17\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a1c351dc10b92d638da57f3a6513f87cfbdc9f83">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_9a6dc4f6340955b321c083cdde1975a0931ed455.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1596c9ed9561a521ae76969e74d2f89c635f3dd2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a136366045678579300d161de97c2211c4c4f7a0">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_afdb8aaceb9adf254664ef95525bbf0836ece4e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\496d762ed98cc3a44ea97cdee4492f3551c2911d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ff796a3173787afe2e712f3aec6f5b99796118e">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_746a3f3583913649d6c118ca12186dd9564ed9d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_d943d39588748ee1117c83ea9058a2d6416cb70b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_e967602cedb3cdf27c5916205188b8064fdde338\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\25ea42f67f1cbbae74c0515a096f950680829e95\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f10fed27d6d0b4aae675f17b33c639b4d5a0ed93">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_36afe8922bfc2aeb9b4e304fed66e13cd91850be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.moshi\moshi\1.1.0\9c665b797ef9427f6d73572642dcb5f90270f7d3\moshi-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9c665b797ef9427f6d73572642dcb5f90270f7d3">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\moshi-1.1.0_d1391bf9f755861a8b02ad1004e3161ddb833c3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\ae330159cba0f68efdcb7dcd262587abaf4c1297\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d4f9ace23785adf79a174d569bde261f032e1190">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_35f8e46c2352d24affc054de6dd08afbbad35621.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.0.0\e414a4cb28434e25c4f6aa71426eb20cf4874ae9\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\common-1.0.0_122978a14af25a3b247809c8ab1a3475523a48cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\ec87a84111a94a0bb080b9af3b110493cea155e4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="16226703bab55ec42457666213cd3503799d36a8">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_da6acad44a11524af1027b6b8a698c1e0facf2e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.0.0\a2d487452376193fc8c103dd2b9bd5f2b1b44563\common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\common-1.0.0_0bbc0d373166cdce4387429ed8f9f9297b70f24d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\307a2e53610da211bceb6f48e6f628737407d277\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3b6224f460f50d48bd05e1861a07823f44e3c20d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\1851e8139bbc4d5fdb63b0a1e61958b9269a6225\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f8a80c9882b064f2943e10649a8d2b249f5bf176">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_33ee0b22ff31c15d287d7dba8483ec01cfc30e9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.2_6090e61d4a0ddfea3f153b6c4487a20a1ce2cf8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.3.0\73c49077166faa4c3c0059c5f583d1d7bd1475fe\core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\core-3.3.0_59e7345e23a354d9a108707a8daec7a410408eb8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\3f68e807f094209986b3c319a59251187d691d32\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c01ac987d67b1a692aa377bf80ad9d114ba3222\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4024eb2f6fcfb034b4b908e50b141600209e3bd1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b75ecdd04a37d31b4a0da2729fc5c558962a529b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_7758fb31b1fd159e3baf9c999e363ca64a30243d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\28e90ea84364ff48eca8b41b914c65b5751d7764\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94add9a4ff0e9243d775afd8ae279cd24a505a8d\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2954fde246c45ec4b707b7ed77a1f363528aa68f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c828add497d2b7a3de7c047bf72050cd4b7521a1">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_133db930197d1153d10fe383d371d3bfda2e4fe6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\ce376519f00038e5b00cd34b2db52f494f84741b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d45c048bb1c55cf963899190e507065aea8e5be9">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_05161a6af4b8792e76fc0386b7d5aa2811b310db.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\7702260769b18dc66778942a3388287b90e3acba\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3c433e48557e476290f45fb6cb568d1a103c9978">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f760654805403912a84f24ec286f123d3c2d3d1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4ce013d46d8d89dd584b24db55c1602492331dfe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d928394035bd4f7d2ee9e1c63d45f9ec088e21a4">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_b598c1070a8ba84896c917f9d662d370e3af4da6.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\4a5f1aab46440b8e2af6838fe624daefb998fbab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cf2c4e6607c77b0e671dc5ca252c5ea0d9c1ce0d">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8c6db857dc7cc296c275739d7b2d7728148698c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\fb491e8226d6bee2caeca93f55f7f728938d0ad7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ac09931704b91e7b4d281f5e34b3b006b628c22">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_39611f20cf32ddc22398a56411463da7d1698bca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\5815d45e94a618a315c7f0a42b1cb39ebea1200b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ac8365c87591065db07f7bac8551504504832cd4">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_26b3f200a8ed96124b03c997bb806b2138ece432.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\dec46d28105e50187b5593dd42868cd6928125fa\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2482bfd874e8b3927f4141105674ad392ff83698">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4d7fef69a3367c83dff488db913a756f58fe82b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\16ce8cbc4f0810bb0990b95331b6f9d97a7a29bb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2a18547ea91d258866d132c2a763185f15b01b25">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_16414a95b2d8761b939b4f2d3a9d29e0c55820c5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\a451e3d21a92d010399cf322037c5cbea04d16e8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cdddf21e0a8205e9955661061d1735ed10e44a7b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7aa4a0b7061b45b766e71cdb947f6b6aa94bf170\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\89470b31da322ccfeb01348477ae4b04fc505cc9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_0d63be561016a44520c611d92bf4433fae89b9f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\b4b82d54e3ce46472422e8ffe7e309a946e60f30\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="62ff84124b89177abc0c27f3e38c9732f2d41617">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_38c789d220718800b9787d64db59448a55e5e297.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\6e17d5acdea907d981bd99c35cc0aabfa22af40a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee0ccb43f6ab276191b7f2d77c305fa9beb26db9">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f0d12e8060e2c12dac7f2eb84b53043701d4922b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\7a86e3ef045b23f41d525c365f9442111b9ce4eb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_643d7bdc89c8398ead59ec30930cb8eb52304083.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\604994e0e2b8f9480740db8b26a74b4a35df3bf5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_20f88107604ba48e4416459bb53fa06419933485.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_e967602cedb3cdf27c5916205188b8064fdde338.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4dc3500dd960cc1bf44a5db465d25096f98ecd14\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b8b26b28aae0ba8e2db55ad9fe0ebc770530c5ef">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_e821b7af7f4c6c8733f12c29c4890c2d73f49530.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.1.3\f6c3aed1cdfa21b5c1737c915186ea93a95a58bd\jackson-core-2.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.1.3_34a52665e9ed9a81e7732ffe5080ffb034c71eea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\680e201f43da30f875135c62943b2780b7e0a6ac\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cbbd26dd2f6d46181b41a5f6f5e34889442a811b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_999439991fd5b40b1a8a232bd9584127a16c4c6e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\9c92ec7c745d7c4eef176c9b39bec1631e824f86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="80dd8bea08bc5fe10b10a3243b8279c856ccc690">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_ae1eaeee69adeb50bb98f35b5665e2ed65338ddf.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\037320177a2b7c2b6bca8e4075e36e899a8dd571\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ebae43cd06058e99e08c8b4d305b72f2b9927c6">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd151d20a7f4c8218e61bca378b4d20a69ea05d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\53dab16f00ad285b3573841fca52180a26e391a7\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="59cbbfb2937ebed98c8bb8882b7112d16358014e">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ca2fcb3142a70e9cd4894e43c7f63d0ad5418d62\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\ec87a84111a94a0bb080b9af3b110493cea155e4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="16226703bab55ec42457666213cd3503799d36a8">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_da6acad44a11524af1027b6b8a698c1e0facf2e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\4be65c5b03133ff6d0994421b5cb85e820541aa3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="91dae39a5cc837ad2a829c0dc69c57ab8d69d22b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_5f1d9a4c4aa978eb807bc81bcb0283f2385032b1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2f3de1cc6236cde6257316b180a97a9d83d3478c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="1e14ebe1cda8491f152083e752ca5bf73cd37bff">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_3f1b6a6779e57d04020a15c423bbeafa31993476.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\5b1e9d59efb6492b352f5b692a1e40c2ce54380d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="0e0e0681c26a1f575d3e4c542182dd59bab75fd6">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_eff08229b46c75ac2be754dae73c0fb593bdedca\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.2.0\f7873a2ebde246a45c2a8d6f3247108b4c88a879\okhttp-3.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\okhttp-3.2.0_f6e6642ed4c0f01cb7be5c8477533ef8d026302f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\1851e8139bbc4d5fdb63b0a1e61958b9269a6225\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f8a80c9882b064f2943e10649a8d2b249f5bf176">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_33ee0b22ff31c15d287d7dba8483ec01cfc30e9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\62cbc68fbff80f86a480c15caf1834f21fb2ed04\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dc98b63d89490102b0a38423e24dce190354795b">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_311934aea83875e11f263b25592719a5d64f165d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\3545bd4b60361d39a08932509aa939447a093937\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f8db47be01cbe8cfa81e9cecce5ff1371ed1ad95">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_b289b98c00aeb339740dce838e92f9c7d905956f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.2\43eeae0b9fb087bb3194ba59ab63a38a32fbf3e\retrofit-2.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\retrofit-2.0.2_6090e61d4a0ddfea3f153b6c4487a20a1ce2cf8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\2da154ec2e54a068cdfc43e08367f8f662601f21\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ee61ace5f3e488fc610e1c67693c49186a441f32">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_71fdd4af62d492c48de778a92d665fae44133ebc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\2f8314cb5269603c83eb9817b3877bc0ace3d909\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="69f7591c9ff9238ff226e264c0260bb9f1ce0029">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b8103fbc98f6285fb78c5465e40be0bebd2fad1e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\User\.android\build-cache\5bc0a268f0f807d375dd50ba56a181e9adac3ae4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da3f763afd39da1c947d9442847c837e9182a09f">
+        <dex dex="C:\Users\User\Documents\localandroidstudioprojects\BarHop\BarHop\app\build\intermediates\pre-dexed\debug\classes_81888466643994aa87de564a2fb994befaea1ee1.jar" />
+    </item>
+
+</items>

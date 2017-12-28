@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "472091629786",
+    "firebase_url": "https://bar-hop-b83f2.firebaseio.com",
+    "project_id": "bar-hop-b83f2",
+    "storage_bucket": "bar-hop-b83f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472091629786:android:bbb9a9f4756f3082",
+        "android_client_info": {
+          "package_name": "zombietechnologiesinc.com.barhop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472091629786-a5oh50hlvvshjr5qqglapsjgtqbj8u5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHnsG6TrK-WJWQ2mqBh_14PPfCQwcvcek"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

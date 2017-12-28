@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\a451e3d21a92d010399cf322037c5cbea04d16e8\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\User\\.android\\build-cache\\4be65c5b03133ff6d0994421b5cb85e820541aa3\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

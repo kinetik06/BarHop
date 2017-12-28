@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ub__style">
+        <enum name="black" value="0"/>
+        <enum name="white" value="1"/>
+    </attr>
+    <attr format="reference" name="uberButtonStyle"/>
+    <color name="uber_black">#000000</color>
+    <color name="uber_black_90">#282727</color>
+    <color name="uber_white">#FFFFFF</color>
+    <color name="uber_white_40">#E5E5E4</color>
+    <declare-styleable name="LoginButton"><attr name="ub__scopes"><flag name="history" value="1"/><flag name="history_lite" value="2"/><flag name="payment_methods" value="4"/><flag name="places" value="8"/><flag name="profile" value="16"/><flag name="ride_widgets" value="32"/><flag name="request" value="64"/><flag name="request_receipt" value="128"/><flag name="all_trips" value="256"/></attr><attr format="integer" name="ub__request_code"/></declare-styleable>
+    <declare-styleable name="UberButton"><attr name="ub__style"/><attr name="android:textStyle"/></declare-styleable>
+    <dimen name="ub__estimates_text_size">12sp</dimen>
+    <dimen name="ub__secondary_text_size">14sp</dimen>
+    <dimen name="ub__signin_margin">48dp</dimen>
+    <dimen name="ub__small_padding">8dp</dimen>
+    <dimen name="ub__standard_padding">16dp</dimen>
+    <dimen name="ub__text_size">20sp</dimen>
+    <string name="ub__mobile_redirect">https://m.uber.com/sign-up?client_id=%1$s&amp;user-agent=%2$s</string>
+    <string name="ub__sign_in">Sign in</string>
+    <style name="UberButton">
+        <item name="android:textSize">@dimen/ub__text_size</item>
+        <item name="android:textColor">@color/uber_white</item>
+        <item name="android:background">@drawable/uber_button_background_selector_black</item>
+    </style>
+    <style name="UberButton.Login">
+        <item name="android:padding">@dimen/ub__standard_padding</item>
+        <item name="android:textSize">@dimen/ub__secondary_text_size</item>
+        <item name="android:gravity">center_vertical|end</item>
+        <item name="android:drawablePadding">@dimen/ub__signin_margin</item>
+        <item name="android:drawableLeft">@drawable/uber_logotype_white</item>
+    </style>
+    <style name="UberButton.Login.White">
+        <item name="android:textColor">@color/uber_black</item>
+        <item name="android:background">@drawable/uber_button_background_selector_white</item>
+        <item name="android:drawableLeft">@drawable/uber_logotype_black</item>
+    </style>
+    <style name="UberButton.White" parent="UberButton">
+        <item name="android:textColor">@color/uber_black</item>
+        <item name="android:background">@drawable/uber_button_background_selector_white</item>
+    </style>
+</resources>

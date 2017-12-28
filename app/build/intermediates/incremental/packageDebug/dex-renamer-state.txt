@@ -1,0 +1,7 @@
+#Wed Dec 27 21:42:20 EST 2017
+base.0=C\:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e43ccd0e6155519d835631556cc35ed985f8ad65
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8096ab279d08cdacf838ee24fc765760c0a3a4ba\\classes.dex
+base.1=C\:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_8096ab279d08cdacf838ee24fc765760c0a3a4ba
+file.0=C\:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e43ccd0e6155519d835631556cc35ed985f8ad65\\classes.dex
