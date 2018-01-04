@@ -16,21 +16,35 @@
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:weightSum="4"
-
         android:padding="5dp"
         android:layout_margin="1dp"
         >
 
-        <de.hdodenhof.circleimageview.CircleImageView
+        <!--<de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/messengerImageView"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/rectangle_placeholder"/>
+            android:src="@drawable/rectangle_placeholder"/>-->
+
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/messengerImageView"
+                android:scaleType="centerCrop"
+                />
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="0dp"
             android:layout_gravity="center_horizontal"
             android:orientation="vertical"
             >
@@ -42,8 +56,8 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
                 android:layout_gravity="center_horizontal"
-
-                android:textSize="25sp"
+                android:fontFamily="@font/flatform_light"
+                android:textSize="20sp"
 
                 android:text="Random Text"/>
 
@@ -53,8 +67,9 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:textColor="@color/black"
+                android:fontFamily="@font/flatform_light"
 
-                android:textSize="15sp"
+                android:textSize="13sp"
                 android:text="more random "/>
 
             <TextView
@@ -63,16 +78,18 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/bar_event_tv"
                 android:textColor="@color/second_menu_bg"
-
+                android:fontFamily="@font/museo300"
+                android:paddingTop="5dp"
                 android:layout_gravity="center_horizontal"
-                android:textSize="25sp"/>
+                android:textSize="19sp"/>
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="240dp"
+                android:layout_height="0dp"
                 android:layout_weight="1"
                 android:orientation="horizontal"
-                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="0dp"
                 android:gravity="bottom">
 
                 <ProgressBar
@@ -82,8 +99,8 @@
                     android:id="@+id/capacity_progress"
                     android:max="100"
                     android:progress="0"
-                    android:layout_weight="3"
-                    android:layout_width="wrap_content"/>
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="180dp"/>
 
                 <TextView
                     android:id="@+id/bar_count"

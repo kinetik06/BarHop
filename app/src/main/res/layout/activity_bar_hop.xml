@@ -19,14 +19,56 @@
 
         android:background="@color/main_top_grey">
 
-        <ImageView
+        <!--<ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/main_toplogo"
             android:paddingTop="10dp"
-            />
+            />-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/barhopTV1"
+                android:text="BAR"
+                android:paddingTop="15dp"
+                android:textSize="20sp"
+                android:shadowColor="@color/white"
+                android:textStyle="bold"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="15dp"
+                android:id="@+id/barhopTV2"
+                android:textSize="20sp"
+                android:text="HOP"
+                android:shadowColor="@color/white"
+                android:textStyle="bold"
+                android:shadowDx="2"
+                android:shadowDy="2"
+                android:shadowRadius="2"/>
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -29,7 +29,7 @@ public class BarViewHolder extends RecyclerView.ViewHolder {
         barCap = (ProgressBar)itemView.findViewById(R.id.capacity_progress);
         barNameTV = (TextView) itemView.findViewById(R.id.messageTextView);
         barAddressTV = (TextView) itemView.findViewById(R.id.messengerTextView);
-        barLogo = (CircleImageView) itemView.findViewById(R.id.messengerImageView);
+        barLogo = (ImageView) itemView.findViewById(R.id.messengerImageView);
         barCountTV = (TextView) itemView.findViewById(R.id.bar_count);
         barEventTV = (TextView) itemView.findViewById(R.id.bar_event_tv);
 

@@ -64,10 +64,11 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
         bar=arrayOfBars.get(position);
         barName=bar.getBarName();
         context = holder.barNameTV.getContext();
-        Typeface typeface = ResourcesCompat.getFont(context, R.font.mainwebfont);
+        Typeface typeface = ResourcesCompat.getFont(context, R.font.geosanslight);
         holder.barNameTV.setTypeface(typeface);
         holder.barAddressTV.setTypeface(typeface);
         holder.barEventTV.setTypeface(typeface);
+        holder.barCountTV.setTypeface(typeface);
 
         double percentage = (double) bar.getBarCount() / bar.getBarCap();
         holder.barNameTV.setText(bar.getBarName());
@@ -98,7 +99,7 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
             @Override
             public void onFailure(@NonNull Exception exception) {
                 // Handle any errors
-                holder.barLogo.setImageResource(R.drawable.ic_account_circle_black_36dp);
+                holder.barLogo.setImageResource(R.drawable.rectangle_placeholder);
             }
         });
 
