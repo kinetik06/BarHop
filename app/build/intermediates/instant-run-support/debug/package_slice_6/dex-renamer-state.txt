@@ -1,4 +1,4 @@
-#Thu Dec 28 08:54:28 EST 2017
+#Wed Jan 03 18:38:20 EST 2018
 base.0=/home/marcus/StudioProjects/BarHop/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
 renamed.0=classes.dex
 file.0=/home/marcus/StudioProjects/BarHop/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex

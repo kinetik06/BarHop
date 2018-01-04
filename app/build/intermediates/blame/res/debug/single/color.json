@@ -13,23 +13,23 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_hint_foreground_material_light.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
         "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\1acb6ca403c7bd6dada1b1de6776833d31876522\\output\\res\\color\\design_error.xml"
     },
     {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_tint_edittext.xml"
+    },
+    {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
         "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\53dab16f00ad285b3573841fca52180a26e391a7\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_tint_edittext.xml"
-    },
-    {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_search_url_text.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_search_url_text.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
@@ -37,23 +37,23 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_tint_seek_thumb.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_tint_seek_thumb.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_btn_colored_text_material.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_tint_btn_checkable.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_primary_text_disable_only_material_dark.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_hint_foreground_material_dark.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_hint_foreground_material_dark.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
@@ -69,11 +69,11 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/home/marcus/.android/build-cache/31119bc8b54fd404b8a53f33c0c25b3e6c6c8cd2/output/res/color/design_tint_password_toggle.xml"
+        "source": "/home/marcus/.android/build-cache/6e16c9ed38203dd68667196b39ac000a32c9829c/output/res/color/design_tint_password_toggle.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_tint_spinner.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_tint_spinner.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
@@ -89,7 +89,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_secondary_text_material_dark.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
@@ -117,7 +117,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_tint_switch_track.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_tint_switch_track.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/com_facebook_button_text_color.xml",
@@ -125,11 +125,11 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/home/marcus/.android/build-cache/31119bc8b54fd404b8a53f33c0c25b3e6c6c8cd2/output/res/color/design_error.xml"
+        "source": "/home/marcus/.android/build-cache/6e16c9ed38203dd68667196b39ac000a32c9829c/output/res/color/design_error.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_tint_default.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_tint_default.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
@@ -153,7 +153,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_primary_text_material_dark.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_primary_text_material_dark.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
@@ -165,7 +165,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/switch_thumb_material_light.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/switch_thumb_material_light.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
@@ -181,11 +181,11 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_primary_text_material_light.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_primary_text_material_light.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_secondary_text_material_light.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
@@ -197,7 +197,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/switch_thumb_material_dark.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
@@ -209,6 +209,6 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/color/abc_primary_text_disable_only_material_light.xml"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/color/abc_primary_text_disable_only_material_light.xml"
     }
 ]

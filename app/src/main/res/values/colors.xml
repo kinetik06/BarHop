@@ -27,4 +27,5 @@
     <color name="main_top_grey">#a9a9a9</color>
     <color name="black">#000000</color>
     <color name="second_menu_bg">#323232</color>
+    <color name="main_card_border_orange">#ff7e00</color>
 </resources>

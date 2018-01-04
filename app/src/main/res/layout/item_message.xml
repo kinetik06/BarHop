@@ -3,10 +3,10 @@
               android:layout_width="match_parent"
               android:layout_height="125dp"
               android:orientation="vertical"
-              android:background="@drawable/main_borders"
+              android:background="@color/white"
     android:layout_marginBottom="5dp"
               android:elevation="5dp"
-              android:padding="5dp"
+
 
     >
 
@@ -16,22 +16,22 @@
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:weightSum="4"
-        android:background="@color/white"
+
         android:padding="5dp"
         android:layout_margin="1dp"
         >
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/messengerImageView"
-            android:layout_width="36dp"
-            android:layout_height="36dp"
-            android:src="@drawable/ic_account_circle_black_36dp"/>
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rectangle_placeholder"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
             android:orientation="vertical"
             >
 
@@ -40,24 +40,31 @@
                 android:id="@+id/messageTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/barhop_light_orange"
-                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+
+                android:textSize="25sp"
+
                 android:text="Random Text"/>
 
             <TextView
                 android:id="@+id/messengerTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@color/barhop_light_orange"
-                android:textSize="10sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/black"
+
+                android:textSize="15sp"
                 android:text="more random "/>
 
             <TextView
                 android:text="TextView"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/bar_event_tv"
-                android:textColor="@color/background_color"
+                android:textColor="@color/second_menu_bg"
+
+                android:layout_gravity="center_horizontal"
                 android:textSize="25sp"/>
 
             <LinearLayout
@@ -86,8 +93,8 @@
                     android:gravity="center"
                     android:padding="5dp"
                     android:layout_weight="1"
-
-                    android:textColor="@android:color/holo_orange_light"/>
+                    android:text="20%"
+                    android:textColor="@color/main_card_border_orange"/>
             </LinearLayout>
 
 

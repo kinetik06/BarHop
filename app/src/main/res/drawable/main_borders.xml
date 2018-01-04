@@ -4,11 +4,11 @@
 
     <stroke
 
-        android:width="15dp"
-        android:color="#ff7e00"/>
+        android:width="20dp"
+        android:color="@color/main_card_border_orange"/>
     <corners
 
-        android:radius="0dp"/>
+        android:radius="1dp"/>
 
 
 

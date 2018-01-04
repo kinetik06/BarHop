@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-mdpi/rectangle_placeholder.png",
+        "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable-mdpi/rectangle_placeholder.png"
+    },
+    {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_account_circle_black_36dp.png",
         "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\src\\main\\res\\drawable-mdpi\\ic_account_circle_black_36dp.png"
     },

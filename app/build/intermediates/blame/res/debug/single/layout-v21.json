@@ -13,15 +13,15 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/res/layout-v21/notification_action_tombstone.xml"
+        "source": "/home/marcus/.android/build-cache/d3d79c94c71634ac9f68451b2cb4e7fad97893e8/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/res/layout-v21/notification_template_icon_group.xml"
+        "source": "/home/marcus/.android/build-cache/d3d79c94c71634ac9f68451b2cb4e7fad97893e8/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/res/layout-v21/notification_template_custom_big.xml"
+        "source": "/home/marcus/.android/build-cache/d3d79c94c71634ac9f68451b2cb4e7fad97893e8/output/res/layout-v21/notification_template_custom_big.xml"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
@@ -37,6 +37,6 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/res/layout-v21/notification_action.xml"
+        "source": "/home/marcus/.android/build-cache/d3d79c94c71634ac9f68451b2cb4e7fad97893e8/output/res/layout-v21/notification_action.xml"
     }
 ]

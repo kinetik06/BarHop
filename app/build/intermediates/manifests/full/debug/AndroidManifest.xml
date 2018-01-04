@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="24" />
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
@@ -290,10 +290,6 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
             android:authorities="zombietechnologiesinc.com.barhop.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
-
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

@@ -134,6 +134,7 @@ public class BarDetailsActivity extends FragmentActivity
                 mRequestButton = new RideRequestButton(BarDetailsActivity.this);
 
                 mRequestButton.setSession(mServerTokenSession);
+
                 mLinearLayout.addView(mRequestButton);
                 if (userLat == 1 || userLong == 1) {
                     mRideParameters = new RideParameters.Builder()

@@ -3,7 +3,9 @@ package zombietechnologiesinc.com.barhop;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Typeface;
 import android.support.annotation.NonNull;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -36,6 +38,7 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
     StorageReference storageRef = storage.getReferenceFromUrl("gs://bar-hop-b83f2.appspot.com");
     private String profilePic = "mUpdatePic.jpg";
     private String barName;
+    Context context;
 
 
 
@@ -60,6 +63,11 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
     public void onBindViewHolder(final BarViewHolder holder, int position) {
         bar=arrayOfBars.get(position);
         barName=bar.getBarName();
+        context = holder.barNameTV.getContext();
+        Typeface typeface = ResourcesCompat.getFont(context, R.font.mainwebfont);
+        holder.barNameTV.setTypeface(typeface);
+        holder.barAddressTV.setTypeface(typeface);
+        holder.barEventTV.setTypeface(typeface);
 
         double percentage = (double) bar.getBarCount() / bar.getBarCap();
         holder.barNameTV.setText(bar.getBarName());
@@ -71,6 +79,7 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
             holder.barCountTV.setText(String.valueOf(percentage * 100).substring(0, 2) + "%");
 
         }
+
         holder.barCap.setProgress((int) progress);
         Log.d("PROGRESS BAR:", String.valueOf(progress));
         Log.d ("other stuff", String.valueOf(holder.barCountTV.getText().charAt(2)));

@@ -29,7 +29,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_white_24.png",
@@ -81,7 +81,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal.9.png",
@@ -137,7 +137,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_08_light.png",
@@ -193,7 +193,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_replay_30_white_36.png",
@@ -273,7 +273,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_pause.png",
@@ -286,6 +286,10 @@
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_18_light.png",
         "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable-xxhdpi-v4\\ic_media_route_connecting_18_light.png"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/design_ic_visibility_off.png",
+        "source": "/home/marcus/.android/build-cache/6e16c9ed38203dd68667196b39ac000a32c9829c/output/res/drawable-xxhdpi-v4/design_ic_visibility_off.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_22_dark.png",
@@ -333,7 +337,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_pause_dark.png",
@@ -381,7 +385,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_11_light.png",
@@ -465,7 +469,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_play_arrow_white_24.png",
@@ -477,7 +481,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_bigtop_updates_white_24.png",
@@ -509,11 +513,11 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_forward_10_white_24.png",
@@ -697,7 +701,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_skip_next_white_36.png",
@@ -785,7 +789,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_play_circle_filled_white_36.png",
@@ -813,7 +817,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_02_light.png",
@@ -829,7 +833,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
@@ -977,11 +981,11 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/uber_badge.png",
@@ -1017,7 +1021,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_00_dark.png",
@@ -1025,7 +1029,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\places_ic_clear.png",
@@ -1081,7 +1085,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\uber_badge.png",
@@ -1109,7 +1113,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_11_light.png",
@@ -1137,7 +1141,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
@@ -1157,7 +1161,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_volume_off_grey600_36.png",
@@ -1193,7 +1197,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
@@ -1269,7 +1273,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_like_icon_selected.png",
@@ -1305,7 +1309,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/quantum_ic_forward_30_white_24.png",
@@ -1341,7 +1345,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\com_facebook_button_send_icon_white.png",
@@ -1357,11 +1361,11 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_12_dark.png",
@@ -1377,7 +1381,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_08_light.png",
@@ -1389,7 +1393,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_focused_holo.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_07_light.png",
@@ -1437,7 +1441,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/messenger_bubble_small_blue.png",
@@ -1473,7 +1477,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_07_dark.png",
@@ -1525,19 +1529,19 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_12_light.png",
@@ -1581,7 +1585,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_08_dark.png",
@@ -1597,7 +1601,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_pause_circle_filled_grey600_36.png",
@@ -1657,11 +1661,11 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/places_ic_clear.png",
@@ -1669,7 +1673,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_tv_light.png",
@@ -1717,7 +1721,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_16_light.png",
@@ -1777,7 +1781,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_speaker_light.png",
@@ -1809,11 +1813,11 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_22_light.png",
@@ -1905,7 +1909,7 @@
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+        "source": "/home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\quantum_ic_replay_30_grey600_36.png",
@@ -1994,6 +1998,10 @@
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_on_07_light.png",
         "source": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\.android\\build-cache\\604994e0e2b8f9480740db8b26a74b4a35df3bf5\\output\\res\\drawable-xxhdpi-v4\\ic_media_route_on_07_light.png"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/design_ic_visibility.png",
+        "source": "/home/marcus/.android/build-cache/6e16c9ed38203dd68667196b39ac000a32c9829c/output/res/drawable-xxhdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/home/marcus/StudioProjects/BarHop/C:\\Users\\User\\Documents\\localandroidstudioprojects\\BarHop\\BarHop\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_media_route_connecting_13_light.png",

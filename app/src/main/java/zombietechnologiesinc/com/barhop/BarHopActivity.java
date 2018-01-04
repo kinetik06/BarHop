@@ -351,6 +351,7 @@ public class BarHopActivity extends AppCompatActivity implements GoogleApiClient
                             mLinearLayoutManager.setStackFromEnd(false);
                             mRecyclerView.setLayoutManager(mLinearLayoutManager);
                             mRecyclerView.setAdapter(nearestBars);
+
                             ItemClickSupport.addTo(mRecyclerView).setOnItemClickListener(
                                     new ItemClickSupport.OnItemClickListener() {
                                         @Override

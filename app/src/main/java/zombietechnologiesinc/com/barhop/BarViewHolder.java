@@ -1,5 +1,7 @@
 package zombietechnologiesinc.com.barhop;
 
+import android.graphics.Typeface;
+import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
@@ -30,6 +32,7 @@ public class BarViewHolder extends RecyclerView.ViewHolder {
         barLogo = (CircleImageView) itemView.findViewById(R.id.messengerImageView);
         barCountTV = (TextView) itemView.findViewById(R.id.bar_count);
         barEventTV = (TextView) itemView.findViewById(R.id.bar_event_tv);
+
 
 
     }

@@ -21,21 +21,21 @@ public final class R {
         public static final int contentPaddingTop = 0x7f0100d6;
     }
     public static final class color {
-        public static final int cardview_dark_background = 0x7f0d002a;
-        public static final int cardview_light_background = 0x7f0d002b;
-        public static final int cardview_shadow_end_color = 0x7f0d002c;
-        public static final int cardview_shadow_start_color = 0x7f0d002d;
+        public static final int cardview_dark_background = 0x7f0f002a;
+        public static final int cardview_light_background = 0x7f0f002b;
+        public static final int cardview_shadow_end_color = 0x7f0f002c;
+        public static final int cardview_shadow_start_color = 0x7f0f002d;
     }
     public static final class dimen {
-        public static final int cardview_compat_inset_shadow = 0x7f090061;
-        public static final int cardview_default_elevation = 0x7f090062;
-        public static final int cardview_default_radius = 0x7f090063;
+        public static final int cardview_compat_inset_shadow = 0x7f0b0061;
+        public static final int cardview_default_elevation = 0x7f0b0062;
+        public static final int cardview_default_radius = 0x7f0b0063;
     }
     public static final class style {
-        public static final int Base_CardView = 0x7f0a00b5;
-        public static final int CardView = 0x7f0a009c;
-        public static final int CardView_Dark = 0x7f0a00e0;
-        public static final int CardView_Light = 0x7f0a00e1;
+        public static final int Base_CardView = 0x7f0c00b7;
+        public static final int CardView = 0x7f0c009d;
+        public static final int CardView_Dark = 0x7f0c00e2;
+        public static final int CardView_Light = 0x7f0c00e3;
     }
     public static final class styleable {
         public static final int[] CardView = { 0x0101013f, 0x01010140, 0x7f0100cd, 0x7f0100ce, 0x7f0100cf, 0x7f0100d0, 0x7f0100d1, 0x7f0100d2, 0x7f0100d3, 0x7f0100d4, 0x7f0100d5, 0x7f0100d6, 0x7f0100d7 };

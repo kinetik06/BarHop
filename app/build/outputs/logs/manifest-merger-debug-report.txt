@@ -60,7 +60,6 @@ MERGED from [com.facebook.android:facebook-places:4.29.0] /home/marcus/.android/
 MERGED from [com.facebook.android:facebook-applinks:4.29.0] /home/marcus/.android/build-cache/c23693154622982f333fa22064315c2eb1581de3/output/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-messenger:4.29.0] /home/marcus/.android/build-cache/4786727a33d0c0dd6e9c18d71bd02bdeb1f9ce08/output/AndroidManifest.xml:28:5-29:19
 MERGED from [com.facebook.android:facebook-core:4.29.0] /home/marcus/.android/build-cache/c300fce16518a203f7ace9ca4b9a5a6291061501/output/AndroidManifest.xml:28:5-43:19
-MERGED from [com.android.support:design:24.2.1] /home/marcus/.android/build-cache/31119bc8b54fd404b8a53f33c0c25b3e6c6c8cd2/output/AndroidManifest.xml:22:5-20
 MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/marcus/.android/build-cache/c2e3a2e5b2d17202438b77ba463c92d1ec6d9aca/output/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services:9.6.1] /home/marcus/.android/build-cache/e64f5f826a700432ca97550fa310322353f10662/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:9.6.1] /home/marcus/.android/build-cache/5984a672abef3a2b7d5a9b4260a23ca5828471cc/output/AndroidManifest.xml:23:5-27:19
@@ -107,7 +106,6 @@ MERGED from [com.google.firebase:firebase-iid:9.6.1] /home/marcus/.android/build
 MERGED from [com.google.firebase:firebase-common:9.6.1] /home/marcus/.android/build-cache/2d3ce22bac334282cad69f503c2e55ef21065102/output/AndroidManifest.xml:4:5-7:19
 MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /home/marcus/.android/build-cache/93d559154f300d6004006c2a7a103ee58f813f5b/output/AndroidManifest.xml:4:5-19
 MERGED from [com.google.android.gms:play-services-basement:9.6.1] /home/marcus/.android/build-cache/569edd62d567c9cda4042c891d0a3dba233b9950/output/AndroidManifest.xml:19:5-21:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/marcus/.android/build-cache/a5e33e0090f9bb8db459f8f0329d4aaac5b618d5/output/AndroidManifest.xml:24:5-28:19
 	android:label
 		ADDED from /home/marcus/StudioProjects/BarHop/app/src/main/AndroidManifest.xml:14:9-41
 	android:supportsRtl
@@ -198,7 +196,8 @@ MERGED from [com.facebook.android:facebook-places:4.29.0] /home/marcus/.android/
 MERGED from [com.facebook.android:facebook-applinks:4.29.0] /home/marcus/.android/build-cache/c23693154622982f333fa22064315c2eb1581de3/output/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-messenger:4.29.0] /home/marcus/.android/build-cache/4786727a33d0c0dd6e9c18d71bd02bdeb1f9ce08/output/AndroidManifest.xml:24:5-26:41
 MERGED from [com.facebook.android:facebook-core:4.29.0] /home/marcus/.android/build-cache/c300fce16518a203f7ace9ca4b9a5a6291061501/output/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:design:24.2.1] /home/marcus/.android/build-cache/31119bc8b54fd404b8a53f33c0c25b3e6c6c8cd2/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:27.0.2] /home/marcus/.android/build-cache/6e16c9ed38203dd68667196b39ac000a32c9829c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/marcus/.android/build-cache/cd229faaf1e31cc28f7b9f86f9c0da28c2f38914/output/AndroidManifest.xml:20:5-44
 MERGED from [com.firebaseui:firebase-ui-storage:0.6.0] /home/marcus/.android/build-cache/418496db06501b12a504714a5769e258e56fd4be/output/AndroidManifest.xml:7:5-9:41
 MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/marcus/.android/build-cache/c2e3a2e5b2d17202438b77ba463c92d1ec6d9aca/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services:9.6.1] /home/marcus/.android/build-cache/e64f5f826a700432ca97550fa310322353f10662/output/AndroidManifest.xml:4:5-42
@@ -247,11 +246,11 @@ MERGED from [com.google.android.gms:play-services-wearable:9.6.1] /home/marcus/.
 MERGED from [com.google.android.gms:play-services-base:9.6.1] /home/marcus/.android/build-cache/915604d7ecf6c3f02e5968a9e81e5482f8a7185a/output/AndroidManifest.xml:17:5-42
 MERGED from [com.uber.sdk:rides-android:0.5.3] /home/marcus/.android/build-cache/8e67a1c91959ee075b111e66c9bf3f253e5a3b06/output/AndroidManifest.xml:27:5-44
 MERGED from [com.uber.sdk:core-android:0.5.3] /home/marcus/.android/build-cache/3250d7c3f3ce2b3094747792a5b9aa16d62f1ad9/output/AndroidManifest.xml:27:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.1] /home/marcus/.android/build-cache/8491b97cacb3ded7334ecc4a0026afb62485f163/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.1] /home/marcus/.android/build-cache/4b435c9f367d6d1928663a56def7a7bb88651ff6/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.1] /home/marcus/.android/build-cache/1e257f232b4e13ceabfd935cc27a7d8831030ec1/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/marcus/.android/build-cache/931b186a5bea71bdfaf22d0d8c81a40932fefb8e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/marcus/.android/build-cache/9bfb6adbcb25804668df26def51d6711dea897a7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/marcus/.android/build-cache/776b8ff24a439c57a0947463e4e153e8acfa2304/output/AndroidManifest.xml:20:5-44
 MERGED from [com.firebase:geofire-android:2.1.0] /home/marcus/.android/build-cache/2ae1d1ee4ca462bea78eb87317dd452904c0bd4a/output/AndroidManifest.xml:2:3-70
-MERGED from [com.android.support:recyclerview-v7:24.2.1] /home/marcus/.android/build-cache/7d737bafbf53b340ec7ee28119c03a80185839ae/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/marcus/.android/build-cache/0af9eea6a65b28ccd490482bc75c4a5bff1a0fca/output/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-storage:9.6.1] /home/marcus/.android/build-cache/711ce3e7f84caf6e51586bfe2bf39f72eaa84009/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-storage-common:9.6.1] /home/marcus/.android/build-cache/3c2f37a2e49fef46fbe09217d0b3b6138f02c23c/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.firebase:firebase-core:9.6.1] /home/marcus/.android/build-cache/7ff96f5097266d199a4caf1f52318cf0b3bf1124/output/AndroidManifest.xml:4:5-42
@@ -261,13 +260,13 @@ MERGED from [com.google.firebase:firebase-iid:9.6.1] /home/marcus/.android/build
 MERGED from [com.google.firebase:firebase-common:9.6.1] /home/marcus/.android/build-cache/2d3ce22bac334282cad69f503c2e55ef21065102/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /home/marcus/.android/build-cache/93d559154f300d6004006c2a7a103ee58f813f5b/output/AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-basement:9.6.1] /home/marcus/.android/build-cache/569edd62d567c9cda4042c891d0a3dba233b9950/output/AndroidManifest.xml:17:5-42
-MERGED from [com.android.support:support-v4:27.0.1] /home/marcus/.android/build-cache/31eabc702faf54645b327d16ff59393b6b1a8783/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.0.1] /home/marcus/.android/build-cache/917fb2f0c9a3c5397994401025590d26e3155e48/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.1] /home/marcus/.android/build-cache/7d14effb92c39e0240b8b6bcd310ef17ef62dc3b/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.1] /home/marcus/.android/build-cache/9b33f6cb26b4e037bacccfe39897ddbb79bd045c/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.1] /home/marcus/.android/build-cache/7813663b1b5365646a0d9594e5550d56ee0a21a5/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.1] /home/marcus/.android/build-cache/64c3176556a91859e315f70db6ffe9f48b7f1a30/output/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/marcus/.android/build-cache/a5e33e0090f9bb8db459f8f0329d4aaac5b618d5/output/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-v4:27.0.2] /home/marcus/.android/build-cache/86111acb529138b8a7592103bbf4d85836a2d49f/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/marcus/.android/build-cache/485c6800d79500f80462ecf02bb5fc2d0f8cbb7d/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/marcus/.android/build-cache/d520fec72a48076eb4b04aa3b03875629af9a8ab/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/marcus/.android/build-cache/3d31f5a13ebdbd9b50984cfda897d05ebedb2ac3/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/marcus/.android/build-cache/2ca95e6cedb958ca6c95c1176aa8359f364903c2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/marcus/.android/build-cache/d3d79c94c71634ac9f68451b2cb4e7fad97893e8/output/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/marcus/.android/build-cache/ca650b76e4d8221ab8edf4c2b7888be99f069861/output/AndroidManifest.xml:20:5-22:41
 	android:targetSdkVersion
 		INJECTED from /home/marcus/StudioProjects/BarHop/app/src/main/AndroidManifest.xml
 		INJECTED from /home/marcus/StudioProjects/BarHop/app/src/main/AndroidManifest.xml
@@ -673,9 +672,3 @@ ADDED from [com.google.firebase:firebase-common:9.6.1] /home/marcus/.android/bui
 		ADDED from [com.google.firebase:firebase-common:9.6.1] /home/marcus/.android/build-cache/2d3ce22bac334282cad69f503c2e55ef21065102/output/AndroidManifest.xml:6:150-173
 	android:name
 		ADDED from [com.google.firebase:firebase-common:9.6.1] /home/marcus/.android/build-cache/2d3ce22bac334282cad69f503c2e55ef21065102/output/AndroidManifest.xml:6:79-124
-meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/marcus/.android/build-cache/a5e33e0090f9bb8db459f8f0329d4aaac5b618d5/output/AndroidManifest.xml:25:9-27:47
-	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/marcus/.android/build-cache/a5e33e0090f9bb8db459f8f0329d4aaac5b618d5/output/AndroidManifest.xml:27:13-44
-	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/marcus/.android/build-cache/a5e33e0090f9bb8db459f8f0329d4aaac5b618d5/output/AndroidManifest.xml:26:13-58

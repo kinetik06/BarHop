@@ -6,5 +6,9 @@
     {
         "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_account_circle_black_36dp.png",
         "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable-hdpi/ic_account_circle_black_36dp.png"
+    },
+    {
+        "merged": "/home/marcus/StudioProjects/BarHop/app/build/intermediates/res/merged/debug/drawable-hdpi/rectangle_placeholder.png",
+        "source": "/home/marcus/StudioProjects/BarHop/app/src/main/res/drawable-hdpi/rectangle_placeholder.png"
     }
 ]
