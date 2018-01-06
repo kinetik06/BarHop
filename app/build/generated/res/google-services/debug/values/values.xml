@@ -7,4 +7,5 @@
     <string name="google_app_id" translatable="false">1:472091629786:android:bbb9a9f4756f3082</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBHnsG6TrK-WJWQ2mqBh_14PPfCQwcvcek</string>
     <string name="google_storage_bucket" translatable="false">bar-hop-b83f2.appspot.com</string>
+    <string name="project_id" translatable="false">bar-hop-b83f2</string>
 </resources>

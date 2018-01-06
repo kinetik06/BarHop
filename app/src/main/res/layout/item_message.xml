@@ -18,6 +18,7 @@
         android:weightSum="4"
         android:padding="5dp"
         android:layout_margin="1dp"
+
         >
 
         <!--<de.hdodenhof.circleimageview.CircleImageView
@@ -29,7 +30,9 @@
         <LinearLayout
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:layout_marginLeft="10dp">
+            android:layout_marginLeft="10dp"
+
+            >
 
 
             <ImageView
@@ -37,6 +40,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/messengerImageView"
                 android:scaleType="centerCrop"
+
                 />
 
         </LinearLayout>

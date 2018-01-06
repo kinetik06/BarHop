@@ -75,15 +75,22 @@
             android:layout_height="50dp"
             android:layout_weight="1"
             android:orientation="horizontal"
-
+            android:background="@drawable/search_bar"
             android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/search_icon_th"
+                android:scaleType="fitCenter"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/search_bar"
-                android:paddingLeft="10dp"
-                android:drawable="@drawable/search_icon_th"
+
+                android:paddingStart="5dp"
                 android:drawablePadding="30dp"
                 android:hint="Search..."/>
 
@@ -102,7 +109,143 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@color/second_menu_bg">
+        android:background="@color/second_menu_bg"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/disco_ball"
+            android:scaleType="centerCrop"
+            android:background="@drawable/icon_backing"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/dance_clubTV"
+                android:text="Dance Club"
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/mic"
+                android:scaleType="centerCrop"
+                android:background="@drawable/icon_backing"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/micTV"
+                android:text="Karaoke"
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+
+            android:layout_weight="1"
+
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/guitar"
+                android:scaleType="centerCrop"
+                android:background="@drawable/icon_backing"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/live_musicTV"
+                android:text="Live Music"
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/pub"
+                android:scaleType="centerCrop"
+                android:background="@drawable/icon_backing"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pubTV"
+                android:text="Pub"
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/wine"
+                android:scaleType="centerCrop"
+                android:background="@drawable/icon_backing"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/wineTV"
+                android:text="Winery"
+                android:textSize="10sp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
 
 
     </LinearLayout>

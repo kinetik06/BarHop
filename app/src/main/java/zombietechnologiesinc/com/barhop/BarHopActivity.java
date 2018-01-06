@@ -104,6 +104,7 @@ public class BarHopActivity extends AppCompatActivity implements GoogleApiClient
     Typeface typeface;
     TextView barhopTV1;
     TextView barhopTV2;
+    TextView danceClubTV;
 
 
 
@@ -174,10 +175,12 @@ public class BarHopActivity extends AppCompatActivity implements GoogleApiClient
         setContentView(R.layout.activity_bar_hop);
         barhopTV1 = (TextView)findViewById(R.id.barhopTV1);
         barhopTV2 = (TextView)findViewById(R.id.barhopTV2);
+        danceClubTV = (TextView)findViewById(R.id.dance_clubTV);
         typeface = ResourcesCompat.getFont(this, R.font.geosanslight);
         Typeface geosansBold = Typeface.create(typeface, Typeface.BOLD);
         barhopTV1.setTypeface(geosansBold);
         barhopTV2.setTypeface(geosansBold);
+
         mBarlist = FirebaseDatabase.getInstance().getReference().child("bars");
         //Explain to the user how barhop works. Puts together the dialog to show the user
         AlertDialog.Builder firstUseBuilder = new AlertDialog.Builder(new ContextThemeWrapper(BarHopActivity.this, R.style.AlertDialogCustom));

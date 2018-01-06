@@ -3,9 +3,17 @@ package zombietechnologiesinc.com.barhop;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.PorterDuff;
+import android.graphics.PorterDuffXfermode;
+import android.graphics.Rect;
+import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.support.annotation.NonNull;
 import android.support.v4.content.res.ResourcesCompat;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
+import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -15,6 +23,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.load.resource.bitmap.BitmapDrawableResource;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.FirebaseStorage;
@@ -39,6 +48,7 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
     private String profilePic = "mUpdatePic.jpg";
     private String barName;
     Context context;
+
 
 
 
@@ -93,7 +103,11 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
             public void onSuccess(byte[] bytes) {
                 // Data for "profilepic.jpg" is returns, use this as needed
                 Bitmap bitmap = BitmapFactory.decodeByteArray(bytes,0,bytes.length);
-                holder.barLogo.setImageBitmap(bitmap);
+                RoundedBitmapDrawable drawable = RoundedBitmapDrawableFactory.create(null, bitmap);
+                drawable.setCornerRadius(20);
+                Bitmap roundedProfilePic = getRoundedCornerBitmap(bitmap);
+
+                holder.barLogo.setImageDrawable(drawable);
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
@@ -113,6 +127,27 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
         return arrayOfBars.size();
     }
 
+    public static Bitmap getRoundedCornerBitmap(Bitmap bitmap) {
+        Bitmap output = Bitmap.createBitmap(bitmap.getWidth(),
+                bitmap.getHeight(), Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(output);
+
+        final int color = 0xff424242;
+        final Paint paint = new Paint();
+        final Rect rect = new Rect(0, 0, bitmap.getWidth(), bitmap.getHeight());
+        final RectF rectF = new RectF(rect);
+        final float roundPx = 12;
+
+        paint.setAntiAlias(true);
+        canvas.drawARGB(0, 0, 0, 0);
+        paint.setColor(color);
+        canvas.drawRoundRect(rectF, roundPx, roundPx, paint);
+
+        paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SRC_IN));
+        canvas.drawBitmap(bitmap, rect, rect, paint);
+
+        return output;
+    }
 
 
 
