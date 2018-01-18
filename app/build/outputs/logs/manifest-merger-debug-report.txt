@@ -27,6 +27,7 @@ MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/marcus/.gradle/caches/tra
 MERGED from [com.firebase:geofire-android:2.1.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/geofire-android-2.1.0.aar/a9519ac8b8863f453691564b144dae6d/AndroidManifest.xml:1:1-5:12
 MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/marcus/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/98a9b9335fff30d24c8cf3b6b33ad5b8/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-storage:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.8.0.aar/ea94f503419a5b4f973e5bea83a8233c/AndroidManifest.xml:2:1-8:12
+MERGED from [com.muddzdev:styleabletoast:2.0.1] /home/marcus/.gradle/caches/transforms-1/files-1.1/styleabletoast-2.0.1.aar/fd7c41dcea85e4e87061537862a5414b/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.firebase:firebase-core:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/7c11cca34ab4a61e33e136a10b9db598/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/48dad926754a2c5abd7e28652395010c/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-config:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-config-11.8.0.aar/0bbefd5b9cbff265d36cedfcc6a5e314/AndroidManifest.xml:17:1-24:12
@@ -242,6 +243,8 @@ MERGED from [com.google.firebase:firebase-auth:11.8.0] /home/marcus/.gradle/cach
 MERGED from [com.google.firebase:firebase-auth:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/5fb60a053b0640d7be623b7378448d12/AndroidManifest.xml:22:5-30:19
 MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/circleimageview-1.3.0.aar/d3003a75190ad941a6a2398bd8eebf2c/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:1.3.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/circleimageview-1.3.0.aar/d3003a75190ad941a6a2398bd8eebf2c/AndroidManifest.xml:9:5-20
+MERGED from [com.muddzdev:styleabletoast:2.0.1] /home/marcus/.gradle/caches/transforms-1/files-1.1/styleabletoast-2.0.1.aar/fd7c41dcea85e4e87061537862a5414b/AndroidManifest.xml:11:5-47
+MERGED from [com.muddzdev:styleabletoast:2.0.1] /home/marcus/.gradle/caches/transforms-1/files-1.1/styleabletoast-2.0.1.aar/fd7c41dcea85e4e87061537862a5414b/AndroidManifest.xml:11:5-47
 MERGED from [com.google.firebase:firebase-core:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/7c11cca34ab4a61e33e136a10b9db598/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/7c11cca34ab4a61e33e136a10b9db598/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-config:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-config-11.8.0.aar/0bbefd5b9cbff265d36cedfcc6a5e314/AndroidManifest.xml:22:5-20
@@ -554,6 +557,8 @@ MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/marcus/.gradle/ca
 MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/marcus/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/98a9b9335fff30d24c8cf3b6b33ad5b8/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-storage:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.8.0.aar/ea94f503419a5b4f973e5bea83a8233c/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-storage:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-storage-11.8.0.aar/ea94f503419a5b4f973e5bea83a8233c/AndroidManifest.xml:6:5-44
+MERGED from [com.muddzdev:styleabletoast:2.0.1] /home/marcus/.gradle/caches/transforms-1/files-1.1/styleabletoast-2.0.1.aar/fd7c41dcea85e4e87061537862a5414b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.muddzdev:styleabletoast:2.0.1] /home/marcus/.gradle/caches/transforms-1/files-1.1/styleabletoast-2.0.1.aar/fd7c41dcea85e4e87061537862a5414b/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-core:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/7c11cca34ab4a61e33e136a10b9db598/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-core:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-core-11.8.0.aar/7c11cca34ab4a61e33e136a10b9db598/AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-database-connection:11.8.0] /home/marcus/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-11.8.0.aar/48dad926754a2c5abd7e28652395010c/AndroidManifest.xml:6:5-44

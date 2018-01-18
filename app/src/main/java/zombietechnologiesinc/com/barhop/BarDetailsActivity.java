@@ -10,6 +10,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Typeface;
 import android.location.Location;
+import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -62,7 +63,21 @@ import com.uber.sdk.core.auth.Scope;
 import com.uber.sdk.rides.client.ServerTokenSession;
 import com.uber.sdk.rides.client.SessionConfiguration;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.sql.Time;
+import java.text.SimpleDateFormat;
+import java.time.DayOfWeek;
 import java.util.Arrays;
+import java.util.Calendar;
+import java.util.concurrent.ExecutionException;
+
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
 
 public class BarDetailsActivity extends FragmentActivity
         implements OnMapReadyCallback {
@@ -98,7 +113,14 @@ public class BarDetailsActivity extends FragmentActivity
     TextView barnumberTV;
     Place barPlace;
     GeoDataClient geoDataClient;
-
+    OkHttpClient client = new OkHttpClient();
+    String googlePlacesWebUrl = "https://maps.googleapis.com/maps/api/place/details/json?";
+    String googlePlacesWebApi = "AIzaSyDOhcD6w6lDndXbDaytd6vhTE8C6WsMj3w";
+    String url;
+    String formattedOpenTime = "";
+    int formatInt = 0;
+    String formattedClosedTime = "";
+    int formatClosedInt = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -151,6 +173,8 @@ public class BarDetailsActivity extends FragmentActivity
 
         barNameTV.setTypeface(typeface);
         barAddressTV.setTypeface(typeface);
+        barnumberTV.setTypeface(typeface);
+        barHoursTV.setTypeface(typeface);
     }
 
     @Override
@@ -169,6 +193,160 @@ public class BarDetailsActivity extends FragmentActivity
                 String[] placeArray = new String[1];
                 placeArray[0] = placeID;
 
+                //Send Request for Google Places Web API
+
+                url = googlePlacesWebUrl + "placeid=" + placeID + "&key=" + googlePlacesWebApi;
+
+                SendRequestTask sendRequestTask = new SendRequestTask();
+
+                //get the day of the week
+
+                Calendar calendar = Calendar.getInstance();
+                int day = calendar.get(Calendar.DAY_OF_WEEK) - 1;
+
+                Log.d("Day of week: ", String.valueOf(day));
+
+
+                try {
+                    String response = sendRequestTask.execute(url).get();
+                    Log.d("Response: ", response);
+
+                    JSONObject responseJSON = new JSONObject(response);
+                    JSONObject resultJSON = responseJSON.getJSONObject("result");
+                    JSONObject openJSON = resultJSON.getJSONObject("opening_hours");
+                    JSONArray periodArray = openJSON.getJSONArray("periods");
+
+                    JSONArray fullObject = new JSONObject(response).getJSONObject("result").getJSONObject("opening_hours").getJSONArray("periods");
+                    Log.d("Full Object: ", fullObject.toString());
+                    Log.d("Result: ", resultJSON.toString());
+                    Log.d("Opening Hours: ", openJSON.toString());
+                    Log.d("Periods: ", periodArray.toString());
+
+                    //obtain opening hours
+
+                    for (int i = 0;
+                         i < periodArray.length();
+                         i++){
+
+                        JSONObject ocTimes = periodArray.getJSONObject(i);
+                        Log.d("ocTimes", ocTimes.toString());
+                        JSONObject openTimes = ocTimes.getJSONObject("open");
+                        Log.d("Open Times: ", openTimes.toString());
+
+                        if (openTimes.getInt("day" ) == day) {
+                            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh");
+
+                            int openInt = openTimes.getInt("time");
+
+                            if (openInt > 1200){
+                                openInt = openInt - 1200;
+
+                                formattedOpenTime = String.valueOf(openInt).substring(0,2);
+                                formatInt = Integer.parseInt(formattedOpenTime);
+                                if (formatInt < 10){
+                                    formattedOpenTime = formattedOpenTime.substring(0,1);
+                                }
+                                formattedOpenTime = formattedOpenTime + "p";
+
+
+                            }else {
+
+                                if (openInt < 300) {
+                                    formattedOpenTime = String.valueOf(openInt).substring(0,1) + "a";
+                                } else {
+                                    formattedOpenTime = String.valueOf(openInt).substring(0,2);
+                                    formatInt = Integer.parseInt(formattedOpenTime);
+                                    if (formatInt < 10){
+                                        formattedOpenTime = formattedOpenTime.substring(0,1);
+                                    }
+                                    formattedOpenTime = formattedOpenTime + "a";
+
+                                }
+
+
+                            }
+
+                        }
+
+                        JSONObject closedTimes = ocTimes.getJSONObject("close");
+                        Log.d("Close Times: ", closedTimes.toString());
+
+                        if (closedTimes.getInt("day" ) == day) {
+                            SimpleDateFormat simpleDateFormat = new SimpleDateFormat("hh");
+
+                            int closedInt = closedTimes.getInt("time");
+
+                            if (closedInt > 1200){
+                                closedInt = closedInt - 1200;
+
+                                formattedClosedTime = String.valueOf(closedInt).substring(0,2);
+                                formatClosedInt = Integer.parseInt(formattedClosedTime);
+                                if (formatClosedInt < 10){
+                                    formattedClosedTime = formattedClosedTime.substring(0,1);
+
+                                }
+                                formattedClosedTime = formattedClosedTime + "p";
+
+
+                            }else {
+
+                                if (closedInt < 300) {
+                                    formattedClosedTime = String.valueOf(closedInt).substring(0,1) + "a";
+                                } else {
+
+
+                                    formattedClosedTime = String.valueOf(closedInt).substring(0,2);
+                                    formatClosedInt = Integer.parseInt(formattedClosedTime);
+                                    if (formatClosedInt < 10){
+                                        formattedClosedTime = formattedClosedTime.substring(0,1);
+                                    }
+                                    formattedClosedTime = formattedClosedTime + "a";
+
+
+                                }
+
+                            }
+
+                        }
+
+                        barHoursTV.setText(formattedOpenTime + "-" + formattedClosedTime);
+
+                    }
+
+
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (ExecutionException e) {
+                    e.printStackTrace();
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+
+                /*runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+
+
+
+                        try {
+                            String requestedBarInfo = sendBarDetailRequest(requestBarUrl);
+                            JSONObject responseJSON = new JSONObject(requestedBarInfo);
+                            Log.d("response: ", requestedBarInfo);
+
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                            Log.e("Error: ", e.toString());
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                            Log.e("Error: ", e.toString());
+                        }
+
+                    }
+                });*/
+
+
+
+
                 Log.d("Places ID: ", placeID);
 
                 geoDataClient.getPlaceById(placeID).addOnCompleteListener(new OnCompleteListener<PlaceBufferResponse>() {
@@ -177,7 +355,7 @@ public class BarDetailsActivity extends FragmentActivity
                         if (task.isSuccessful()){
                             PlaceBufferResponse places = task.getResult();
                             barPlace = places.get(0);
-                            barnumberTV.setText(barPlace.getPhoneNumber());
+                            barnumberTV.setText(barPlace.getPhoneNumber().subSequence(3,15));
 
                             Log.d("Place: ", " "+ barPlace.getName());
                             places.release();
@@ -246,6 +424,28 @@ public class BarDetailsActivity extends FragmentActivity
       //  mProgressBar.setVisibility(View.INVISIBLE);
 
 
+    }
+
+
+
+    private class SendRequestTask extends AsyncTask <String, Integer, String> {
+
+
+        @Override
+        protected String doInBackground(String... strings) {
+
+            Request request = new Request.Builder().url(url).build();
+
+
+            try {
+                Response response = client.newCall(request).execute();
+                return response.body().string();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return null;
+        }
     }
 
 

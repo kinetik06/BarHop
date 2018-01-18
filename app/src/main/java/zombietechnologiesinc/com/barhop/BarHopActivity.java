@@ -54,6 +54,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+import com.muddzdev.styleabletoastlibrary.StyleableToast;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -370,7 +371,12 @@ public class BarHopActivity extends AppCompatActivity implements GoogleApiClient
                                         @Override
                                         public void onItemClicked(RecyclerView recyclerView, int position, View v) {
                                             Bar bar = arrayOfBars.get(position);
-                                            Toast.makeText(BarHopActivity.this, bar.getBarName(), Toast.LENGTH_SHORT).show();
+                                            //Toast.makeText(BarHopActivity.this, bar.getBarName(), Toast.LENGTH_SHORT).show();
+                                            /*new StyleableToast.Builder(BarHopActivity.this).text(bar.getBarName()).textColor(getResources()
+                                                    .getColor(R.color.white))
+                                                    .backgroundColor(getResources().getColor(R.color.main_top_grey)).show();*/
+
+                                            StyleableToast.makeText(BarHopActivity.this, bar.getBarName(), R.style.mytoast).show();
                                             String barPickId = bar.getUserId();
 
                                             Intent intent = new Intent(BarHopActivity.this, BarDetailsActivity.class);
