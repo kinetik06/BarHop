@@ -10,12 +10,27 @@
                 tools:context=".BarHopActivity"
                 android:background="@color/white"
     android:orientation="vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<fragment
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:name="zombietechnologiesinc.com.barhop.UserMenuFragment"
+        class="zombietechnologiesinc.com.barhop.UserMenuFragment">
+
+
+
+    </fragment>-->
+
 
     <LinearLayout
         android:layout_width="match_parent"
 
         android:orientation="vertical"
-        android:layout_height="100dp"
+        android:layout_height="95dp"
 
         android:background="@color/main_top_grey">
 
@@ -27,13 +42,28 @@
             app:srcCompat="@drawable/main_toplogo"
             android:paddingTop="10dp"
             />-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <LinearLayout
+        android:layout_width="45dp"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/menu_icon"
+            android:id="@+id/menu_iconIV"/>
+    </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
-            android:layout_weight="1"
+            android:layout_height="60dp"
+
             android:orientation="horizontal"
             android:gravity="center_horizontal"
+            android:layout_marginEnd="45dp"
 
             >
 
@@ -70,13 +100,15 @@
 
         </LinearLayout>
 
+</LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_weight="1"
+            android:layout_height="25dp"
+
             android:orientation="horizontal"
             android:background="@drawable/search_bar"
-            android:layout_margin="10dp">
+            >
 
             <ImageView
                 android:layout_width="20dp"
@@ -202,11 +234,12 @@
             >
 
             <ImageView
-                android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_width="46dp"
+                android:layout_height="46dp"
                 android:src="@drawable/beermug_color_logo"
                 android:scaleType="centerCrop"
                 android:background="@drawable/icon_backing"
+                android:padding="1dp"
                 />
 
             <TextView
@@ -291,5 +324,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"/>
 
+
+</LinearLayout>
 
 </LinearLayout>

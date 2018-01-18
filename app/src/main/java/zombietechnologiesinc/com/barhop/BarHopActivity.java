@@ -18,6 +18,7 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v7.app.AlertDialog;
@@ -32,6 +33,7 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
+import android.widget.PopupMenu;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -64,7 +66,7 @@ import java.util.Map;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 
-public class BarHopActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+public class BarHopActivity extends AppCompatActivity implements View.OnClickListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, PopupMenu.OnMenuItemClickListener {
 
 
     private static final String TAG = BarHopActivity.class.getSimpleName();
@@ -106,6 +108,7 @@ public class BarHopActivity extends AppCompatActivity implements GoogleApiClient
     TextView barhopTV1;
     TextView barhopTV2;
     TextView danceClubTV;
+    private PopupMenu popupMenu;
 
 
 
@@ -177,6 +180,17 @@ public class BarHopActivity extends AppCompatActivity implements GoogleApiClient
         barhopTV1 = (TextView)findViewById(R.id.barhopTV1);
         barhopTV2 = (TextView)findViewById(R.id.barhopTV2);
         danceClubTV = (TextView)findViewById(R.id.dance_clubTV);
+
+        //Pop Up Menu
+
+        popupMenu = new PopupMenu(this, findViewById(R.id.menu_iconIV));
+        popupMenu.getMenu().add(Menu.NONE, 1, Menu.NONE, "Log Out");
+        popupMenu.setOnMenuItemClickListener(this);
+        findViewById(R.id.menu_iconIV).setOnClickListener(this);
+
+
+
+
         typeface = ResourcesCompat.getFont(this, R.font.geosanslight);
         Typeface geosansBold = Typeface.create(typeface, Typeface.BOLD);
         barhopTV1.setTypeface(geosansBold);
@@ -484,4 +498,25 @@ public class BarHopActivity extends AppCompatActivity implements GoogleApiClient
     }
 
 
+    @Override
+    public boolean onMenuItemClick(MenuItem menuItem) {
+
+        switch (menuItem.getItemId()){
+            case 1:
+                FirebaseAuth.getInstance().signOut();
+                Intent intent = new Intent(BarHopActivity.this, LoginActivity.class);
+                startActivity(intent);
+
+        }
+
+
+        return false;
+    }
+
+    @Override
+    public void onClick(View view) {
+
+        popupMenu.show();
+
+    }
 }

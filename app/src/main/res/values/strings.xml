@@ -37,4 +37,7 @@
     <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
     <string name="title_activity_signup">SignupActivity</string>
     <string name="second_message">Its pretty simple…\n\nBars in your area will show up in a list. On the right side is a percentage. \n\nThis is a REALTIME representation of how packed a bar is. \n\n0% meaning empty and 100% meaning full. Tap on a Bar to get more info. \n\nThis application is only intended for users age 18+. \n\nPlease drink responsibly, and Uber if you are intoxicated. Thank you.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

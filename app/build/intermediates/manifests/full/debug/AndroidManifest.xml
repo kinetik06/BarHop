@@ -61,8 +61,7 @@
             android:label="@string/title_activity_signup"
             android:theme="@style/BarHopTheme" />
         <activity android:name="zombietechnologiesinc.com.barhop.ResetPasswordActivity" />
-        <activity android:name="zombietechnologiesinc.com.barhop.BarDetailsActivity" >
-        </activity>
+        <activity android:name="zombietechnologiesinc.com.barhop.BarDetailsActivity" />
         <activity
             android:name="zombietechnologiesinc.com.barhop.WelcomeScreen"
             android:theme="@style/BarHopTheme" >
@@ -72,6 +71,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="zombietechnologiesinc.com.barhop.StartActivity" />
         <activity
             android:name="com.uber.sdk.android.rides.RideRequestActivity"
             android:exported="false"
