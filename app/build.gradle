@@ -50,6 +50,7 @@ dependencies {
     compile 'com.android.support:recyclerview-v7:27.0.2'
     compile 'com.google.firebase:firebase-storage:11.8.0'
     compile 'com.squareup.okhttp3:okhttp:3.9.1'
+    compile 'com.shuhart.stepview:stepview:1.2.0'
 
 
 

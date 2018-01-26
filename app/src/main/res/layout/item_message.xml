@@ -77,7 +77,7 @@
                 android:text="more random "/>
 
             <TextView
-                android:text="TextView"
+                android:text=""
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/bar_event_tv"
@@ -104,7 +104,8 @@
                     android:max="100"
                     android:progress="0"
                     android:layout_marginLeft="10dp"
-                    android:layout_width="180dp"/>
+                    android:layout_width="180dp"
+                    android:progressDrawable="@drawable/progress_bar_1"/>
 
                 <TextView
                     android:id="@+id/bar_count"
@@ -115,7 +116,8 @@
                     android:padding="5dp"
                     android:layout_weight="1"
                     android:text="20%"
-                    android:textColor="@color/main_card_border_orange"/>
+                    android:textColor="@color/main_card_border_orange"
+                    android:visibility="gone"/>
             </LinearLayout>
 
 

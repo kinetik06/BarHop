@@ -157,7 +157,7 @@
         <ImageView
             android:layout_width="45dp"
             android:layout_height="45dp"
-            android:src="@drawable/disco_ball_color"
+            android:src="@drawable/disco_ball_color2"
             android:scaleType="centerCrop"
             android:background="@drawable/icon_backing"/>
 
@@ -183,7 +183,7 @@
             <ImageView
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:src="@drawable/mic_color_logo2"
+                android:src="@drawable/mic_color_logo3"
                 android:scaleType="centerCrop"
                 android:background="@drawable/icon_backing"/>
 
@@ -236,7 +236,7 @@
             <ImageView
                 android:layout_width="46dp"
                 android:layout_height="46dp"
-                android:src="@drawable/beermug_color_logo"
+                android:src="@drawable/beermug_color_logo2"
                 android:scaleType="centerCrop"
                 android:background="@drawable/icon_backing"
                 android:padding="1dp"
@@ -263,7 +263,7 @@
             <ImageView
                 android:layout_width="45dp"
                 android:layout_height="45dp"
-                android:src="@drawable/wine_color_logo"
+                android:src="@drawable/wine_color_logo2"
                 android:scaleType="centerCrop"
                 android:background="@drawable/icon_backing"
                 />
@@ -293,7 +293,7 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="600dp"
+        android:layout_height="match_parent"
         android:id="@+id/linear_layout"
         android:background="@color/white"
         android:layout_marginBottom="20dp"

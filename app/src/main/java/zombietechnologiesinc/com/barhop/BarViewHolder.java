@@ -8,6 +8,8 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.shuhart.stepview.StepView;
+
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
@@ -22,6 +24,7 @@ public class BarViewHolder extends RecyclerView.ViewHolder {
     public TextView barCountTV;
     public TextView barEventTV;
     public ProgressBar barCap;
+    public StepView stepView;
 
     public BarViewHolder(View itemView) {
         super(itemView);
@@ -32,6 +35,7 @@ public class BarViewHolder extends RecyclerView.ViewHolder {
         barLogo = (ImageView) itemView.findViewById(R.id.messengerImageView);
         barCountTV = (TextView) itemView.findViewById(R.id.bar_count);
         barEventTV = (TextView) itemView.findViewById(R.id.bar_event_tv);
+        //stepView = (StepView) itemView.findViewById(R.id.stepViewPB);
 
 
 

@@ -11,6 +11,7 @@ import android.graphics.Rect;
 import android.graphics.RectF;
 import android.graphics.Typeface;
 import android.support.annotation.NonNull;
+import android.support.v4.content.ContextCompat;
 import android.support.v4.content.res.ResourcesCompat;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawable;
 import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
@@ -28,8 +29,11 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
+import com.shuhart.stepview.StepView;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -48,6 +52,7 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
     private String profilePic = "mUpdatePic.jpg";
     private String barName;
     Context context;
+    ArrayList<String> eventArrayList;
 
 
 
@@ -71,6 +76,15 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
 
     @Override
     public void onBindViewHolder(final BarViewHolder holder, int position) {
+
+        eventArrayList = new ArrayList<String>();
+
+        SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
+        Date d = new Date();
+        String dayOfTheWeek = sdf.format(d);
+
+
+
         bar=arrayOfBars.get(position);
         barName=bar.getBarName();
         context = holder.barNameTV.getContext();
@@ -80,10 +94,90 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
         holder.barEventTV.setTypeface(typeface);
         holder.barCountTV.setTypeface(typeface);
 
+        //Trying out Step View
+
+        /*holder.stepView.getState()
+                .selectedTextColor(ContextCompat.getColor(context, R.color.colorAccent))
+                .animationType(StepView.ANIMATION_CIRCLE)
+                .selectedCircleColor(ContextCompat.getColor(context, R.color.colorAccent))
+                .selectedCircleRadius(14)
+                .selectedStepNumberColor(ContextCompat.getColor(context, R.color.colorPrimary))
+                // You should specify only stepsNumber or steps array of strings.
+                // In case you specify both steps array is chosen.
+                .steps(new ArrayList<String>() {{
+                    add("First step");
+                    add("Second step");
+                    add("Third step");
+                }})
+                // You should specify only steps number or steps array of strings.
+                // In case you specify both steps array is chosen.
+                .animationDuration(context.getResources().getInteger(android.R.integer.config_shortAnimTime))
+                .stepLineWidth(1)
+                .nextTextColor(context.getResources().getColor(R.color.main_top_grey))
+                .textSize(14)
+                .stepNumberTextSize(16)
+                // other state methods are equal to the corresponding xml attributes
+                .commit();
+
+        holder.stepView.go(2, true);*/
+
+
         double percentage = (double) bar.getBarCount() / bar.getBarCap();
         holder.barNameTV.setText(bar.getBarName());
         holder.barAddressTV.setText(bar.getBarAddress());
-        holder.barEventTV.setText(bar.getBarEvent());
+
+        //Get Bar Event Array
+        if (bar.getSpecialsArray() != null) {
+            Log.d("Bar Specials : ", bar.getSpecialsArray().toString());
+            eventArrayList = bar.getSpecialsArray();
+
+            if (!eventArrayList.isEmpty() && eventArrayList != null) {
+
+                Log.d("Day Of Week: ", dayOfTheWeek);
+
+                switch (dayOfTheWeek) {
+
+                    case "Monday":
+
+                        holder.barEventTV.setText(eventArrayList.get(0));
+                        break;
+
+                    case "Tuesday":
+                        holder.barEventTV.setText(eventArrayList.get(1));
+                        break;
+
+                    case "Wednesday":
+                        holder.barEventTV.setText(eventArrayList.get(2));
+                        break;
+
+                    case "Thursday":
+                        holder.barEventTV.setText(eventArrayList.get(3));
+                        break;
+
+                    case "Friday":
+                        holder.barEventTV.setText(eventArrayList.get(4));
+                        break;
+
+                    case "Saturday":
+                        holder.barEventTV.setText(eventArrayList.get(5));
+                        break;
+
+                    case "Sunday":
+                        holder.barEventTV.setText(eventArrayList.get(6));
+                        break;
+
+                    default:
+                        holder.barEventTV.setText(bar.getBarEvent());
+                        break;
+
+
+                }
+
+            }
+        }
+
+
+        //TODO make the master break code holder.barEventTV.setText(bar.getBarEvent());
         double progress = percentage * 100;
         holder.barCountTV.setText(String.valueOf(percentage * 100).substring(0, 3) + "%");
         if (holder.barCountTV.getText().charAt(2) == '.'){

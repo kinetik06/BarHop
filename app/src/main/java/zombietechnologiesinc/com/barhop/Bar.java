@@ -2,6 +2,7 @@ package zombietechnologiesinc.com.barhop;
 
 import com.google.android.gms.maps.model.LatLng;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -16,6 +17,19 @@ public class Bar {
     private String barAddress;
     private String barPhotoURI;
     private String userId;
+    private String barEvent;
+    private String placeId;
+    private double latitude;
+    private double longitude;
+    private ArrayList<String> specialsArray;
+
+    public ArrayList<String> getSpecialsArray() {
+        return specialsArray;
+    }
+
+    public void setSpecialsArray(ArrayList<String> specialsArray) {
+        this.specialsArray = specialsArray;
+    }
 
     public String getBarEvent() {
         return barEvent;
@@ -25,7 +39,7 @@ public class Bar {
         this.barEvent = barEvent;
     }
 
-    private String barEvent;
+
 
     public String getPlaceId() {
         return placeId;
@@ -35,7 +49,7 @@ public class Bar {
         this.placeId = placeId;
     }
 
-    private String placeId;
+
 
     public double getLatitude() {
         return latitude;
@@ -53,8 +67,7 @@ public class Bar {
         this.longitude = longitude;
     }
 
-    private double latitude;
-    private double longitude;
+
 
     public String getUserId() {
         return userId;
@@ -110,6 +123,24 @@ public class Bar {
     }
 
     public Bar(String barName, int barCount, int barCap, String barAddress, String barPhotoURI, double latitude,
+               double longitude, String userId, String placeId, String barEvent, ArrayList<String> specialsArray){
+
+        this.barCap = barCap;
+        this.barCount = barCount;
+        this.barName = barName;
+        this.barAddress = barAddress;
+        this.barPhotoURI = barPhotoURI;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.userId = userId;
+        this.placeId = placeId;
+        this.specialsArray = specialsArray;
+        this.barEvent = barEvent;
+
+
+    }
+
+    public Bar(String barName, int barCount, int barCap, String barAddress, String barPhotoURI, double latitude,
                double longitude, String userId, String placeId, String barEvent) {
         this.barCap = barCap;
         this.barCount = barCount;
@@ -145,5 +176,6 @@ public class Bar {
         return barMap;
     }
 }
+
 
 
