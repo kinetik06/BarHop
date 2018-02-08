@@ -59,9 +59,12 @@ import com.google.firebase.database.ValueEventListener;
 import com.muddzdev.styleabletoastlibrary.StyleableToast;
 
 import java.lang.reflect.Array;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -109,6 +112,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
     TextView barhopTV2;
     TextView danceClubTV;
     private PopupMenu popupMenu;
+    ArrayList<Bar> danceBarsList;
 
 
 
@@ -148,6 +152,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
         Log.d("lifecycle","OnCreateCalled");
         auth = FirebaseAuth.getInstance();
         barUserNameArray = new ArrayList<String>();
+        danceBarsList = new ArrayList<>();
 
 
         //set up google api for location
@@ -374,7 +379,31 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             Log.d("lifecycle","OnGeoQueryReadyCalled inside ondatachanged called");
                             Log.d("array",String.valueOf(arrayOfBars.size()));
-                            nearestBars = new BarAdapter(context, arrayOfBars);
+
+                            // Sort by Bar Genre
+
+                            for (int i = 0; i < arrayOfBars.size(); i++){
+
+                                Bar bar = arrayOfBars.get(i);
+                                ArrayList<DailySpecial> dailySpecialArrayList = bar.getDailySpecialArrayList();
+                                for (int j = 0; j < dailySpecialArrayList.size(); j++){
+                                    DailySpecial dailySpecial = dailySpecialArrayList.get(j);
+                                    SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
+                                    Date d = new Date();
+                                    String dayOfTheWeek = sdf.format(d);
+                                    if (Objects.equals(dailySpecial.getDateAsString(), dayOfTheWeek)){
+
+                                        if (dailySpecial.getGenreInt() == 1){
+
+                                            danceBarsList.add(bar);
+                                        }
+
+                                    }
+                                }
+
+                            }
+
+                            nearestBars = new BarAdapter(context, danceBarsList);
                             mLinearLayoutManager = new LinearLayoutManager(context);
                             mLinearLayoutManager.setStackFromEnd(false);
                             mRecyclerView.setLayoutManager(mLinearLayoutManager);
@@ -390,7 +419,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                                                     .getColor(R.color.white))
                                                     .backgroundColor(getResources().getColor(R.color.main_top_grey)).show();*/
 
-                                            StyleableToast.makeText(BarHopActivity.this, bar.getBarName(), R.style.mytoast).show();
+                                            //StyleableToast.makeText(BarHopActivity.this, bar.getBarName(), R.style.mytoast).show();
                                             String barPickId = bar.getUserId();
 
                                             Intent intent = new Intent(BarHopActivity.this, BarDetailsActivity.class);

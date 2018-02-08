@@ -35,6 +35,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Objects;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -53,6 +54,8 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
     private String barName;
     Context context;
     ArrayList<String> eventArrayList;
+    ArrayList<DailySpecial> dailySpecialArrayList;
+    DailySpecial dailySpecial;
 
 
 
@@ -77,6 +80,8 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
     @Override
     public void onBindViewHolder(final BarViewHolder holder, int position) {
 
+        dailySpecialArrayList = new ArrayList<>();
+
         eventArrayList = new ArrayList<String>();
 
         SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
@@ -87,6 +92,7 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
 
         bar=arrayOfBars.get(position);
         barName=bar.getBarName();
+        Log.d("bar names", bar.getBarName());
         context = holder.barNameTV.getContext();
         Typeface typeface = ResourcesCompat.getFont(context, R.font.geosanslight);
         holder.barNameTV.setTypeface(typeface);
@@ -173,6 +179,36 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
 
                 }
 
+            }
+        }
+
+
+        //Start Daily Special Code
+
+        if (bar.getDailySpecialArrayList() != null) {
+
+            dailySpecialArrayList = bar.getDailySpecialArrayList();
+            if (dailySpecialArrayList.size() > 7){
+                ArrayList<DailySpecial> updateList = new ArrayList<DailySpecial>(dailySpecialArrayList.subList(0,6));
+                dailySpecialArrayList = updateList;
+            }
+
+            for (int i = 0; i < dailySpecialArrayList.size(); i++) {
+
+                dailySpecial = dailySpecialArrayList.get(i);
+                Log.d("DAILY SPECIALS INT", String.valueOf(dailySpecial.getDayInt()));
+                Log.d("Daily Specials: ", dailySpecial.getMessage());
+
+                if (Objects.equals(dailySpecial.getDateAsString(), dayOfTheWeek)) {
+                    Log.d("DAY OF WEEK: ", dayOfTheWeek);
+                    Log.d("DAILY SPECIAL DAY: ", dailySpecial.getDateAsString());
+                    Log.d("ACTUAL DAY SPECIAL: ", dailySpecial.getMessage());
+                    holder.barEventTV.setText(dailySpecial.getMessage());
+                    if (Objects.equals(dailySpecial.getMessage(), "Tap to edit special")){
+                        holder.barEventTV.setText("");
+                    }
+
+                }
             }
         }
 

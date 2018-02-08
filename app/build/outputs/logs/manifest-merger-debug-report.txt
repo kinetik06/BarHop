@@ -14,10 +14,10 @@ MERGED from [com.google.android.gms:play-services:11.8.0] /Users/emmaramos/.grad
 MERGED from [com.google.android.gms:play-services-cast-framework:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.8.0.aar/a1d23aa54448fcc0b0dfa0814edadff4/AndroidManifest.xml:2:1-14:12
 MERGED from [com.google.android.gms:play-services-cast:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.8.0.aar/c4d61527bb76e152e1bcf4c327828e40/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/219d7cdc585b40b76015b8cf6cd28a54/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.29.0.aar/ffd85e078bdb0937012dde6bad27134a/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/092252653ba105630ab59906651395ef/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.29.0.aar/f73a7827752e2b290f705c9d5333987d/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:21:1-36:12
+MERGED from [com.facebook.android:facebook-android-sdk:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.30.0.aar/df1b6f557b84934f3ae8a8c54519e512/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-login:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.30.0.aar/04f812fffeaa2b40b4702c97dcb0736f/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-share:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.30.0.aar/ee5c171eb5143000efde1b6c5c94f678/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:21:1-36:12
 MERGED from [com.android.support:design:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ee62af4e5809ee5699c4fbcd9d8343f0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/e19a85b74bfa78a3281fb8e9864136be/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:multidex:1.0.1] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/multidex-1.0.1.aar/c091d560d8ada74c2d4ec208daf721a1/AndroidManifest.xml:16:1-19:12
@@ -83,12 +83,12 @@ MERGED from [com.android.support:animated-vector-drawable:27.0.2] /Users/emmaram
 MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/f374364da83d987e606621dcf1b917d1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/0c395c5d7a493c40fd5d8faf17619987/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/7001dc0721438393a2bf142fdc205514/AndroidManifest.xml:17:1-22:12
-MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.29.0.aar/dd35998192eee7511811fc8553f8f0f1/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.29.0.aar/c4db5b9d5af6d86014b8df6a0009147e/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.29.0.aar/a9a930f332ab954473d290a6f344ff65/AndroidManifest.xml:21:1-31:12
-MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/c23019fc08cc62b412b5bd0e9aaff6d7/AndroidManifest.xml:21:1-45:12
-MERGED from [com.android.support:cardview-v7:27.0.1] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/ae2cbda0322e21481ff288400498deb6/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:customtabs:27.0.1] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.1.aar/13a1565422404dce0131ffd7747abce1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.android:facebook-places:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.30.0.aar/188b1ceba4901d9f511b6fc14952395d/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-applinks:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.30.0.aar/9c6c1ed3dd7f6353a472cc8e30dd2f17/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-messenger:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.30.0.aar/d786ad05ea1572ded4ddaef192049af5/AndroidManifest.xml:21:1-31:12
+MERGED from [com.facebook.android:facebook-core:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/9b9fabbc798c689740948f61589cccdc/AndroidManifest.xml:21:1-45:12
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/c650eac18be280134f06d3ba3c27a945/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/e2b3dc69d066795c12aa0f691d051aca/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/df4ee2fbc74f66d0dfc8aa8f046fd3a0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/c7b9350066aad90c51c95d2f64ee592e/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:support-core-utils:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/036e2a9b011330bfc2b29b12dff251e0/AndroidManifest.xml:17:1-22:12
@@ -233,14 +233,14 @@ MERGED from [com.google.android.gms:play-services-cast:11.8.0] /Users/emmaramos/
 MERGED from [com.google.android.gms:play-services-cast:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.8.0.aar/c4d61527bb76e152e1bcf4c327828e40/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/219d7cdc585b40b76015b8cf6cd28a54/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/219d7cdc585b40b76015b8cf6cd28a54/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.29.0.aar/ffd85e078bdb0937012dde6bad27134a/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.29.0.aar/ffd85e078bdb0937012dde6bad27134a/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/092252653ba105630ab59906651395ef/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/092252653ba105630ab59906651395ef/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.29.0.aar/f73a7827752e2b290f705c9d5333987d/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.29.0.aar/f73a7827752e2b290f705c9d5333987d/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:28:5-34:19
-MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.30.0.aar/df1b6f557b84934f3ae8a8c54519e512/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-android-sdk:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.30.0.aar/df1b6f557b84934f3ae8a8c54519e512/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.30.0.aar/04f812fffeaa2b40b4702c97dcb0736f/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.30.0.aar/04f812fffeaa2b40b4702c97dcb0736f/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.30.0.aar/ee5c171eb5143000efde1b6c5c94f678/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.30.0.aar/ee5c171eb5143000efde1b6c5c94f678/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:28:5-34:19
+MERGED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:28:5-34:19
 MERGED from [com.google.firebase:firebase-auth:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/99346ccb79b085d7945a5d60cc89dec7/AndroidManifest.xml:22:5-30:19
 MERGED from [com.google.firebase:firebase-auth:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/99346ccb79b085d7945a5d60cc89dec7/AndroidManifest.xml:22:5-30:19
 MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/circleimageview-1.3.0.aar/563faf277e095a5023e3b7959c6c6637/AndroidManifest.xml:9:5-20
@@ -327,14 +327,14 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/emma
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/750a6ab482f61edfbd171ecd5b3dd552/AndroidManifest.xml:9:5-20
 MERGED from [com.muddzdev:styleabletoast:2.0.1] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/styleabletoast-2.0.1.aar/401d7fed33d7161c219f326fe1526de7/AndroidManifest.xml:11:5-47
 MERGED from [com.muddzdev:styleabletoast:2.0.1] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/styleabletoast-2.0.1.aar/401d7fed33d7161c219f326fe1526de7/AndroidManifest.xml:11:5-47
-MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.29.0.aar/dd35998192eee7511811fc8553f8f0f1/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.29.0.aar/dd35998192eee7511811fc8553f8f0f1/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.29.0.aar/c4db5b9d5af6d86014b8df6a0009147e/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.29.0.aar/c4db5b9d5af6d86014b8df6a0009147e/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.29.0.aar/a9a930f332ab954473d290a6f344ff65/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.29.0.aar/a9a930f332ab954473d290a6f344ff65/AndroidManifest.xml:28:5-29:19
-MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/c23019fc08cc62b412b5bd0e9aaff6d7/AndroidManifest.xml:28:5-43:19
-MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/c23019fc08cc62b412b5bd0e9aaff6d7/AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-places:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.30.0.aar/188b1ceba4901d9f511b6fc14952395d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-places:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.30.0.aar/188b1ceba4901d9f511b6fc14952395d/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.30.0.aar/9c6c1ed3dd7f6353a472cc8e30dd2f17/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.30.0.aar/9c6c1ed3dd7f6353a472cc8e30dd2f17/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.30.0.aar/d786ad05ea1572ded4ddaef192049af5/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.30.0.aar/d786ad05ea1572ded4ddaef192049af5/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/9b9fabbc798c689740948f61589cccdc/AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:facebook-core:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/9b9fabbc798c689740948f61589cccdc/AndroidManifest.xml:28:5-43:19
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/c7b9350066aad90c51c95d2f64ee592e/AndroidManifest.xml:22:5-23:19
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/c7b9350066aad90c51c95d2f64ee592e/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.firebase:firebase-database-license:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-database-license-11.8.0.aar/11d1e3966b9d14a7997eb0c4e9a67617/AndroidManifest.xml:5:5-20
@@ -438,7 +438,7 @@ MERGED from [com.google.android.gms:play-services-wallet-license:11.8.0] /Users/
 MERGED from [com.google.android.gms:play-services-wearable-license:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.8.0.aar/4a4280f60343b307893b1b9ddbf4e560/AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-wearable-license:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/play-services-wearable-license-11.8.0.aar/4a4280f60343b307893b1b9ddbf4e560/AndroidManifest.xml:5:5-20
 	android:supportsRtl
-		ADDED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.29.0.aar/ffd85e078bdb0937012dde6bad27134a/AndroidManifest.xml:28:18-44
+		ADDED from [com.facebook.android:facebook-android-sdk:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.30.0.aar/df1b6f557b84934f3ae8a8c54519e512/AndroidManifest.xml:28:18-44
 	android:label
 		ADDED from /Users/emmaramos/StudioProjects/BarHop/app/src/main/AndroidManifest.xml:14:9-41
 	android:icon
@@ -539,14 +539,14 @@ MERGED from [com.google.android.gms:play-services-cast:11.8.0] /Users/emmaramos/
 MERGED from [com.google.android.gms:play-services-cast:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/play-services-cast-11.8.0.aar/c4d61527bb76e152e1bcf4c327828e40/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/219d7cdc585b40b76015b8cf6cd28a54/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:mediarouter-v7:25.2.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/219d7cdc585b40b76015b8cf6cd28a54/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.29.0.aar/ffd85e078bdb0937012dde6bad27134a/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-android-sdk:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.29.0.aar/ffd85e078bdb0937012dde6bad27134a/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/092252653ba105630ab59906651395ef/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-login:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.29.0.aar/092252653ba105630ab59906651395ef/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.29.0.aar/f73a7827752e2b290f705c9d5333987d/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-share:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.29.0.aar/f73a7827752e2b290f705c9d5333987d/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.30.0.aar/df1b6f557b84934f3ae8a8c54519e512/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-android-sdk:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-android-sdk-4.30.0.aar/df1b6f557b84934f3ae8a8c54519e512/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.30.0.aar/04f812fffeaa2b40b4702c97dcb0736f/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-login-4.30.0.aar/04f812fffeaa2b40b4702c97dcb0736f/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.30.0.aar/ee5c171eb5143000efde1b6c5c94f678/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-share-4.30.0.aar/ee5c171eb5143000efde1b6c5c94f678/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:24:5-26:41
 MERGED from [com.android.support:design:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ee62af4e5809ee5699c4fbcd9d8343f0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/ee62af4e5809ee5699c4fbcd9d8343f0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/e19a85b74bfa78a3281fb8e9864136be/AndroidManifest.xml:20:5-44
@@ -677,18 +677,18 @@ MERGED from [com.android.support:support-core-ui:27.0.2] /Users/emmaramos/.gradl
 MERGED from [com.android.support:support-core-ui:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/0c395c5d7a493c40fd5d8faf17619987/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/7001dc0721438393a2bf142fdc205514/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-media-compat:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/7001dc0721438393a2bf142fdc205514/AndroidManifest.xml:20:5-44
-MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.29.0.aar/dd35998192eee7511811fc8553f8f0f1/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-places:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.29.0.aar/dd35998192eee7511811fc8553f8f0f1/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.29.0.aar/c4db5b9d5af6d86014b8df6a0009147e/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-applinks:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.29.0.aar/c4db5b9d5af6d86014b8df6a0009147e/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.29.0.aar/a9a930f332ab954473d290a6f344ff65/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-messenger:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.29.0.aar/a9a930f332ab954473d290a6f344ff65/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/c23019fc08cc62b412b5bd0e9aaff6d7/AndroidManifest.xml:24:5-26:41
-MERGED from [com.facebook.android:facebook-core:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/c23019fc08cc62b412b5bd0e9aaff6d7/AndroidManifest.xml:24:5-26:41
-MERGED from [com.android.support:cardview-v7:27.0.1] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/ae2cbda0322e21481ff288400498deb6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.0.1] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.1.aar/ae2cbda0322e21481ff288400498deb6/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:27.0.1] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.1.aar/13a1565422404dce0131ffd7747abce1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:27.0.1] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.1.aar/13a1565422404dce0131ffd7747abce1/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.30.0.aar/188b1ceba4901d9f511b6fc14952395d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-places:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-places-4.30.0.aar/188b1ceba4901d9f511b6fc14952395d/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.30.0.aar/9c6c1ed3dd7f6353a472cc8e30dd2f17/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-applinks-4.30.0.aar/9c6c1ed3dd7f6353a472cc8e30dd2f17/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.30.0.aar/d786ad05ea1572ded4ddaef192049af5/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-messenger-4.30.0.aar/d786ad05ea1572ded4ddaef192049af5/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/9b9fabbc798c689740948f61589cccdc/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/9b9fabbc798c689740948f61589cccdc/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/c650eac18be280134f06d3ba3c27a945/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.2.aar/c650eac18be280134f06d3ba3c27a945/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/e2b3dc69d066795c12aa0f691d051aca/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/customtabs-27.0.2.aar/e2b3dc69d066795c12aa0f691d051aca/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/df4ee2fbc74f66d0dfc8aa8f046fd3a0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.0.2] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/df4ee2fbc74f66d0dfc8aa8f046fd3a0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:palette-v7:25.2.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/c7b9350066aad90c51c95d2f64ee592e/AndroidManifest.xml:20:5-43
@@ -937,15 +937,15 @@ ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/emmaramos/.gradle/cach
 		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/01a6bc939632431bc6e5060cbfc372bb/AndroidManifest.xml:62:13-73
 activity#com.facebook.FacebookActivity
 ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/01a6bc939632431bc6e5060cbfc372bb/AndroidManifest.xml:65:9-70:45
-MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:29:9-32:66
-MERGED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:29:9-32:66
+MERGED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:29:9-32:66
 	android:label
 		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/01a6bc939632431bc6e5060cbfc372bb/AndroidManifest.xml:68:13-45
 	android:configChanges
 		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/01a6bc939632431bc6e5060cbfc372bb/AndroidManifest.xml:67:13-96
 	android:theme
 		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/01a6bc939632431bc6e5060cbfc372bb/AndroidManifest.xml:69:13-58
-		REJECTED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:32:13-63
+		REJECTED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:32:13-63
 	tools:replace
 		ADDED from [com.firebaseui:firebase-ui-auth:0.6.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-ui-auth-0.6.0.aar/01a6bc939632431bc6e5060cbfc372bb/AndroidManifest.xml:70:13-42
 	android:name
@@ -983,9 +983,9 @@ ADDED from [com.google.android.gms:play-services-cast-framework:11.8.0] /Users/e
 	android:name
 		ADDED from [com.google.android.gms:play-services-cast-framework:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.8.0.aar/a1d23aa54448fcc0b0dfa0814edadff4/AndroidManifest.xml:11:18-90
 activity#com.facebook.CustomTabMainActivity
-ADDED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:33:9-71
+ADDED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:33:9-71
 	android:name
-		ADDED from [com.facebook.android:facebook-common:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.29.0.aar/ef5641c43578550ecf841bc85f592619/AndroidManifest.xml:33:19-68
+		ADDED from [com.facebook.android:facebook-common:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-common-4.30.0.aar/79487b161905cccdb85cae28b3b2b979/AndroidManifest.xml:33:19-68
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/firebase-auth-11.8.0.aar/99346ccb79b085d7945a5d60cc89dec7/AndroidManifest.xml:23:9-29:75
 	android:excludeFromRecents
@@ -1267,10 +1267,10 @@ ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/emmaram
 	android:name
 		ADDED from [com.google.android.gms:play-services-ads-lite:11.8.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.8.0.aar/c9f871f1cabc3122d9608ef1488d7f3d/AndroidManifest.xml:30:13-65
 provider#com.facebook.internal.FacebookInitProvider
-ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/c23019fc08cc62b412b5bd0e9aaff6d7/AndroidManifest.xml:39:9-42:40
+ADDED from [com.facebook.android:facebook-core:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/9b9fabbc798c689740948f61589cccdc/AndroidManifest.xml:39:9-42:40
 	android:authorities
-		ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/c23019fc08cc62b412b5bd0e9aaff6d7/AndroidManifest.xml:41:13-72
+		ADDED from [com.facebook.android:facebook-core:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/9b9fabbc798c689740948f61589cccdc/AndroidManifest.xml:41:13-72
 	android:exported
-		ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/c23019fc08cc62b412b5bd0e9aaff6d7/AndroidManifest.xml:42:13-37
+		ADDED from [com.facebook.android:facebook-core:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/9b9fabbc798c689740948f61589cccdc/AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from [com.facebook.android:facebook-core:4.29.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.29.0.aar/c23019fc08cc62b412b5bd0e9aaff6d7/AndroidManifest.xml:40:13-70
+		ADDED from [com.facebook.android:facebook-core:4.30.0] /Users/emmaramos/.gradle/caches/transforms-1/files-1.1/facebook-core-4.30.0.aar/9b9fabbc798c689740948f61589cccdc/AndroidManifest.xml:40:13-70
