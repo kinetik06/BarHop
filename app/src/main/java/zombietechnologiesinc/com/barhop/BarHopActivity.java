@@ -696,7 +696,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
     public boolean isPressed (LinearLayout layout){
 
-        if (layout.getBa)
+        return false;
 
     }
 
