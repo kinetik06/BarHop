@@ -92,7 +92,7 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
 
         bar=arrayOfBars.get(position);
         barName=bar.getBarName();
-        Log.d("bar names", bar.getBarName());
+        //Log.d("bar names", bar.getBarName());
         context = holder.barNameTV.getContext();
         Typeface typeface = ResourcesCompat.getFont(context, R.font.geosanslight);
         holder.barNameTV.setTypeface(typeface);
@@ -185,24 +185,28 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
 
         //Start Daily Special Code
 
+        //TODO Bars are open past midnight -- current code pulls sunday event into saturday
+
         if (bar.getDailySpecialArrayList() != null) {
 
             dailySpecialArrayList = bar.getDailySpecialArrayList();
             if (dailySpecialArrayList.size() > 7){
-                ArrayList<DailySpecial> updateList = new ArrayList<DailySpecial>(dailySpecialArrayList.subList(0,6));
+                ArrayList<DailySpecial> updateList = new ArrayList<DailySpecial>(dailySpecialArrayList.subList(0,7));
                 dailySpecialArrayList = updateList;
             }
 
             for (int i = 0; i < dailySpecialArrayList.size(); i++) {
 
                 dailySpecial = dailySpecialArrayList.get(i);
-                Log.d("DAILY SPECIALS INT", String.valueOf(dailySpecial.getDayInt()));
+                /*Log.d("DAILY SPECIALS INT", String.valueOf(dailySpecial.getDayInt()));
                 Log.d("Daily Specials: ", dailySpecial.getMessage());
+                Log.d("Array SIze: ", String.valueOf(dailySpecialArrayList.size()));
+                Log.d("Day Of the Week: ", dayOfTheWeek);*/
 
                 if (Objects.equals(dailySpecial.getDateAsString(), dayOfTheWeek)) {
-                    Log.d("DAY OF WEEK: ", dayOfTheWeek);
+                    /*Log.d("DAY OF WEEK: ", dayOfTheWeek);
                     Log.d("DAILY SPECIAL DAY: ", dailySpecial.getDateAsString());
-                    Log.d("ACTUAL DAY SPECIAL: ", dailySpecial.getMessage());
+                    Log.d("ACTUAL DAY SPECIAL: ", dailySpecial.getMessage());*/
                     holder.barEventTV.setText(dailySpecial.getMessage());
                     if (Objects.equals(dailySpecial.getMessage(), "Tap to edit special")){
                         holder.barEventTV.setText("");
@@ -222,9 +226,9 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
         }
 
         holder.barCap.setProgress((int) progress);
-        Log.d("PROGRESS BAR:", String.valueOf(progress));
-        Log.d ("other stuff", String.valueOf(holder.barCountTV.getText().charAt(2)));
-        Log.d("STUFFFFFFFF", holder.barCountTV.getText().toString());
+        //Log.d("PROGRESS BAR:", String.valueOf(progress));
+        //Log.d ("other stuff", String.valueOf(holder.barCountTV.getText().charAt(2)));
+        //Log.d("STUFFFFFFFF", holder.barCountTV.getText().toString());
         final StorageReference profilePicRef = storageRef.child(bar.getUserId()).child(profilePic);
         //Get Bar Image
         final long ONE_MEGABYTE = 1024 * 1024;

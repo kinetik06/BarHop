@@ -51,6 +51,7 @@ dependencies {
     compile 'com.google.firebase:firebase-storage:11.8.0'
     compile 'com.squareup.okhttp3:okhttp:3.9.1'
     compile 'com.shuhart.stepview:stepview:1.2.0'
+    compile 'com.jakewharton:butterknife:8.8.1'
 
 
 

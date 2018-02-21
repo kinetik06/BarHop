@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.uber.sdk:rides-android-0.5.3">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rides-android-0.5.3.aar/7819a34a077e0d986fd1a55a7466ad62/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rides-android-0.5.3.aar/7819a34a077e0d986fd1a55a7466ad62/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rides-android-0.5.3.aar/5fdf7acf76fb84db3bcc273310f17b4e/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/rides-android-0.5.3.aar/5fdf7acf76fb84db3bcc273310f17b4e/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

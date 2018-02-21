@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="com.uber.sdk:core-android-0.5.3">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-android-0.5.3.aar/1bfe4a304389352859dc1310836cc40c/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-android-0.5.3.aar/1bfe4a304389352859dc1310836cc40c/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-android-0.5.3.aar/64b204002fbf0f2a34e9b3337c4b90b7/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/core-android-0.5.3.aar/64b204002fbf0f2a34e9b3337c4b90b7/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

@@ -32,6 +32,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.PopupMenu;
 import android.widget.ProgressBar;
@@ -47,6 +49,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.vision.text.Line;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
@@ -62,10 +65,15 @@ import java.lang.reflect.Array;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
+import java.util.Set;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 
 
@@ -113,6 +121,17 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
     TextView danceClubTV;
     private PopupMenu popupMenu;
     ArrayList<Bar> danceBarsList;
+    ArrayList<DailySpecial> dailySpecialArrayList;
+    LinearLayout ballLayout;
+    @BindView(R.id.micLayout)LinearLayout micLayout;
+    @BindView(R.id.guitarLayout)LinearLayout guitarLayout;
+    @BindView(R.id.mugLayout)LinearLayout mugLayout;
+    @BindView(R.id.wineLayout)LinearLayout wineLayout;
+    ArrayList<Bar> trimList;
+    int dayOfWeekInt = 0;
+    String dayOfTheWeek = "";
+
+
 
 
 
@@ -120,9 +139,18 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         context=this;
+        SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
+        Date d = new Date();
+        dayOfTheWeek = sdf.format(d);
+        getDayOfWeekInt(dayOfTheWeek);
+        trimList = new ArrayList<>();
+
+
+
         checkPermission();
         requestPermission();
         mLocationManager = (LocationManager) getSystemService(LOCATION_SERVICE);
+        dailySpecialArrayList = new ArrayList<>();
         mLocationListener = new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
@@ -182,10 +210,12 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
 
         setContentView(R.layout.activity_bar_hop);
+        ButterKnife.bind(this);
+        ballLayout = findViewById(R.id.ballLayout);
         barhopTV1 = (TextView)findViewById(R.id.barhopTV1);
         barhopTV2 = (TextView)findViewById(R.id.barhopTV2);
         danceClubTV = (TextView)findViewById(R.id.dance_clubTV);
-
+        trimList = new ArrayList<>();
         //Pop Up Menu
 
         popupMenu = new PopupMenu(this, findViewById(R.id.menu_iconIV));
@@ -308,11 +338,78 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
             @Override
             public void onKeyEntered(String key, GeoLocation location) {
                 Log.d("LOCATION:", String.valueOf(userLat) + "," + String.valueOf(userLong));
-
                 Log.d("Lifecycle","Onkeyentered");
                 Log.d("LIST OF BARS",key);
                 size++;
                 tempDataRef = FirebaseDatabase.getInstance().getReference("/bars/"+key);
+/*
+                ballLayout.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        final Query danceClubQuery = tempDataRef.child("dailySpecialArrayList").child(String.valueOf(dayOfWeekInt)).child("genreInt").equalTo("1");
+                        danceClubQuery.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                if (dataSnapshot.exists()){
+
+                                    for (DataSnapshot danceSnap : dataSnapshot.getChildren()){
+                                        Log.d(TAG, String.valueOf(danceSnap.getChildrenCount()));
+
+                                    }
+
+
+                                }else {
+                                    Log.d(TAG, "Nothing Here");
+                                    Log.d(TAG, danceClubQuery.toString());
+                                    Log.d(TAG, tempDataRef.toString() + " " + String.valueOf(dayOfWeekInt));
+
+
+                                }
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
+                        for (int i = 0; i < arrayOfBars.size(); i++){
+
+                            Log.d(TAG, "Touched");
+
+                            Bar bar = arrayOfBars.get(i);
+                            if (bar.getDailySpecialArrayList() != null) {
+                                dailySpecialArrayList = bar.getDailySpecialArrayList();
+                                for (int j = 0; j < dailySpecialArrayList.size(); j++) {
+                                    DailySpecial dailySpecial = dailySpecialArrayList.get(j);
+                                    SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
+                                    Date d = new Date();
+                                    String dayOfTheWeek = sdf.format(d);
+                                    if (Objects.equals(dailySpecial.getDateAsString(), dayOfTheWeek)) {
+
+                                        if (dailySpecial.getGenreInt() == 1) {
+
+                                            danceBarsList.add(bar);
+
+                                            Log.d(TAG, String.valueOf(danceBarsList.size()));
+                                        }
+
+                                    }
+                                }
+                            }
+                        }
+
+                        arrayOfBars.clear();
+                        arrayOfBars.addAll(danceBarsList);
+                        nearestBars.notifyDataSetChanged();
+
+                    }
+
+
+
+                });*/
+
+
                 Log.d(TAG, "THIS IS THE REFERENCE AFTER ON KEY ENTERED:" + tempDataRef);
                 ValueEventListener barListener=new ValueEventListener() {
                     @Override
@@ -324,6 +421,26 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                             arrayOfBars.add(counter,dataSnapshot.getValue(Bar.class));
                             arrayOfKeys.add(counter,dataSnapshot.getKey());
                             counter++;
+
+                            ballLayout.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+
+                                    Iterator<Bar> iterator = arrayOfBars.iterator();
+                                    trimList.addAll(arrayOfBars);
+
+                                    while (iterator.hasNext()){
+                                        Bar bar = iterator.next();
+
+                                        if (bar.getDailySpecialArrayList() == null || bar.getDailySpecialArrayList().get(dayOfWeekInt).getGenreInt() != 1 ){
+                                            iterator.remove();
+                                            counter = arrayOfBars.size();
+                                            nearestBars.notifyDataSetChanged();
+
+                                        }
+                                    }
+                                }
+                            });
                         }
                         else
                         {
@@ -334,10 +451,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                                     arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
                                     Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
                                     nearestBars.notifyDataSetChanged();
-
-
                                 }
-
                             }
 
                         }
@@ -379,31 +493,17 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                         public void onDataChange(DataSnapshot dataSnapshot) {
                             Log.d("lifecycle","OnGeoQueryReadyCalled inside ondatachanged called");
                             Log.d("array",String.valueOf(arrayOfBars.size()));
+                            nearestBars = new BarAdapter(context, arrayOfBars);
 
                             // Sort by Bar Genre
 
-                            for (int i = 0; i < arrayOfBars.size(); i++){
 
-                                Bar bar = arrayOfBars.get(i);
-                                ArrayList<DailySpecial> dailySpecialArrayList = bar.getDailySpecialArrayList();
-                                for (int j = 0; j < dailySpecialArrayList.size(); j++){
-                                    DailySpecial dailySpecial = dailySpecialArrayList.get(j);
-                                    SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
-                                    Date d = new Date();
-                                    String dayOfTheWeek = sdf.format(d);
-                                    if (Objects.equals(dailySpecial.getDateAsString(), dayOfTheWeek)){
 
-                                        if (dailySpecial.getGenreInt() == 1){
 
-                                            danceBarsList.add(bar);
-                                        }
 
-                                    }
-                                }
 
-                            }
 
-                            nearestBars = new BarAdapter(context, danceBarsList);
+
                             mLinearLayoutManager = new LinearLayoutManager(context);
                             mLinearLayoutManager.setStackFromEnd(false);
                             mRecyclerView.setLayoutManager(mLinearLayoutManager);
@@ -547,5 +647,57 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
         popupMenu.show();
 
+
+
     }
+
+    public int getDayOfWeekInt(String dayOfTheWeek){
+
+        switch (dayOfTheWeek){
+
+
+            case "Monday":
+
+                dayOfWeekInt = 0;
+                break;
+
+            case "Tuesday":
+                dayOfWeekInt = 1;
+                break;
+
+            case "Wednesday":
+                dayOfWeekInt = 2;
+                break;
+
+            case "Thursday":
+                dayOfWeekInt = 3;
+                break;
+
+            case "Friday":
+                dayOfWeekInt = 4;
+                break;
+
+            case "Saturday":
+                dayOfWeekInt = 5;
+                break;
+
+            case "Sunday":
+                dayOfWeekInt = 6;
+                break;
+
+            default:
+                break;
+
+
+        }
+        return dayOfWeekInt;
+
+    }
+
+    public boolean isPressed (LinearLayout layout){
+
+        if (layout.getBa)
+
+    }
+
 }

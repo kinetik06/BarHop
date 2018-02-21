@@ -151,7 +151,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-
+            android:id="@+id/ballLayout"
             android:layout_weight="1">
 
         <ImageView
@@ -176,7 +176,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
-
+            android:id="@+id/micLayout"
             android:layout_weight="1"
             >
 
@@ -202,6 +202,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:gravity="center"
+            android:id="@+id/guitarLayout"
 
             android:layout_weight="1"
 
@@ -231,6 +232,8 @@
             android:orientation="vertical"
             android:gravity="center"
             android:layout_weight="1"
+            android:id="@+id/mugLayout"
+
             >
 
             <ImageView
@@ -258,6 +261,8 @@
             android:orientation="vertical"
             android:gravity="center"
             android:layout_weight="1"
+            android:id="@+id/wineLayout"
+
             >
 
             <ImageView
