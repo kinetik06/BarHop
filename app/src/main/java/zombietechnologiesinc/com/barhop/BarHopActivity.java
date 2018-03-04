@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Typeface;
+import android.graphics.drawable.ColorDrawable;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
@@ -130,6 +131,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
     ArrayList<Bar> trimList;
     int dayOfWeekInt = 0;
     String dayOfTheWeek = "";
+    private DatabaseReference danceClubRef;
 
 
 
@@ -144,6 +146,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
         dayOfTheWeek = sdf.format(d);
         getDayOfWeekInt(dayOfTheWeek);
         trimList = new ArrayList<>();
+
 
 
 
@@ -279,6 +282,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
         //new child entries
         mDatabaseReference = FirebaseDatabase.getInstance().getReference();
 
+
     }
 
     @Override
@@ -333,13 +337,16 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
         }
         Log.d(TAG, "LOCATION:" + userLat + "," + userLong);
         GeoFire geoFire = new GeoFire(mDatabaseReference.child("bars_location"));
-        GeoQuery geoQuery = geoFire.queryAtLocation(new GeoLocation(userLat, userLong), 40);
+        final GeoQuery geoQuery = geoFire.queryAtLocation(new GeoLocation(userLat, userLong), 40);
         geoQuery.addGeoQueryEventListener(new GeoQueryEventListener() {
             @Override
             public void onKeyEntered(String key, GeoLocation location) {
                 Log.d("LOCATION:", String.valueOf(userLat) + "," + String.valueOf(userLong));
                 Log.d("Lifecycle","Onkeyentered");
                 Log.d("LIST OF BARS",key);
+
+
+
                 size++;
                 tempDataRef = FirebaseDatabase.getInstance().getReference("/bars/"+key);
 /*
@@ -411,21 +418,40 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
 
                 Log.d(TAG, "THIS IS THE REFERENCE AFTER ON KEY ENTERED:" + tempDataRef);
-                ValueEventListener barListener=new ValueEventListener() {
+
+
+/*                ballLayout.setOnClickListener(new View.OnClickListener() {
                     @Override
-                    public void onDataChange(DataSnapshot dataSnapshot) {
+                    public void onClick(View v) {
 
-                        Log.d("Lifecycle","onDataChange inside onKeyEntered called");
-                        if(arrayOfBars.isEmpty()||arrayOfBars.size()<size)
-                        {
-                            arrayOfBars.add(counter,dataSnapshot.getValue(Bar.class));
-                            arrayOfKeys.add(counter,dataSnapshot.getKey());
-                            counter++;
+                        ballLayout.setBackgroundColor(getResources().getColor(R.color.black));
 
-                            ballLayout.setOnClickListener(new View.OnClickListener() {
-                                @Override
-                                public void onClick(View v) {
+                        Log.d("Is it pressed? ", String.valueOf(isPressed(ballLayout)));
 
+                        Log.d(TAG, "Query Block firing");
+
+                        Query query = tempDataRef.child("dailySpecialArrayList")
+                                .child(String.valueOf(getDayOfWeekInt(dayOfTheWeek)))
+                                .child("genreInt");
+
+
+                        query.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                                Log.d(TAG, dataSnapshot.getKey() + dataSnapshot.toString());
+                                for (DataSnapshot barSnapshot: dataSnapshot.getChildren()){
+                                    String name = (String) barSnapshot.child("barName").getValue();
+                                    Log.d(TAG, name);
+                                }
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
+*//*
                                     Iterator<Bar> iterator = arrayOfBars.iterator();
                                     trimList.addAll(arrayOfBars);
 
@@ -438,9 +464,148 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                                             nearestBars.notifyDataSetChanged();
 
                                         }
+                                    }*//*
+                    }
+                });*/
+
+
+
+
+                ValueEventListener barListener=new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+
+                        Log.d("Lifecycle","onDataChange inside onKeyEntered called");
+                        if(arrayOfBars.isEmpty()||arrayOfBars.size()<size)
+                        {
+                            arrayOfBars.add(counter,dataSnapshot.getValue(Bar.class));
+                            arrayOfKeys.add(counter,dataSnapshot.getKey());
+                            counter++;
+
+                            //try logic for sorting with buttons
+
+                            ballLayout.setOnClickListener(new View.OnClickListener() {
+                                @Override
+                                public void onClick(View v) {
+
+                                    ballLayout.setBackgroundColor(getResources().getColor(R.color.black));
+
+
+
+
+
+                                    while (isPressed(ballLayout)){
+
+
+                                        arrayOfKeys.clear();
+                                        arrayOfBars.clear();
+                                        counter = 0;
+                                        size = 0;
+
+
+
+                                        Query danceClubQuery = mDatabaseReference.child("bars_specials").child(dayOfTheWeek).orderByChild("genreInt").equalTo(1);
+                                        danceClubQuery.addListenerForSingleValueEvent(new ValueEventListener() {
+                                            @Override
+                                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                                if (dataSnapshot.exists()){
+
+                                                    for (final DataSnapshot bars : dataSnapshot.getChildren()){
+
+                                                        tempDataRef = FirebaseDatabase.getInstance().getReference().child("bars").child(bars.getKey());
+
+                                                        Log.d(TAG, "New Reference: " + tempDataRef);
+                                                        Log.d(TAG, "Dance Clubs: " + bars.getKey());
+                                                        //arrayOfBars.add(counter, bars.getValue(Bar.class));
+                                                        tempDataRef.addValueEventListener(new ValueEventListener() {
+                                                            @Override
+                                                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                                                if (dataSnapshot.exists()){
+                                                                    if (arrayOfBars.isEmpty() || arrayOfBars.size() < size) {
+
+                                                                        Bar bar = dataSnapshot.getValue(Bar.class);
+                                                                        arrayOfBars.add(counter, bar);
+                                                                        arrayOfKeys.add(counter, bars.getKey());
+                                                                        counter++;
+                                                                        size++;
+                                                                        nearestBars.notifyDataSetChanged();
+
+                                                                    }else {
+
+                                                                        for(int i=0;i<size;i++)
+                                                                        {
+                                                                            if(arrayOfKeys.get(i)==dataSnapshot.getKey())
+                                                                            {
+                                                                                arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
+                                                                                Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
+                                                                                nearestBars.notifyDataSetChanged();
+                                                                            }
+                                                                        }
+
+
+                                                                    }
+
+                                                                }
+                                                            }
+
+                                                            @Override
+                                                            public void onCancelled(DatabaseError databaseError) {
+
+                                                            }
+                                                        });
+
+
+
+
+                                                    }
+
+                                                }
+                                            }
+
+                                            @Override
+                                            public void onCancelled(DatabaseError databaseError) {
+
+                                            }
+                                        });
+
+
+
                                     }
+
+/*
+                                    while (isPressed(ballLayout)){
+
+                                        for (String key: arrayOfKeys){
+
+                                            danceClubRef = mDatabaseReference.child("bars").child(key);
+                                            danceClubRef.addValueEventListener(new ValueEventListener() {
+                                                @Override
+                                                public void onDataChange(DataSnapshot dataSnapshot) {
+
+                                                }
+
+                                                @Override
+                                                public void onCancelled(DatabaseError databaseError) {
+
+                                                }
+                                            });
+
+
+                                        }
+
+
+
+                                    }*/
+
                                 }
                             });
+
+
+
+
+
+
+
                         }
                         else
                         {
@@ -465,7 +630,11 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
                     }
                 };
+
+
                 tempDataRef.addValueEventListener(barListener);
+
+
 
             }
 
@@ -696,7 +865,22 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
     public boolean isPressed (LinearLayout layout){
 
-        return false;
+        boolean isPressed = false;
+
+        if (layout.getBackground() != null) {
+
+            ColorDrawable viewColor = (ColorDrawable) layout.getBackground();
+            int colorId = viewColor.getColor();
+
+            if (colorId == getResources().getColor(R.color.black)) {
+                isPressed = true;
+            }
+        }else {
+            return isPressed = false;
+        }
+
+        return isPressed;
+
 
     }
 
