@@ -10,6 +10,8 @@ import android.widget.TextView;
 
 import com.shuhart.stepview.StepView;
 
+import org.w3c.dom.Text;
+
 import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
@@ -25,6 +27,9 @@ public class BarViewHolder extends RecyclerView.ViewHolder {
     public TextView barEventTV;
     public ProgressBar barCap;
     public StepView stepView;
+    public TextView lowCapTV;
+    public TextView medCapTV;
+    public TextView highCapTV;
 
     public BarViewHolder(View itemView) {
         super(itemView);
@@ -35,6 +40,9 @@ public class BarViewHolder extends RecyclerView.ViewHolder {
         barLogo = (ImageView) itemView.findViewById(R.id.messengerImageView);
         barCountTV = (TextView) itemView.findViewById(R.id.bar_count);
         barEventTV = (TextView) itemView.findViewById(R.id.bar_event_tv);
+        lowCapTV = (TextView) itemView.findViewById(R.id.cap_lowTV);
+        medCapTV = (TextView) itemView.findViewById(R.id.cap_medTV);
+        highCapTV = (TextView) itemView.findViewById(R.id.cap_highTV);
         //stepView = (StepView) itemView.findViewById(R.id.stepViewPB);
 
 

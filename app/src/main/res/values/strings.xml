@@ -40,4 +40,19 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="lowcap_array">
+        <item>Low key</item>
+        <item>Chill</item>
+        <item>Quiet</item>
+    </string-array>
+    <string-array name="medcap_array">
+        <item>Loading</item>
+        <item>Bumpin\'</item>
+        <item>Heat\'n Up</item>
+    </string-array>
+    <string-array name="highcap_array">
+        <item>Maxed</item>
+        <item>Turnt</item>
+        <item>Slammed</item>
+    </string-array>
 </resources>

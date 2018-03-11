@@ -36,6 +36,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
+import java.util.Random;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
@@ -56,6 +57,13 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
     ArrayList<String> eventArrayList;
     ArrayList<DailySpecial> dailySpecialArrayList;
     DailySpecial dailySpecial;
+    String[] lowcapArray;
+    String[] medcapArray;
+    String[] highcapArray;
+    int pickThePhraseLow = 0;
+    int pickThePhraseMed = 0;
+    int pickThePhraseHigh = 0;
+
 
 
 
@@ -69,11 +77,20 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
         inflater=LayoutInflater.from(context);
         this.arrayOfBars=arrayOfBars;
         bar= new Bar();
+        Log.d("Adapter:", "yes");
     }
     @Override
     public BarViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view=inflater.inflate(R.layout.item_message,parent,false);
         BarViewHolder holder=new BarViewHolder(view);
+        Context context1 = parent.getContext();
+        Random random = new Random();
+        lowcapArray = context1.getResources().getStringArray(R.array.lowcap_array);
+        medcapArray = context1.getResources().getStringArray(R.array.medcap_array);
+        highcapArray = context1.getResources().getStringArray(R.array.highcap_array);
+        pickThePhraseLow = random.nextInt(lowcapArray.length);
+        pickThePhraseMed = random.nextInt(medcapArray.length);
+        pickThePhraseHigh = random.nextInt(highcapArray.length);
         return holder;
     }
 
@@ -217,8 +234,62 @@ public class BarAdapter extends RecyclerView.Adapter<BarViewHolder> {
         }
 
 
+
+
+        if (Objects.equals(holder.lowCapTV.getText().toString(), "Low")) {
+            holder.lowCapTV.setText(lowcapArray[pickThePhraseLow]);
+            Log.d("test: ", "low text changed");
+        }
+
+        if (Objects.equals(holder.medCapTV.getText().toString(), "Med")){
+            holder.medCapTV.setText(medcapArray[pickThePhraseMed]);
+        }
+
+        if (Objects.equals(holder.highCapTV.getText().toString(), "High")){
+            holder.highCapTV.setText(highcapArray[pickThePhraseHigh]);
+        }
+
+
+
+/*        medcapArray = context.getResources().getStringArray(R.array.medcap_array);
+        pickThePhrase = random.nextInt(medcapArray.length);
+        holder.medCapTV.setText(medcapArray[pickThePhrase]);*/
+
         //TODO make the master break code holder.barEventTV.setText(bar.getBarEvent());
         double progress = percentage * 100;
+
+        if (progress <= 33) {
+
+            holder.lowCapTV.setAlpha((float) 1);
+            holder.lowCapTV.setTextColor(context.getResources().getColor(R.color.light_green));
+            holder.medCapTV.setTextColor(context.getResources().getColor(R.color.lighter_grey));
+            holder.medCapTV.setAlpha((float) 0.5);
+            holder.highCapTV.setTextColor(context.getResources().getColor(R.color.lighter_grey));
+            holder.highCapTV.setAlpha((float) 0.5);
+        }
+
+        if (progress >33 && progress <= 66){
+
+            holder.medCapTV.setAlpha((float) 1);
+            holder.medCapTV.setTextColor(context.getResources().getColor(R.color.light_yellow));
+            holder.lowCapTV.setTextColor(context.getResources().getColor(R.color.lighter_grey));
+            holder.lowCapTV.setAlpha((float) 0.5);
+            holder.highCapTV.setTextColor(context.getResources().getColor(R.color.lighter_grey));
+            holder.highCapTV.setAlpha((float) 0.5);
+
+        }
+
+        if (progress > 66) {
+
+            holder.highCapTV.setAlpha((float) 1);
+            holder.highCapTV.setTextColor(context.getResources().getColor(R.color.light_red));
+            holder.lowCapTV.setTextColor(context.getResources().getColor(R.color.lighter_grey));
+            holder.lowCapTV.setAlpha((float) 0.5);
+            holder.medCapTV.setTextColor(context.getResources().getColor(R.color.lighter_grey));
+            holder.medCapTV.setAlpha((float) 0.5);
+
+        }
+
         holder.barCountTV.setText(String.valueOf(percentage * 100).substring(0, 3) + "%");
         if (holder.barCountTV.getText().charAt(2) == '.'){
             holder.barCountTV.setText(String.valueOf(percentage * 100).substring(0, 2) + "%");

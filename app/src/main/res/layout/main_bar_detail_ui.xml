@@ -68,9 +68,34 @@
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_weight="1"
+            android:padding="15dp"
+            >
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                style="?android:attr/progressBarStyleHorizontal"
+
+                android:id="@+id/capacity_progress"
+                android:max="100"
+                android:progress="0"
+
+
+                android:progressDrawable="@drawable/progress_bar_1"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
             android:orientation="horizontal"
             android:background="@drawable/search_bar"
-            android:layout_margin="10dp">
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            >
 
             <ImageView
                 android:layout_width="20dp"
@@ -170,32 +195,7 @@
             android:text="baraddress"
 
             />
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
 
-    <ProgressBar
-        style="?android:attr/progressBarStyleHorizontal"
-
-        android:layout_height="wrap_content"
-        android:id="@+id/capacity_progress"
-        android:max="100"
-        android:progress="0"
-        android:layout_marginLeft="10dp"
-        android:layout_width="180dp"/>
-
-    <TextView
-        android:id="@+id/bar_count"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:gravity="center"
-        android:padding="5dp"
-        android:layout_weight="1"
-        android:text="20%"
-        android:textColor="@color/main_card_border_orange"/>
-
-</LinearLayout>
 
     </LinearLayout>
 

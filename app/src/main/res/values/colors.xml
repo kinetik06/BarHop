@@ -29,4 +29,7 @@
     <color name="second_menu_bg">#323232</color>
     <color name="main_card_border_orange">#ff7e00</color>
     <color name="lighter_grey">#dddddd</color>
+    <color name="light_green">#0adb53</color>
+    <color name="light_yellow">#ddc80b</color>
+    <color name="light_red">#dd190b</color>
 </resources>

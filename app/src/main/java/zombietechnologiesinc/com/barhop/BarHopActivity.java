@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.location.Location;
@@ -66,6 +67,7 @@ import java.lang.reflect.Array;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -124,14 +126,26 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
     ArrayList<Bar> danceBarsList;
     ArrayList<DailySpecial> dailySpecialArrayList;
     LinearLayout ballLayout;
-    @BindView(R.id.micLayout)LinearLayout micLayout;
-    @BindView(R.id.guitarLayout)LinearLayout guitarLayout;
-    @BindView(R.id.mugLayout)LinearLayout mugLayout;
-    @BindView(R.id.wineLayout)LinearLayout wineLayout;
+    LinearLayout micLayout;
+    LinearLayout guitarLayout;
+    LinearLayout mugLayout;
+    LinearLayout wineLayout;
     ArrayList<Bar> trimList;
     int dayOfWeekInt = 0;
     String dayOfTheWeek = "";
     private DatabaseReference danceClubRef;
+    ValueEventListener danceListener;
+    DatabaseReference storeRef;
+    ArrayList<String> storedKeys;
+    HashSet<String> hashKeys;
+    ValueEventListener savedListener;
+    ValueEventListener karaokeListener;
+    ValueEventListener liveMusicListener;
+    ValueEventListener pubListener;
+    ValueEventListener wineryListener;
+    ArrayList<LinearLayout> layoutList;
+    int selectedGenreInt = 0;
+    ValueEventListener barListener;
 
 
 
@@ -146,7 +160,8 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
         dayOfTheWeek = sdf.format(d);
         getDayOfWeekInt(dayOfTheWeek);
         trimList = new ArrayList<>();
-
+        hashKeys = new HashSet<>();
+        layoutList = new ArrayList<>();
 
 
 
@@ -215,6 +230,16 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_bar_hop);
         ButterKnife.bind(this);
         ballLayout = findViewById(R.id.ballLayout);
+        micLayout = findViewById(R.id.micLayout);
+        guitarLayout = findViewById(R.id.guitarLayout);
+        mugLayout = findViewById(R.id.mugLayout);
+        wineLayout = findViewById(R.id.wineLayout);
+        layoutList.add(ballLayout);
+        layoutList.add(micLayout);
+        layoutList.add(guitarLayout);
+        layoutList.add(mugLayout);
+        layoutList.add(wineLayout);
+
         barhopTV1 = (TextView)findViewById(R.id.barhopTV1);
         barhopTV2 = (TextView)findViewById(R.id.barhopTV2);
         danceClubTV = (TextView)findViewById(R.id.dance_clubTV);
@@ -254,6 +279,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
         arrayOfBars = new ArrayList<>();
         arrayOfKeys= new ArrayList<>();
+        storedKeys = new ArrayList<>();
         counter=0;
         size=0;
 
@@ -328,6 +354,8 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
         Log.d("lifecycle", "onConnected called");
         counter=0;
         size=0;
+        arrayOfBars.clear();
+        arrayOfKeys.clear();
         checkPermission();
         mLastLocation = LocationServices.FusedLocationApi.getLastLocation(
                 mGoogleApiClient);
@@ -340,110 +368,185 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
         final GeoQuery geoQuery = geoFire.queryAtLocation(new GeoLocation(userLat, userLong), 40);
         geoQuery.addGeoQueryEventListener(new GeoQueryEventListener() {
             @Override
-            public void onKeyEntered(String key, GeoLocation location) {
+            public void onKeyEntered(final String key, GeoLocation location) {
                 Log.d("LOCATION:", String.valueOf(userLat) + "," + String.valueOf(userLong));
                 Log.d("Lifecycle","Onkeyentered");
                 Log.d("LIST OF BARS",key);
+
+                storedKeys.add(key);
+                hashKeys.add(key);
+
 
 
 
                 size++;
                 tempDataRef = FirebaseDatabase.getInstance().getReference("/bars/"+key);
-/*
-                ballLayout.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
 
-                        final Query danceClubQuery = tempDataRef.child("dailySpecialArrayList").child(String.valueOf(dayOfWeekInt)).child("genreInt").equalTo("1");
-                        danceClubQuery.addListenerForSingleValueEvent(new ValueEventListener() {
-                            @Override
-                            public void onDataChange(DataSnapshot dataSnapshot) {
-                                if (dataSnapshot.exists()){
-
-                                    for (DataSnapshot danceSnap : dataSnapshot.getChildren()){
-                                        Log.d(TAG, String.valueOf(danceSnap.getChildrenCount()));
-
-                                    }
-
-
-                                }else {
-                                    Log.d(TAG, "Nothing Here");
-                                    Log.d(TAG, danceClubQuery.toString());
-                                    Log.d(TAG, tempDataRef.toString() + " " + String.valueOf(dayOfWeekInt));
-
-
-                                }
-                            }
-
-                            @Override
-                            public void onCancelled(DatabaseError databaseError) {
-
-                            }
-                        });
-                        for (int i = 0; i < arrayOfBars.size(); i++){
-
-                            Log.d(TAG, "Touched");
-
-                            Bar bar = arrayOfBars.get(i);
-                            if (bar.getDailySpecialArrayList() != null) {
-                                dailySpecialArrayList = bar.getDailySpecialArrayList();
-                                for (int j = 0; j < dailySpecialArrayList.size(); j++) {
-                                    DailySpecial dailySpecial = dailySpecialArrayList.get(j);
-                                    SimpleDateFormat sdf = new SimpleDateFormat("EEEE");
-                                    Date d = new Date();
-                                    String dayOfTheWeek = sdf.format(d);
-                                    if (Objects.equals(dailySpecial.getDateAsString(), dayOfTheWeek)) {
-
-                                        if (dailySpecial.getGenreInt() == 1) {
-
-                                            danceBarsList.add(bar);
-
-                                            Log.d(TAG, String.valueOf(danceBarsList.size()));
-                                        }
-
-                                    }
-                                }
-                            }
-                        }
-
-                        arrayOfBars.clear();
-                        arrayOfBars.addAll(danceBarsList);
-                        nearestBars.notifyDataSetChanged();
-
-                    }
-
-
-
-                });*/
 
 
                 Log.d(TAG, "THIS IS THE REFERENCE AFTER ON KEY ENTERED:" + tempDataRef);
 
-
-/*                ballLayout.setOnClickListener(new View.OnClickListener() {
+                savedListener = new ValueEventListener() {
                     @Override
-                    public void onClick(View v) {
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        size = hashKeys.size();
 
-                        ballLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                        Log.d(TAG, "savedListener fired");
+                        for (String key : hashKeys){
 
-                        Log.d("Is it pressed? ", String.valueOf(isPressed(ballLayout)));
-
-                        Log.d(TAG, "Query Block firing");
-
-                        Query query = tempDataRef.child("dailySpecialArrayList")
-                                .child(String.valueOf(getDayOfWeekInt(dayOfTheWeek)))
-                                .child("genreInt");
+                            Log.d(TAG, "Stored Keys: " + key);
 
 
-                        query.addListenerForSingleValueEvent(new ValueEventListener() {
+
+                            tempDataRef = FirebaseDatabase.getInstance().getReference("/bars/" + key);
+
+                            tempDataRef.addValueEventListener(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(DataSnapshot dataSnapshot) {
+                                    Log.d(TAG, "saved fired again");
+                                    if (dataSnapshot.exists()){
+
+                                        if (arrayOfBars.isEmpty() || arrayOfBars.size() < size) {
+
+                                            Bar bar = dataSnapshot.getValue(Bar.class);
+                                            arrayOfBars.add(counter, bar);
+                                            arrayOfKeys.add(counter, dataSnapshot.getKey());
+                                            counter++;
+                                            nearestBars.notifyDataSetChanged();
+
+                                        }else {
+
+                                            Log.d(TAG, "Else statement fires");
+
+                                            for(int i=0;i<size;i++)
+                                            {
+
+                                                Log.d(TAG, arrayOfKeys.get(i) + " " + dataSnapshot.getKey());
+
+                                                if(Objects.equals(arrayOfKeys.get(i), dataSnapshot.getKey()))
+                                                {
+                                                    Log.d(TAG, "compare fires");
+                                                    Bar bar = dataSnapshot.getValue(Bar.class);
+                                                    Log.d(TAG, "bar: " + bar.getBarName() + "count: " + bar.getBarCount());
+
+                                                    arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
+                                                    Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
+                                                    nearestBars.notifyDataSetChanged();
+                                                }
+                                            }
+
+
+                                        }
+
+                                    }
+                                }
+
+                                @Override
+                                public void onCancelled(DatabaseError databaseError) {
+
+                                }
+                            });
+                        }
+
+
+
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                };
+
+
+
+
+                //Winery Sorting Logic
+
+
+
+                wineryListener = new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+
+
+                        Log.d(TAG, "pubListener fired");
+
+
+                        Query danceClubQuery = mDatabaseReference.child("bars_specials").child(dayOfTheWeek).orderByChild("genreInt").equalTo(5);
+                        danceClubQuery.addListenerForSingleValueEvent(new ValueEventListener() {
                             @Override
                             public void onDataChange(DataSnapshot dataSnapshot) {
+                                if (dataSnapshot.exists()){
+                                    tempDataRef.removeEventListener(barListener);
+                                    size = (int) dataSnapshot.getChildrenCount();
+                                    for (final DataSnapshot bars : dataSnapshot.getChildren()){
 
-                                Log.d(TAG, dataSnapshot.getKey() + dataSnapshot.toString());
-                                for (DataSnapshot barSnapshot: dataSnapshot.getChildren()){
-                                    String name = (String) barSnapshot.child("barName").getValue();
-                                    Log.d(TAG, name);
+
+
+                                        Log.d(TAG, "Winery = " + bars.getKey());
+                                        tempDataRef = FirebaseDatabase.getInstance().getReference().child("bars").child(bars.getKey());
+
+                                        tempDataRef.addValueEventListener(new ValueEventListener() {
+                                            @Override
+                                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                                if (dataSnapshot.exists()){
+                                                    Log.d(TAG, "winery fired again");
+
+                                                    Log.d(TAG, "SIze = " + size);
+                                                    if (arrayOfBars.isEmpty() || arrayOfBars.size() < size) {
+
+                                                        Bar bar = dataSnapshot.getValue(Bar.class);
+                                                        arrayOfBars.add(counter, bar);
+                                                        arrayOfKeys.add(counter, bars.getKey());
+                                                        counter++;
+                                                        nearestBars.notifyDataSetChanged();
+
+                                                    }else {
+
+                                                        Log.d(TAG, "Else statement fires");
+
+                                                        for(int i=0;i<size;i++)
+                                                        {
+
+                                                            Log.d(TAG, arrayOfKeys.get(i) + " " + dataSnapshot.getKey());
+
+                                                            if(Objects.equals(arrayOfKeys.get(i), dataSnapshot.getKey()))
+                                                            {
+                                                                Log.d(TAG, "compare fires");
+                                                                Bar bar = dataSnapshot.getValue(Bar.class);
+                                                                Log.d(TAG, "bar: " + bar.getBarName() + "count: " + bar.getBarCount());
+
+                                                                arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
+                                                                Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
+                                                                nearestBars.notifyDataSetChanged();
+                                                            }
+                                                        }
+
+
+                                                    }
+
+                                                }
+
+                                            }
+
+                                            @Override
+                                            public void onCancelled(DatabaseError databaseError) {
+
+                                            }
+                                        });
+
+
+                                    }
+                                }else {
+                                    Toast.makeText(BarHopActivity.this, "Sorry, No Open Winerys..", Toast.LENGTH_SHORT).show();
+                                    wineLayout.setBackgroundColor(Color.TRANSPARENT);
+                                    tempDataRef.removeEventListener(wineryListener);
+                                    tempDataRef.addValueEventListener(savedListener);
+
                                 }
+
+
                             }
 
                             @Override
@@ -451,27 +554,445 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
                             }
                         });
-*//*
-                                    Iterator<Bar> iterator = arrayOfBars.iterator();
-                                    trimList.addAll(arrayOfBars);
 
-                                    while (iterator.hasNext()){
-                                        Bar bar = iterator.next();
 
-                                        if (bar.getDailySpecialArrayList() == null || bar.getDailySpecialArrayList().get(dayOfWeekInt).getGenreInt() != 1 ){
-                                            iterator.remove();
-                                            counter = arrayOfBars.size();
-                                            nearestBars.notifyDataSetChanged();
 
-                                        }
-                                    }*//*
                     }
-                });*/
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                };
+
+
+                //Pub Sorting Logic
+
+
+
+                pubListener = new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+
+
+                        Log.d(TAG, "pubListener fired");
+
+
+                        Query danceClubQuery = mDatabaseReference.child("bars_specials").child(dayOfTheWeek).orderByChild("genreInt").equalTo(4);
+                        danceClubQuery.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                if (dataSnapshot.exists()){
+                                    tempDataRef.removeEventListener(barListener);
+                                    size = (int) dataSnapshot.getChildrenCount();
+                                    for (final DataSnapshot bars : dataSnapshot.getChildren()){
+
+
+
+                                        Log.d(TAG, "Pubs = " + bars.getKey());
+                                        tempDataRef = FirebaseDatabase.getInstance().getReference().child("bars").child(bars.getKey());
+
+                                        tempDataRef.addValueEventListener(new ValueEventListener() {
+                                            @Override
+                                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                                if (dataSnapshot.exists()){
+                                                    Log.d(TAG, "pub fired again");
+
+                                                    Log.d(TAG, "SIze = " + size);
+                                                    if (arrayOfBars.isEmpty() || arrayOfBars.size() < size) {
+
+                                                        Bar bar = dataSnapshot.getValue(Bar.class);
+                                                        arrayOfBars.add(counter, bar);
+                                                        arrayOfKeys.add(counter, bars.getKey());
+                                                        counter++;
+                                                        nearestBars.notifyDataSetChanged();
+
+                                                    }else {
+
+                                                        Log.d(TAG, "Else statement fires");
+
+                                                        for(int i=0;i<size;i++)
+                                                        {
+
+                                                            Log.d(TAG, arrayOfKeys.get(i) + " " + dataSnapshot.getKey());
+
+                                                            if(Objects.equals(arrayOfKeys.get(i), dataSnapshot.getKey()))
+                                                            {
+                                                                Log.d(TAG, "compare fires");
+                                                                Bar bar = dataSnapshot.getValue(Bar.class);
+                                                                Log.d(TAG, "bar: " + bar.getBarName() + "count: " + bar.getBarCount());
+
+                                                                arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
+                                                                Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
+                                                                nearestBars.notifyDataSetChanged();
+                                                            }
+                                                        }
+
+
+                                                    }
+
+                                                }
+
+                                            }
+
+                                            @Override
+                                            public void onCancelled(DatabaseError databaseError) {
+
+                                            }
+                                        });
+
+
+                                    }
+                                }else {
+                                    Toast.makeText(BarHopActivity.this, "Sorry, No Pub Tonight..", Toast.LENGTH_SHORT).show();
+                                    mugLayout.setBackgroundColor(Color.TRANSPARENT);
+                                    tempDataRef.removeEventListener(pubListener);
+                                    tempDataRef.addValueEventListener(savedListener);
+
+                                }
+
+
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
+
+
+
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                };
+
+
+
+                //Live Music Sorting Logic
+
+
+
+                liveMusicListener = new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+
+
+                        Log.d(TAG, "livemusiclistener fired");
+
+
+                        Query danceClubQuery = mDatabaseReference.child("bars_specials").child(dayOfTheWeek).orderByChild("genreInt").equalTo(3);
+                        danceClubQuery.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                if (dataSnapshot.exists()){
+                                    tempDataRef.removeEventListener(barListener);
+                                    size = (int) dataSnapshot.getChildrenCount();
+                                    for (final DataSnapshot bars : dataSnapshot.getChildren()){
+
+
+
+                                        Log.d(TAG, "Live Music = " + bars.getKey());
+                                        tempDataRef = FirebaseDatabase.getInstance().getReference().child("bars").child(bars.getKey());
+
+                                        tempDataRef.addValueEventListener(new ValueEventListener() {
+                                            @Override
+                                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                                if (dataSnapshot.exists()){
+                                                    Log.d(TAG, "livemusic fired again");
+
+                                                    Log.d(TAG, "SIze = " + size);
+                                                    if (arrayOfBars.isEmpty() || arrayOfBars.size() < size) {
+
+                                                        Bar bar = dataSnapshot.getValue(Bar.class);
+                                                        arrayOfBars.add(counter, bar);
+                                                        arrayOfKeys.add(counter, bars.getKey());
+                                                        counter++;
+                                                        nearestBars.notifyDataSetChanged();
+
+                                                    }else {
+
+                                                        Log.d(TAG, "Else statement fires");
+
+                                                        for(int i=0;i<size;i++)
+                                                        {
+
+                                                            Log.d(TAG, arrayOfKeys.get(i) + " " + dataSnapshot.getKey());
+
+                                                            if(Objects.equals(arrayOfKeys.get(i), dataSnapshot.getKey()))
+                                                            {
+                                                                Log.d(TAG, "compare fires");
+                                                                Bar bar = dataSnapshot.getValue(Bar.class);
+                                                                Log.d(TAG, "bar: " + bar.getBarName() + "count: " + bar.getBarCount());
+
+                                                                arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
+                                                                Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
+                                                                nearestBars.notifyDataSetChanged();
+                                                            }
+                                                        }
+
+
+                                                    }
+
+                                                }
+
+                                            }
+
+                                            @Override
+                                            public void onCancelled(DatabaseError databaseError) {
+
+                                            }
+                                        });
+
+
+                                    }
+                                }else {
+                                    Toast.makeText(BarHopActivity.this, "Sorry, No Live Music Tonight..", Toast.LENGTH_SHORT).show();
+                                    guitarLayout.setBackgroundColor(Color.TRANSPARENT);
+                                    tempDataRef.removeEventListener(liveMusicListener);
+                                    tempDataRef.addValueEventListener(savedListener);
+
+                                }
+
+
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
+
+
+
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                };
+
+
+
+                //Karaoke Sorting Logic
+
+
+
+                karaokeListener = new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+
+
+                        Log.d(TAG, "danceListener fired");
+
+
+                        Query danceClubQuery = mDatabaseReference.child("bars_specials").child(dayOfTheWeek).orderByChild("genreInt").equalTo(2);
+                        danceClubQuery.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                if (dataSnapshot.exists()){
+                                    tempDataRef.removeEventListener(barListener);
+                                    tempDataRef.removeEventListener(savedListener);
+                                    size = (int) dataSnapshot.getChildrenCount();
+                                    for (final DataSnapshot bars : dataSnapshot.getChildren()){
+
+
+
+                                        Log.d(TAG, "Karaoke = " + bars.getKey());
+                                        tempDataRef = FirebaseDatabase.getInstance().getReference().child("bars").child(bars.getKey());
+
+                                        tempDataRef.addValueEventListener(new ValueEventListener() {
+                                            @Override
+                                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                                if (dataSnapshot.exists()){
+                                                    Log.d(TAG, "karaoke fired again");
+
+                                                    Log.d(TAG, "SIze = " + size);
+                                                    if (arrayOfBars.isEmpty() || arrayOfBars.size() < size) {
+
+                                                        Bar bar = dataSnapshot.getValue(Bar.class);
+                                                        arrayOfBars.add(counter, bar);
+                                                        arrayOfKeys.add(counter, bars.getKey());
+                                                        counter++;
+                                                        nearestBars.notifyDataSetChanged();
+
+                                                    }else {
+
+                                                        Log.d(TAG, "Else statement fires");
+
+                                                        for(int i=0;i<size;i++)
+                                                        {
+
+                                                            Log.d(TAG, arrayOfKeys.get(i) + " " + dataSnapshot.getKey());
+
+
+                                                            if(Objects.equals(arrayOfKeys.get(i), dataSnapshot.getKey()))
+                                                            {
+                                                                Log.d(TAG, "compare fires");
+                                                                Bar bar = dataSnapshot.getValue(Bar.class);
+                                                                Log.d(TAG, "bar: " + bar.getBarName() + "count: " + bar.getBarCount());
+
+                                                                arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
+                                                                Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
+                                                                nearestBars.notifyDataSetChanged();
+                                                            }
+                                                        }
+
+
+                                                    }
+
+                                                }
+
+                                            }
+
+                                            @Override
+                                            public void onCancelled(DatabaseError databaseError) {
+
+                                            }
+                                        });
+
+
+                                    }
+                                }else {
+                                    Toast.makeText(BarHopActivity.this, "Sorry, No Karaoke Tonight..", Toast.LENGTH_SHORT).show();
+                                    micLayout.setBackgroundColor(Color.TRANSPARENT);
+                                    tempDataRef.removeEventListener(karaokeListener);
+
+                                    tempDataRef.addValueEventListener(savedListener);
+                                }
+
+
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
+
+
+
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                };
+
+                //Dance Club Sorting Logic
+
+                danceListener = new ValueEventListener() {
+                    @Override
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+
+
+                        Log.d(TAG, "danceListener fired");
+
+
+                        final Query danceClubQuery = mDatabaseReference.child("bars_specials").child(dayOfTheWeek).orderByChild("genreInt").equalTo(1);
+                        danceClubQuery.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                if (dataSnapshot.exists()){
+                                    tempDataRef.removeEventListener(barListener);
+                                    size = (int) dataSnapshot.getChildrenCount();
+                                    for (final DataSnapshot bars : dataSnapshot.getChildren()){
+
+
+
+                                        Log.d(TAG, "Dance Clubs = " + bars.getKey());
+                                        tempDataRef = FirebaseDatabase.getInstance().getReference().child("bars").child(bars.getKey());
+
+                                        tempDataRef.addValueEventListener(new ValueEventListener() {
+                                            @Override
+                                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                                if (dataSnapshot.exists()){
+                                                    Log.d(TAG, "dance fired again");
+
+                                                    Log.d(TAG, "SIze = " + size);
+                                                    if (arrayOfBars.isEmpty() || arrayOfBars.size() < size) {
+
+                                                        Bar bar = dataSnapshot.getValue(Bar.class);
+                                                        arrayOfBars.add(counter, bar);
+                                                        arrayOfKeys.add(counter, bars.getKey());
+                                                        counter++;
+                                                        nearestBars.notifyDataSetChanged();
+
+                                                    }else {
+
+                                                        Log.d(TAG, "Else statement fires");
+
+                                                        for(int i=0;i<size;i++)
+                                                        {
+
+                                                            Log.d(TAG, arrayOfKeys.get(i) + " " + dataSnapshot.getKey());
+
+                                                            if(Objects.equals(arrayOfKeys.get(i), dataSnapshot.getKey()))
+                                                            {
+                                                                Log.d(TAG, "compare fires");
+                                                                Bar bar = dataSnapshot.getValue(Bar.class);
+                                                                Log.d(TAG, "bar: " + bar.getBarName() + "count: " + bar.getBarCount());
+
+                                                                arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
+                                                                Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
+                                                                nearestBars.notifyDataSetChanged();
+                                                            }
+                                                        }
+
+
+                                                    }
+
+                                                }
+
+                                            }
+
+                                            @Override
+                                            public void onCancelled(DatabaseError databaseError) {
+
+                                            }
+                                        });
+
+
+                                    }
+                                }else {
+
+                                    Toast.makeText(BarHopActivity.this, "Sorry, No Dance Tonight..", Toast.LENGTH_SHORT).show();
+                                    ballLayout.setBackgroundColor(Color.TRANSPARENT);
+                                    tempDataRef.removeEventListener(danceListener);
+                                    tempDataRef.addValueEventListener(savedListener);
 
 
 
 
-                ValueEventListener barListener=new ValueEventListener() {
+                                }
+
+
+                            }
+
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
+
+                            }
+                        });
+
+
+
+                    }
+
+                    @Override
+                    public void onCancelled(DatabaseError databaseError) {
+
+                    }
+                };
+
+
+
+                barListener = new ValueEventListener() {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot) {
 
@@ -482,128 +1003,8 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                             arrayOfKeys.add(counter,dataSnapshot.getKey());
                             counter++;
 
+
                             //try logic for sorting with buttons
-
-                            ballLayout.setOnClickListener(new View.OnClickListener() {
-                                @Override
-                                public void onClick(View v) {
-
-                                    ballLayout.setBackgroundColor(getResources().getColor(R.color.black));
-
-
-
-
-
-                                    while (isPressed(ballLayout)){
-
-
-                                        arrayOfKeys.clear();
-                                        arrayOfBars.clear();
-                                        counter = 0;
-                                        size = 0;
-
-
-
-                                        Query danceClubQuery = mDatabaseReference.child("bars_specials").child(dayOfTheWeek).orderByChild("genreInt").equalTo(1);
-                                        danceClubQuery.addListenerForSingleValueEvent(new ValueEventListener() {
-                                            @Override
-                                            public void onDataChange(DataSnapshot dataSnapshot) {
-                                                if (dataSnapshot.exists()){
-
-                                                    for (final DataSnapshot bars : dataSnapshot.getChildren()){
-
-                                                        tempDataRef = FirebaseDatabase.getInstance().getReference().child("bars").child(bars.getKey());
-
-                                                        Log.d(TAG, "New Reference: " + tempDataRef);
-                                                        Log.d(TAG, "Dance Clubs: " + bars.getKey());
-                                                        //arrayOfBars.add(counter, bars.getValue(Bar.class));
-                                                        tempDataRef.addValueEventListener(new ValueEventListener() {
-                                                            @Override
-                                                            public void onDataChange(DataSnapshot dataSnapshot) {
-                                                                if (dataSnapshot.exists()){
-                                                                    if (arrayOfBars.isEmpty() || arrayOfBars.size() < size) {
-
-                                                                        Bar bar = dataSnapshot.getValue(Bar.class);
-                                                                        arrayOfBars.add(counter, bar);
-                                                                        arrayOfKeys.add(counter, bars.getKey());
-                                                                        counter++;
-                                                                        size++;
-                                                                        nearestBars.notifyDataSetChanged();
-
-                                                                    }else {
-
-                                                                        for(int i=0;i<size;i++)
-                                                                        {
-                                                                            if(arrayOfKeys.get(i)==dataSnapshot.getKey())
-                                                                            {
-                                                                                arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
-                                                                                Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
-                                                                                nearestBars.notifyDataSetChanged();
-                                                                            }
-                                                                        }
-
-
-                                                                    }
-
-                                                                }
-                                                            }
-
-                                                            @Override
-                                                            public void onCancelled(DatabaseError databaseError) {
-
-                                                            }
-                                                        });
-
-
-
-
-                                                    }
-
-                                                }
-                                            }
-
-                                            @Override
-                                            public void onCancelled(DatabaseError databaseError) {
-
-                                            }
-                                        });
-
-
-
-                                    }
-
-/*
-                                    while (isPressed(ballLayout)){
-
-                                        for (String key: arrayOfKeys){
-
-                                            danceClubRef = mDatabaseReference.child("bars").child(key);
-                                            danceClubRef.addValueEventListener(new ValueEventListener() {
-                                                @Override
-                                                public void onDataChange(DataSnapshot dataSnapshot) {
-
-                                                }
-
-                                                @Override
-                                                public void onCancelled(DatabaseError databaseError) {
-
-                                                }
-                                            });
-
-
-                                        }
-
-
-
-                                    }*/
-
-                                }
-                            });
-
-
-
-
-
 
 
                         }
@@ -616,6 +1017,8 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                                     arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
                                     Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
                                     nearestBars.notifyDataSetChanged();
+
+
                                 }
                             }
 
@@ -632,8 +1035,496 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                 };
 
 
-                tempDataRef.addValueEventListener(barListener);
+                ballLayout.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
 
+                        switch (selectedGenreInt){
+                            case 0:
+
+                                    selectedGenreInt = 1;
+                                    ballLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                    Log.d(TAG, "dance pressed = " + isPressed(ballLayout));
+                                    tempDataRef.removeEventListener(barListener);
+                                    arrayOfKeys.clear();
+                                    arrayOfBars.clear();
+                                    counter = 0;
+                                    size = 0;
+                                    tempDataRef.addValueEventListener(danceListener);
+                                break;
+
+                            case 1:
+
+                                ballLayout.setBackgroundColor(Color.TRANSPARENT);
+                                tempDataRef.removeEventListener(danceListener);
+                                selectedGenreInt = 0;
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(savedListener);
+                                break;
+
+                            case 2:
+
+                                selectedGenreInt = 1;
+                                Log.d(TAG, "dance touched and karaoke on");
+                                micLayout.setBackgroundColor(Color.TRANSPARENT);
+                                ballLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "dance pressed = " + isPressed(ballLayout));
+                                tempDataRef.removeEventListener(karaokeListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(danceListener);
+                                break;
+
+                            case 3:
+
+                                guitarLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 1;
+                                ballLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "dance pressed = " + isPressed(ballLayout));
+                                tempDataRef.removeEventListener(liveMusicListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(danceListener);
+                                break;
+
+                            case 4:
+
+                                mugLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 1;
+                                ballLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "dance pressed = " + isPressed(ballLayout));
+                                tempDataRef.removeEventListener(pubListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(danceListener);
+                                break;
+
+                            case 5:
+
+                                wineLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 1;
+                                ballLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "dance pressed = " + isPressed(ballLayout));
+                                tempDataRef.removeEventListener(wineryListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(danceListener);
+                                break;
+
+                            default:
+
+                                break;
+
+                        }
+
+                    }
+                });
+
+                micLayout.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        switch (selectedGenreInt){
+                            case 0:
+
+                                selectedGenreInt = 2;
+                                micLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "karaoke pressed = " + isPressed(micLayout));
+                                tempDataRef.removeEventListener(barListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(karaokeListener);
+                                break;
+
+                            case 1:
+
+                                ballLayout.setBackgroundColor(Color.TRANSPARENT);
+                                tempDataRef.removeEventListener(danceListener);
+                                micLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "mic pressed = " + isPressed(micLayout));
+                                selectedGenreInt = 2;
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(karaokeListener);
+                                break;
+
+                            case 2:
+
+                                selectedGenreInt = 0;
+                                micLayout.setBackgroundColor(Color.TRANSPARENT);
+                                tempDataRef.removeEventListener(karaokeListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(savedListener);
+                                break;
+
+                            case 3:
+
+                                selectedGenreInt = 2;
+                                guitarLayout.setBackgroundColor(Color.TRANSPARENT);
+
+                                micLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "mic pressed = " + isPressed(micLayout));
+                                tempDataRef.removeEventListener(liveMusicListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(karaokeListener);
+                                break;
+
+                            case 4:
+
+                                mugLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 2;
+                                micLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "mic pressed = " + isPressed(micLayout));
+                                tempDataRef.removeEventListener(pubListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(karaokeListener);
+                                break;
+
+                            case 5:
+
+                                wineLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 2;
+                                micLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "mic pressed = " + isPressed(micLayout));
+                                tempDataRef.removeEventListener(wineryListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(karaokeListener);
+                                break;
+
+                            default:
+
+                                break;
+
+                        }
+                    }
+                });
+
+
+                guitarLayout.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        Log.d(TAG, String.valueOf(getLayoutPressed(layoutList).getId()));
+
+                        switch (selectedGenreInt){
+                            case 0:
+
+                                selectedGenreInt = 3;
+                                guitarLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "guitar pressed = " + isPressed(guitarLayout));
+                                tempDataRef.removeEventListener(barListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(liveMusicListener);
+                                break;
+
+                            case 1:
+
+                                ballLayout.setBackgroundColor(Color.TRANSPARENT);
+                                tempDataRef.removeEventListener(danceListener);
+                                guitarLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "guitar pressed = " + isPressed(guitarLayout));
+                                selectedGenreInt = 3;
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(liveMusicListener);
+                                break;
+
+                            case 2:
+
+                                selectedGenreInt = 3;
+                                micLayout.setBackgroundColor(Color.TRANSPARENT);
+                                guitarLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                tempDataRef.removeEventListener(karaokeListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(liveMusicListener);
+                                break;
+
+                            case 3:
+
+                                guitarLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 0;
+                                Log.d(TAG, "guitar pressed = " + isPressed(guitarLayout));
+                                tempDataRef.removeEventListener(liveMusicListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(savedListener);
+                                break;
+
+                            case 4:
+
+                                mugLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 3;
+                                guitarLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "guitar pressed = " + isPressed(guitarLayout));
+                                tempDataRef.removeEventListener(pubListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(liveMusicListener);
+                                break;
+
+                            case 5:
+
+                                wineLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 3;
+                                guitarLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "guitar pressed = " + isPressed(guitarLayout));
+                                tempDataRef.removeEventListener(wineryListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(liveMusicListener);
+                                break;
+
+                            default:
+
+                                break;
+
+                        }
+                    }
+                });
+
+
+                //Pub OnCLickListener
+
+
+                mugLayout.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        Log.d(TAG, String.valueOf(getLayoutPressed(layoutList).getId()));
+
+                        switch (selectedGenreInt){
+                            case 0:
+
+                                selectedGenreInt = 4;
+                                mugLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "mug pressed = " + isPressed(mugLayout));
+                                tempDataRef.removeEventListener(barListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(pubListener);
+                                break;
+
+                            case 1:
+
+                                ballLayout.setBackgroundColor(Color.TRANSPARENT);
+                                tempDataRef.removeEventListener(danceListener);
+                                mugLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "mug pressed = " + isPressed(mugLayout));
+                                selectedGenreInt = 4;
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(pubListener);
+                                break;
+
+                            case 2:
+
+                                selectedGenreInt = 4;
+                                micLayout.setBackgroundColor(Color.TRANSPARENT);
+                                mugLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                tempDataRef.removeEventListener(karaokeListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(pubListener);
+                                break;
+
+                            case 3:
+
+                                guitarLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 4;
+                                mugLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "mug pressed = " + isPressed(mugLayout));
+                                tempDataRef.removeEventListener(liveMusicListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(pubListener);
+                                break;
+
+                            case 4:
+
+                            mugLayout.setBackgroundColor(Color.TRANSPARENT);
+                            selectedGenreInt = 0;
+                            Log.d(TAG, "mug pressed = " + isPressed(mugLayout));
+                            tempDataRef.removeEventListener(pubListener);
+                            arrayOfKeys.clear();
+                            arrayOfBars.clear();
+                            counter = 0;
+                            size = 0;
+                            tempDataRef.addValueEventListener(savedListener);
+                            break;
+
+                            case 5:
+
+                                wineLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 4;
+                                mugLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "mug pressed = " + isPressed(mugLayout));
+                                tempDataRef.removeEventListener(wineryListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(pubListener);
+                                break;
+
+                            default:
+
+                                break;
+
+                        }
+                    }
+                });
+
+                //Winery Onclicklistener
+
+
+                wineLayout.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+
+                        Log.d(TAG, String.valueOf(getLayoutPressed(layoutList).getId()));
+
+                        switch (selectedGenreInt){
+                            case 0:
+
+                                selectedGenreInt = 5;
+                                wineLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "wine pressed = " + isPressed(wineLayout));
+                                tempDataRef.removeEventListener(barListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(wineryListener);
+                                break;
+
+                            case 1:
+
+                                ballLayout.setBackgroundColor(Color.TRANSPARENT);
+                                tempDataRef.removeEventListener(danceListener);
+                                wineLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "wine pressed = " + isPressed(wineLayout));
+                                selectedGenreInt = 5;
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(wineryListener);
+                                break;
+
+                            case 2:
+
+                                selectedGenreInt = 5;
+                                micLayout.setBackgroundColor(Color.TRANSPARENT);
+                                wineLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                tempDataRef.removeEventListener(karaokeListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(wineryListener);
+                                break;
+
+                            case 3:
+
+                                guitarLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 5;
+                                wineLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "wine pressed = " + isPressed(wineLayout));
+                                tempDataRef.removeEventListener(liveMusicListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(wineryListener);
+                                break;
+
+                            case 4:
+
+                                mugLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 5;
+                                wineLayout.setBackgroundColor(getResources().getColor(R.color.black));
+                                Log.d(TAG, "wine pressed = " + isPressed(wineLayout));
+                                tempDataRef.removeEventListener(pubListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(wineryListener);
+                                break;
+
+                            case 5:
+
+                                wineLayout.setBackgroundColor(Color.TRANSPARENT);
+                                selectedGenreInt = 0;
+                                Log.d(TAG, "wine pressed = " + isPressed(wineLayout));
+                                tempDataRef.removeEventListener(wineryListener);
+                                arrayOfKeys.clear();
+                                arrayOfBars.clear();
+                                counter = 0;
+                                size = 0;
+                                tempDataRef.addValueEventListener(savedListener);
+                                break;
+
+                            default:
+
+                                break;
+
+                        }
+                    }
+                });
+
+
+
+                tempDataRef.addValueEventListener(barListener);
 
 
             }
@@ -883,5 +1774,30 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
 
     }
+
+    public LinearLayout getLayoutPressed (ArrayList<LinearLayout> layoutList) {
+
+        LinearLayout layoutReturn = new LinearLayout(this);
+        for (LinearLayout layout : layoutList) {
+
+            if (layout.getBackground() != null) {
+
+                ColorDrawable layoutColor = (ColorDrawable) layout.getBackground();
+                int colorId = layoutColor.getColor();
+
+                if (colorId == getResources().getColor(R.color.black)){
+
+                    layoutReturn = layout;
+                }
+
+            }
+
+        }
+
+        return layoutReturn;
+
+    }
+
+
 
 }

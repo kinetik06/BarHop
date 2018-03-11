@@ -121,6 +121,8 @@ public class BarDetailsActivity extends FragmentActivity
     int formatInt = 0;
     String formattedClosedTime = "";
     int formatClosedInt = 0;
+    ProgressBar progressBar;
+    Bar bar = new Bar();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -132,11 +134,13 @@ public class BarDetailsActivity extends FragmentActivity
         barnumberTV = (TextView)findViewById(R.id.bar_number);
         barhopTV1 = (TextView)findViewById(R.id.barhopTV1);
         barhopTV2 = (TextView)findViewById(R.id.barhopTV2);
+        progressBar = (ProgressBar)findViewById(R.id.capacity_progress);
         typeface = ResourcesCompat.getFont(this, R.font.geosanslight);
         Typeface geosansBold = Typeface.create(typeface, Typeface.BOLD);
         barhopTV1.setTypeface(geosansBold);
         barhopTV2.setTypeface(geosansBold);
         // set up uber
+
 
         mSessionConfiguration = new SessionConfiguration.Builder()
                 // mandatory
@@ -156,7 +160,16 @@ public class BarDetailsActivity extends FragmentActivity
 
 
 
+
+
         mLinearLayout = (LinearLayout) findViewById(R.id.linear_layout);
+
+
+        mRequestButton = new RideRequestButton(BarDetailsActivity.this);
+
+        mRequestButton.setSession(mServerTokenSession);
+
+        mLinearLayout.addView(mRequestButton);
 
         mMapFragment = (MapFragment) getFragmentManager().findFragmentById(R.id.map);
         mMapFragment.getMapAsync(this);
@@ -185,11 +198,14 @@ public class BarDetailsActivity extends FragmentActivity
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 Log.d(TAG, "BARKEY:" + mBarKey);
-                final Bar bar = dataSnapshot.getValue(Bar.class);
+                bar = dataSnapshot.getValue(Bar.class);
                 barNameTV.setText(bar.getBarName());
                 barAddressTV.setText(bar.getBarAddress());
                 barLatLng = new LatLng(bar.getLatitude(), bar.getLongitude());
                 placeID = bar.getPlaceId();
+                double percentage = (double) bar.getBarCount() / bar.getBarCap();
+                double progess = percentage * 100;
+                progressBar.setProgress((int) progess);
                 String[] placeArray = new String[1];
                 placeArray[0] = placeID;
 
@@ -391,12 +407,6 @@ public class BarDetailsActivity extends FragmentActivity
                 googleMap.addMarker(new MarkerOptions().position(barLatLng));
                 googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(barLatLng, 15));
 
-                //set up uber stuff
-                mRequestButton = new RideRequestButton(BarDetailsActivity.this);
-
-                mRequestButton.setSession(mServerTokenSession);
-
-                mLinearLayout.addView(mRequestButton);
                 if (userLat == 1 || userLong == 1) {
                     mRideParameters = new RideParameters.Builder()
                             .setPickupToMyLocation()
@@ -409,8 +419,10 @@ public class BarDetailsActivity extends FragmentActivity
                             .setDropoffLocation(bar.getLatitude(), bar.getLongitude(), bar.getBarName(), bar.getBarAddress())
                             .build();
                 }
+
                 mRequestButton.setRideParameters(mRideParameters);
                 mRequestButton.loadRideInformation();
+
 
             }
 
@@ -422,6 +434,10 @@ public class BarDetailsActivity extends FragmentActivity
         mDatabaseReference.addValueEventListener(valueEventListener);
 
       //  mProgressBar.setVisibility(View.INVISIBLE);
+
+        //set up uber stuff
+
+
 
 
     }
