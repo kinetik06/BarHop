@@ -29,6 +29,7 @@ import android.support.v7.view.ContextThemeWrapper;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -47,6 +48,10 @@ import com.firebase.geofire.GeoLocation;
 import com.firebase.geofire.GeoQuery;
 import com.firebase.geofire.GeoQueryEventListener;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdSize;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 
@@ -95,7 +100,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
     private LinearLayoutManager mLinearLayoutManager;
     private DatabaseReference mDatabaseReference;
     private FirebaseRecyclerAdapter<Bar, BarViewHolder> mFirebaseRecyclerAdapter;
-    private ProgressBar mProgressBar;
+
     private EditText mMessageEditText;
     private GoogleApiClient mGoogleApiClient;
     private Location mLastLocation;
@@ -146,6 +151,8 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
     ArrayList<LinearLayout> layoutList;
     int selectedGenreInt = 0;
     ValueEventListener barListener;
+    EditText searchET;
+    AdView adView;
 
 
 
@@ -228,12 +235,27 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
 
         setContentView(R.layout.activity_bar_hop);
+
+        //ADS
+
+        MobileAds.initialize(this, "ca-app-pub-3677630873489202~1659255472");
+        adView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        adView.loadAd(adRequest);
+
+
+
+
+
+
+
         ButterKnife.bind(this);
         ballLayout = findViewById(R.id.ballLayout);
         micLayout = findViewById(R.id.micLayout);
         guitarLayout = findViewById(R.id.guitarLayout);
         mugLayout = findViewById(R.id.mugLayout);
         wineLayout = findViewById(R.id.wineLayout);
+        searchET = (EditText)findViewById(R.id.searchET);
         layoutList.add(ballLayout);
         layoutList.add(micLayout);
         layoutList.add(guitarLayout);
@@ -250,6 +272,167 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
         popupMenu.getMenu().add(Menu.NONE, 1, Menu.NONE, "Log Out");
         popupMenu.setOnMenuItemClickListener(this);
         findViewById(R.id.menu_iconIV).setOnClickListener(this);
+        searchET.setOnKeyListener(new View.OnKeyListener() {
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+
+                if (event.getAction() == KeyEvent.ACTION_DOWN && (keyCode == KeyEvent.KEYCODE_ENTER)){
+                    String searchString = searchET.getText().toString();
+                    Log.d(TAG, "Text Entered: " + searchString);
+                    Query searchQuery = mDatabaseReference.child("bars").orderByChild("barName").startAt(searchString).endAt(searchString + "\uf8ff");
+                    searchQuery.addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            if (dataSnapshot.exists()){
+
+                                switch (selectedGenreInt){
+                                    case 0:
+
+                                        selectedGenreInt = 0;
+                                        ballLayout.setBackgroundColor(Color.TRANSPARENT);
+                                        tempDataRef.removeEventListener(barListener);
+                                        arrayOfKeys.clear();
+                                        arrayOfBars.clear();
+                                        counter = 0;
+                                        size = 0;
+                                        break;
+
+                                    case 1:
+
+                                        ballLayout.setBackgroundColor(Color.TRANSPARENT);
+                                        tempDataRef.removeEventListener(danceListener);
+                                        selectedGenreInt = 0;
+                                        arrayOfKeys.clear();
+                                        arrayOfBars.clear();
+                                        counter = 0;
+                                        size = 0;
+                                        break;
+
+                                    case 2:
+
+                                        selectedGenreInt = 0;
+                                        micLayout.setBackgroundColor(Color.TRANSPARENT);
+                                        tempDataRef.removeEventListener(karaokeListener);
+                                        arrayOfKeys.clear();
+                                        arrayOfBars.clear();
+                                        counter = 0;
+                                        size = 0;
+                                        break;
+
+                                    case 3:
+
+                                        guitarLayout.setBackgroundColor(Color.TRANSPARENT);
+                                        selectedGenreInt = 1;
+                                        tempDataRef.removeEventListener(liveMusicListener);
+                                        arrayOfKeys.clear();
+                                        arrayOfBars.clear();
+                                        counter = 0;
+                                        size = 0;
+                                        break;
+
+                                    case 4:
+
+                                        mugLayout.setBackgroundColor(Color.TRANSPARENT);
+                                        selectedGenreInt = 0;
+                                        tempDataRef.removeEventListener(pubListener);
+                                        arrayOfKeys.clear();
+                                        arrayOfBars.clear();
+                                        counter = 0;
+                                        size = 0;
+                                        break;
+
+                                    case 5:
+
+                                        wineLayout.setBackgroundColor(Color.TRANSPARENT);
+                                        selectedGenreInt = 0;
+                                        tempDataRef.removeEventListener(wineryListener);
+                                        arrayOfKeys.clear();
+                                        arrayOfBars.clear();
+                                        counter = 0;
+                                        size = 0;
+                                        break;
+
+                                    default:
+
+                                        break;
+
+                                }
+
+                                Log.d(TAG, "Snapshot Search Exists: " + dataSnapshot.getChildrenCount());
+                                for (final DataSnapshot searchedBars: dataSnapshot.getChildren()){
+
+                                    Log.d(TAG, "Searched Bars: " + searchedBars.getKey());
+                                    tempDataRef = FirebaseDatabase.getInstance().getReference().child("bars").child(searchedBars.getKey());
+
+                                    tempDataRef.addValueEventListener(new ValueEventListener() {
+                                        @Override
+                                        public void onDataChange(DataSnapshot dataSnapshot) {
+                                            if (dataSnapshot.exists()){
+                                                Log.d(TAG, "searched fired again");
+
+                                                Log.d(TAG, "SIze = " + size);
+                                                if (arrayOfBars.isEmpty() || arrayOfBars.size() < size) {
+
+                                                    Bar bar = dataSnapshot.getValue(Bar.class);
+                                                    arrayOfBars.add(counter, bar);
+                                                    arrayOfKeys.add(counter, searchedBars.getKey());
+                                                    counter++;
+                                                    nearestBars.notifyDataSetChanged();
+
+                                                }else {
+
+                                                    Log.d(TAG, "Else statement fires");
+
+                                                    for(int i=0;i<size;i++)
+                                                    {
+
+                                                        Log.d(TAG, arrayOfKeys.get(i) + " " + dataSnapshot.getKey());
+
+                                                        if(Objects.equals(arrayOfKeys.get(i), dataSnapshot.getKey()))
+                                                        {
+                                                            Log.d(TAG, "compare fires");
+                                                            Bar bar = dataSnapshot.getValue(Bar.class);
+                                                            Log.d(TAG, "bar: " + bar.getBarName() + "count: " + bar.getBarCount());
+
+                                                            arrayOfBars.set(i,dataSnapshot.getValue(Bar.class));
+                                                            Log.d("whatsupset",arrayOfBars.get(i).getBarName()+i);
+                                                            nearestBars.notifyDataSetChanged();
+                                                        }
+                                                    }
+
+
+                                                }
+
+                                            }
+
+                                        }
+
+                                        @Override
+                                        public void onCancelled(DatabaseError databaseError) {
+
+                                        }
+                                    });
+
+                                }
+
+
+
+
+                            }else{
+                                Toast.makeText(BarHopActivity.this, "No bars Found. Please try again.",  Toast.LENGTH_SHORT).show();
+                            }
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+
+                        }
+                    });
+
+                }
+                return false;
+            }
+        });
 
 
 
@@ -271,10 +454,12 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                     }
                 });
         FirstRunDialog = firstUseBuilder.create();
-        FirstRunDialog.show();
-        CheckFirstRun();
+        /*FirstRunDialog.show();
+        CheckFirstRun();*/
         Log.d("MESSAGE: ", getString(R.string.second_message));
         userName = FirebaseAuth.getInstance().getCurrentUser().getEmail();
+
+        Log.d(TAG, "Welcome User: " + userName);
         //set up array adapter
 
         arrayOfBars = new ArrayList<>();
@@ -300,7 +485,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 //        barListLV = (ListView) findViewById(R.id.barsLV);
 
         //Initialize recycler view
-        mProgressBar = (ProgressBar) findViewById(R.id.progressBar);
+
         mRecyclerView = (RecyclerView) findViewById(R.id.barRecyclerView);
 
 
@@ -1023,7 +1208,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                             }
 
                         }
-                        mProgressBar.setVisibility(View.INVISIBLE);
+
 
 
                     }
@@ -1524,6 +1709,7 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
 
 
+
                 tempDataRef.addValueEventListener(barListener);
 
 
@@ -1546,16 +1732,22 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
                     Log.d(TAG, "THIS IS THE VERICATION OF PERMISSION" + PERMISSION_REQUEST_CODE);
                     Log.d(TAG, "THIS IS THE REFERENCE:" + tempDataRef);
                     if (tempDataRef == null) {
-                        tempDataRef = FirebaseDatabase.getInstance().getReference("/bars/MPNUp9NEb4TklT8kM5MxNke8v1K3");
-                    }
-                    tempDataRef.addListenerForSingleValueEvent(new ValueEventListener() {
-                        @Override
-                        public void onDataChange(DataSnapshot dataSnapshot) {
-                            Log.d("lifecycle","OnGeoQueryReadyCalled inside ondatachanged called");
-                            Log.d("array",String.valueOf(arrayOfBars.size()));
-                            nearestBars = new BarAdapter(context, arrayOfBars);
+                        Toast.makeText(BarHopActivity.this, "No bars signed up in your area..Tell them to get BarHop for Business!", Toast.LENGTH_LONG).show();
+                        AlertDialog.Builder builder = new AlertDialog.Builder(BarHopActivity.this);
+                        builder.setTitle("No Bars Found!");
+                        builder.setMessage("There are no bars signed up in your area. Tell them to get BarHop for Business!");
+                        AlertDialog dialog = builder.create();
+                        dialog.show();
+                    }else{
 
-                            // Sort by Bar Genre
+                        tempDataRef.addListenerForSingleValueEvent(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(DataSnapshot dataSnapshot) {
+                                Log.d("lifecycle","OnGeoQueryReadyCalled inside ondatachanged called");
+                                Log.d("array",String.valueOf(arrayOfBars.size()));
+                                nearestBars = new BarAdapter(context, arrayOfBars);
+
+                                // Sort by Bar Genre
 
 
 
@@ -1564,42 +1756,45 @@ public class BarHopActivity extends AppCompatActivity implements View.OnClickLis
 
 
 
-                            mLinearLayoutManager = new LinearLayoutManager(context);
-                            mLinearLayoutManager.setStackFromEnd(false);
-                            mRecyclerView.setLayoutManager(mLinearLayoutManager);
-                            mRecyclerView.setAdapter(nearestBars);
+                                mLinearLayoutManager = new LinearLayoutManager(context);
+                                mLinearLayoutManager.setStackFromEnd(false);
+                                mRecyclerView.setLayoutManager(mLinearLayoutManager);
+                                mRecyclerView.setAdapter(nearestBars);
 
-                            ItemClickSupport.addTo(mRecyclerView).setOnItemClickListener(
-                                    new ItemClickSupport.OnItemClickListener() {
-                                        @Override
-                                        public void onItemClicked(RecyclerView recyclerView, int position, View v) {
-                                            Bar bar = arrayOfBars.get(position);
-                                            //Toast.makeText(BarHopActivity.this, bar.getBarName(), Toast.LENGTH_SHORT).show();
+                                ItemClickSupport.addTo(mRecyclerView).setOnItemClickListener(
+                                        new ItemClickSupport.OnItemClickListener() {
+                                            @Override
+                                            public void onItemClicked(RecyclerView recyclerView, int position, View v) {
+                                                Bar bar = arrayOfBars.get(position);
+                                                //Toast.makeText(BarHopActivity.this, bar.getBarName(), Toast.LENGTH_SHORT).show();
                                             /*new StyleableToast.Builder(BarHopActivity.this).text(bar.getBarName()).textColor(getResources()
                                                     .getColor(R.color.white))
                                                     .backgroundColor(getResources().getColor(R.color.main_top_grey)).show();*/
 
-                                            //StyleableToast.makeText(BarHopActivity.this, bar.getBarName(), R.style.mytoast).show();
-                                            String barPickId = bar.getUserId();
+                                                //StyleableToast.makeText(BarHopActivity.this, bar.getBarName(), R.style.mytoast).show();
+                                                String barPickId = bar.getUserId();
 
-                                            Intent intent = new Intent(BarHopActivity.this, BarDetailsActivity.class);
-                                            intent.putExtra("barpick", barPickId);
-                                            intent.putExtra("userLat", userLat);
-                                            intent.putExtra("userLong", userLong);
-                                            intent.putExtra("barKey", barKey);
-                                            startActivity(intent);
+                                                Intent intent = new Intent(BarHopActivity.this, BarDetailsActivity.class);
+                                                intent.putExtra("barpick", barPickId);
+                                                intent.putExtra("userLat", userLat);
+                                                intent.putExtra("userLong", userLong);
+                                                intent.putExtra("barKey", barKey);
+                                                startActivity(intent);
+                                            }
                                         }
-                                    }
-                            );
+                                );
 
 
-                        }
+                            }
 
-                        @Override
-                        public void onCancelled(DatabaseError databaseError) {
+                            @Override
+                            public void onCancelled(DatabaseError databaseError) {
 
-                        }
-                    });
+                            }
+                        });
+
+                    }
+
 
                 }
 

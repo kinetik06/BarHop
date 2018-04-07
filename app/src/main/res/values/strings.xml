@@ -22,8 +22,8 @@
     <string name="hint_password">Password</string>
     <string name="hint_name">Fullname</string>
     <string name="btn_login">LOGIN</string>
-    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
-    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="btn_link_to_register">Not a member? Get registered for Barhop now!</string>
+    <string name="btn_link_to_login">Already registered. Log Me In!</string>
     <string name="title_activity_reset_password">ResetPasswordActivity</string>
     <string name="btn_forgot_password">Forgot your password?</string>
     <string name="btn_reset_password">Reset Password</string>
@@ -34,7 +34,7 @@
     <string name="btn_remove">Remove</string>
     <string name="btn_sign_out">Sign Out</string>
     <string name="lbl_forgot_password">Forgot password?</string>
-    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="forgot_password_msg">Enter your email, and we\'ll send you the reset instructions.</string>
     <string name="title_activity_signup">SignupActivity</string>
     <string name="second_message">Its pretty simple…\n\nBars in your area will show up in a list. On the right side is a percentage. \n\nThis is a REALTIME representation of how packed a bar is. \n\n0% meaning empty and 100% meaning full. Tap on a Bar to get more info. \n\nThis application is only intended for users age 18+. \n\nPlease drink responsibly, and Uber if you are intoxicated. Thank you.</string>
 

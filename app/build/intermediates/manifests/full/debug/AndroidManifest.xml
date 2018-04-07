@@ -46,9 +46,11 @@
         <activity
             android:name="zombietechnologiesinc.com.barhop.BarHopActivity"
             android:label="@string/app_name"
+            android:screenOrientation="portrait"
             android:theme="@style/BarHopTheme" />
         <activity
             android:name="zombietechnologiesinc.com.barhop.LoginActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/BarHopTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,17 +62,25 @@
         <activity
             android:name="zombietechnologiesinc.com.barhop.SignupActivity"
             android:label="@string/title_activity_signup"
+            android:screenOrientation="portrait"
             android:theme="@style/BarHopTheme" />
-        <activity android:name="zombietechnologiesinc.com.barhop.ResetPasswordActivity" />
-        <activity android:name="zombietechnologiesinc.com.barhop.BarDetailsActivity" />
+        <activity
+            android:name="zombietechnologiesinc.com.barhop.ResetPasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="zombietechnologiesinc.com.barhop.BarDetailsActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="zombietechnologiesinc.com.barhop.WelcomeScreen"
+            android:screenOrientation="portrait"
             android:theme="@style/BarHopTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-        <activity android:name="zombietechnologiesinc.com.barhop.StartActivity" />
+        <activity
+            android:name="zombietechnologiesinc.com.barhop.StartActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.uber.sdk.android.rides.RideRequestActivity"
             android:exported="false"
@@ -154,6 +164,10 @@
 
         <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
         <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
 
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"

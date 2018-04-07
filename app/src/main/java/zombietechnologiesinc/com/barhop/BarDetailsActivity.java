@@ -259,7 +259,7 @@ public class BarDetailsActivity extends FragmentActivity
 
                                 formattedOpenTime = String.valueOf(openInt).substring(0,2);
                                 formatInt = Integer.parseInt(formattedOpenTime);
-                                if (formatInt < 10){
+                                if (formatInt < 91){
                                     formattedOpenTime = formattedOpenTime.substring(0,1);
                                 }
                                 formattedOpenTime = formattedOpenTime + "p";
@@ -272,7 +272,7 @@ public class BarDetailsActivity extends FragmentActivity
                                 } else {
                                     formattedOpenTime = String.valueOf(openInt).substring(0,2);
                                     formatInt = Integer.parseInt(formattedOpenTime);
-                                    if (formatInt < 10){
+                                    if (formatInt < 91 && formatInt > 12){
                                         formattedOpenTime = formattedOpenTime.substring(0,1);
                                     }
                                     formattedOpenTime = formattedOpenTime + "a";
@@ -297,7 +297,7 @@ public class BarDetailsActivity extends FragmentActivity
 
                                 formattedClosedTime = String.valueOf(closedInt).substring(0,2);
                                 formatClosedInt = Integer.parseInt(formattedClosedTime);
-                                if (formatClosedInt < 10){
+                                if (formatClosedInt < 91){
                                     formattedClosedTime = formattedClosedTime.substring(0,1);
 
                                 }
